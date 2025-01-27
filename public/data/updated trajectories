@@ -1,0 +1,2006 @@
+Traj. Number	Pers ID. 	Inst. Origine ID 	Institution Destination ID. 	Moving date (dd-MM-yyyy)	Data Accuracy	Type trajectory	Comments 
+1	1	Home 	12	12/10/1959	day	consultation	
+2	1	12	Home	12/10/1959	day		
+3	1	Home 	71	01/07/1960	month	stay	
+4	1	71	Home 	01/09/1960	month		
+5	1	Home 	57	02/07/1961	day	stay	
+6	1	57	Home 	24/08/1961	day		
+7	1	Home 	12	18/12/1961	day	consultation	
+8	1	12	Home 	18/12/1961	day		
+9	1	Home 	12	26/12/1961	day	consultation	
+10	1	12	Home 	26/12/1961	day		
+11	1	Home 	57	25/01/1962	day	stay	
+12	1	57	28	21/02/1962	day 	stay	
+13	1	28	Home 	01/06/1962	day		
+14	1	Home 	57	08/01/1963	day	stay	
+15	1	57	28	14/02/1963	day	stay	
+16	1	28	Home 	01/09/1963	week		
+17	1	Home 	57	30/09/1963	day	stay	
+18	1	57	111	16/12/1963	day 	stay	
+19	1	111	57	19/12/1963	day	stay	
+20	1	57	28	21/01/1964	day 	stay	
+21	2	Home 	57	17/03/1957	day 	stay	
+22	2	57	Home	01/04/1957	day 		
+23	2	Home 	57	21/06/1960	day 	stay	
+24	2	57	Home	14/07/1960	day 		
+25	2	Home 	12	27/10/1961	day 	consultation	
+26	2	12	57	27/10/1961	day 	stay	
+27	2	57	Home	27/11/1961	day 		
+28	2	Home 	57	03/04/1962	day 	stay	
+29	2	57	Home 	18/07/1962	day 		
+30	2	Home 	57	13/07/1963	day 	stay	
+31	2	57	Home 	10/09/1963	day 		
+32	2	Home 	57	24/10/1963	day 	stay	
+33	2	57	87	06/12/1963	day 	stay	
+34	2	87	Home	17/05/1964	day 		
+35	2	Home 	55	26/07/1968	day 	stay	
+36	2	55	84	28/07/1968	day 	stay	
+37	2	84	103	21/09/1972	day 	stay	
+38	3	Home 	57	16/11/1955	day 	stay	
+39	3	57	42	25/01/1956	day 	stay	
+40	3	42	Home	13/04/1956	day 		
+41	3	Home 	45	01/01/1960	year	stay	
+42	3	45	103	05/10/1961	day 	stay	
+43	3	103	Home 	17/12/1961	day 		
+44	3	Home 	57	24/05/1963	day 	stay	
+45	3	57	Home	06/07/1963	day 		
+46	3	Home 	57	09/07/1963	day 	stay	
+47	3	57	103	25/07/1963	day 	stay	
+48	3	103	Home	21/09/1963	day 		
+49	3	Home 	57	26/03/1965	day 	stay	
+50	3	57	Home	21/05/1965	day 		
+51	3	Home 	57	18/06/1965	day 	stay	
+52	3	57	84	24/06/1965	day 	stay	
+53	4	Home 	57	05/04/1954	day 	stay	
+54	4	57	28	24/04/1954	day 	stay	
+55	4	28	Home	15/07/1954	day 		
+56	4	Home 	57	20/04/1955	day 	stay	
+57	4	57	Home	12/05/1955	day 		
+58	4	Home 	57	12/05/1955	day 	stay	
+59	4	57	Home	09/06/1955	day 		
+60	4	Home 	57	13/06/1956	day 	stay	
+61	4	57	Home	26/06/1956	day 		
+62	4	Home 	57	01/08/1957	day 	stay	
+63	4	57	Home	28/09/1957	day 		
+64	4	Home 	57	11/06/1958	day 	stay	
+65	4	57	Home	14/06/1958	day 		
+66	4	Home 	57	14/06/1958	day 	stay	
+67	4	57	Home	27/07/1958	day 		
+68	4	Home 	57	16/02/1959	day 	stay	
+69	4	57	28	18/03/1959	day 	stay	
+70	4	28	Home	26/05/1959	day 		
+71	4	Home 	57	24/03/1960	day 	stay	
+72	4	57	28	02/04/1960	day 	stay	
+73	4	28	Home	14/06/1960	day 		
+74	4	Home 	57	25/05/1961	day 	stay	
+75	4	57	Home	07/06/1961	day 		
+76	4	Home 	57	14/09/1962	day 	stay	
+77	4	57	Home	22/09/1962	day 		
+78	4	Home 	57	27/10/1963	day 	stay	
+79	4	57	Home	12/12/1963	day 		
+80	4	Home 	57	13/11/1964	day	stay	
+81	4	57	Home	05/12/1964	day		
+82	4	Home 	57	07/01/1965	day	stay	
+83	4	57	Home	01/02/1965	day		
+84	4	Home 	57	07/11/1966	day	stay	
+85	4	57	Home	16/12/1966	day		
+86	4	Home 	57	08/11/1967	day	stay	
+87	4	57	Home	19/11/1967	day		
+88	4	Home 	57	25/11/1968	day	stay	
+89	4	57	Home	14/12/1968	day		
+90	4	Home 	57	01/08/1970	day	stay	
+91	4	57	Home	05/09/1970	day		
+92	4	Home 	65	01/08/1971	day	stay	
+93	4	65	102	01/09/1971	year	stay	
+94	4	102	Home	01/01/1972	year		
+95	4	Home 	57	18/08/1972	day	stay	
+96	4	57	10	19/09/1972	day	stay	
+97	4	10	Home	29/11/1972	day		
+98	4	Home 	93	25/04/1973	day	stay	
+99	4	93	96	25/04/1973	day	stay	
+100	4	96	Home	15/05/1973	day		
+101	4	Home 	57	08/10/1976	day	stay	
+102	4	57	11	02/11/1976	day	stay	
+103	4	11	Home	01/01/1977	year		
+104	4	Home 	57	13/04/1978	day	stay	
+105	4	57	19	27/04/1978	day	stay	
+106	4	19	Home	31/12/1978	year		
+107	4	Home 	79	01/12/1979	month	stay	
+108	4	79	home	01/01/1980	year		
+109	4	home	20	01/04/1988	month	stay	
+110	5	Home 	136	01/05/1950	month	consultation	She goes there (136) several times in May 1950, but I don’t know how many times.
+111	5	136	Home	01/05/1950	month		
+112	5	Home 	57	03/08/1950	day	stay 	
+113	5	57	86	16/08/1950	day	stay 	
+114	5	86	Home	01/01/1952	five-year period		
+115	5	Home 	86	01/06/1955	month	stay 	
+116	5	86	Home 	01/09/1955	month		
+117	5	Home 	86	01/05/1956	month	stay 	
+118	5	86	Home 	01/08/1956	month		
+119	5	Home 	84	01/09/1956	month	stay 	
+120	5	84	Home	01/01/1957	month		
+121	5	Home 	84	01/06/1957	month	stay	
+122	5	84	Home	01/11/1957	month		
+123	5	Home 	1	01/01/1958	year 	consultation	He goes there (1) several times between January and March 1958, but I don’t know how many times.
+124	5	1	Home	01/01/1958	year 		
+125	5	Home 	57	30/03/1958	day	stay 	
+126	5	57	84	09/04/1958	day	stay 	
+127	5	84	Home	01/08/1958	six-months period		
+128	5	Home 	81	01/10/1958	month	stay 	
+129	5	81	Home	01/03/1959	month		
+130	5	Home 	73	01/04/1959	month	stay 	
+131	5	73	Home	01/07/1959	month		
+132	5	Home 	73	30/07/1959	month	stay 	
+133	5	73	Home	01/11/1959	month		
+134	5	Home 	73	01/01/1960	month	stay 	
+135	5	73	Home	01/04/1960	month		
+136	5	Home 	78	01/07/1960	month	stay	
+137	5	78	Home	15/07/1960	month		
+138	5	Home 	104	30/07/1960	month	stay	
+139	5	104	Home	01/10/1960	month		
+140	5	Home 	78	01/01/1961	three-years period	stay	
+141	5	78	Home	01/01/1961	three-years period		
+142	5	Home 	22	04/01/1963	day	consultation 	He goes there (22) several times between January and March 1963, but I don’t know how many times.
+143	5	22	Home 	04/01/1963	day		
+144	5	Home 	104	19/03/1963	day	stay	
+145	5	104	Home	01/08/1963	six-months period		
+146	5	Home 	57	09/12/1963	day	stay	
+147	5	57	1	15/12/1963	month	consultation	
+148	5	1	home	16/12/1963	month		
+149	5	home 	57	01/01/1964	month	stay	
+150	5	57	Home	30/01/1964	day		
+151	5	Home 	57	17/02/1964	day	stay	
+152	5	57	Home	25/02/1964	day		
+153	5	Home 	104	30/02/1964	month	stay	
+154	5	104	Home 	20/01/1965	day		
+155	5	Home 	22	15/06/1965	day	consultation	He goes there (21 & 22) several times between June 1965 and May 1966, but I don’t know how many times.
+156	5	22	Home	15/06/1965	day		
+157	5	Home 	21	19/08/1965	day	daytime care 	
+158	5	21	home	19/08/1965	day		
+159	5	home	57	07/05/1966	day	stay 	
+160	5	57	Home	29/05/1966	day		
+161	5	Home 	21	18/06/1966	month	daytime care 	He goes there (21) several times in May/June 1966, but I don’t know how many times.
+162	5	21	57	18/06/1966	day	stay	
+163	5	57	84	05/08/1966	day 	stay	
+164	5	84	Home	02/01/1967	day		
+165	5	Home 	103	01/05/1967	month	stay	
+166	5	103	Home	26/10/1967	day		
+167	5	Home 	57	03/11/1967	day	stay	
+168	5	57	84	12/01/1968	day	stay	
+169	5	84	Home	30/01/1968	three-years period		
+170	5	Home 	57	22/04/1968	day	stay	
+171	5	57	84	23/04/1968	day	stay	
+172	5	84	18	01/06/1968	month	partial care 	
+173	5	18	home	01/07/1968	year		
+174	5	Home 	102	01/01/1969	three-years period	stay	
+175	5	102	Home 	02/01/1969	three-years period		
+176	5	Home 	112	01/08/1971	month	consultation	He goes there (112) until 1978, but I don’t know the frequency of his visits.
+177	5	112	Home 	30/08/1971	month		
+178	5	Home 	102	01/01/1972	year	stay	
+179	5	102	Home 	01/01/1972	year		
+180	5	Home 	62	01/05/1972	month	housing 	
+181	5	62	57	09/03/1973	day	stay	
+182	5	57	62	31/03/1973	day	housing	
+183	5	62	141	17/08/1973	day	stay	
+184	5	141	62	18/08/1973	day	housing 	
+185	5	62	56	12/09/1973	day	stay	
+186	5	56	62	24/09/1973	day	housing 	
+187	5	62	56	02/10/1973	day	stay	
+188	5	56	62	08/11/1973	day	housing 	
+189	5	62	57	26/12/1973	day	stay	
+190	5	57	62	27/12/1973	day	housing 	
+191	5	62	41	30/12/1973	month	stay	
+192	5	41	62	30/12/1973	month	housing 	
+193	5	62	61	01/01/1974	month	stay	
+194	5	61	62	01/03/1974	month	housing 	
+195	5	Home 	57	19/04/1974	day	stay	
+196	5	57	Home	20/05/1974	day		
+197	5	Home 	39	21/05/1974	week	nighttime care	
+198	5	39	Home	22/05/1974	week		
+199	5	Home 	57	24/05/1974	day	stay	
+200	5	57	home	07/06/1974	day		
+201	5	Home 	102	08/06/1974	year	stay 	
+202	5	102	Home	01/03/1975	week		
+203	5	Home 	54	16/10/1976	day	stay	
+204	5	54	Home	20/10/1976	day		
+205	5	Home 	65	25/11/1976	day	stay 	
+206	5	65	Home 	31/12/1976	day		
+207	5	Home 	65	01/01/1977	day	stay	
+208	5	65	Home 	15/01/1977	day		
+209	5	Home 	30	01/04/1977	eight-months period	consultation	He goes there (30) several times between January 1977 and August 1977, but I don’t know how many times.
+210	5	30	Home	01/04/1977	eight-months period		
+211	5	Home 	93	02/08/1977	day	stay 	
+212	5	93	Home	05/08/1977	day		
+213	5	Home 	93	08/02/1978	day	stay	
+214	5	93	94	27/02/1978	day	stay	
+215	5	94	93	04/05/1978	day	stay	
+216	5	93	57	05/05/1978	day	stay	
+217	5	57	85	20/06/1978	day	stay	
+218	5	85	home	01/07/1978	month		
+219	5	home	93	04/08/1978	day	stay	
+220	5	93	home	01/09/1978	month		
+221	5	home	93	18/09/1978	day	stay	
+222	5	93	57	24/09/1978	day	stay	
+223	5	57	7	24/09/1978	day	stay	
+224	5	7	home	01/01/1979	year		
+225	5	home	88	18/12/1979	day	stay	
+226	5	88	home	01/01/1980	six-months period		
+227	5	home 	93	16/05/1980	day	stay	
+228	5	93	65	16/05/1980	day	stay	
+229	5	65	home	01/08/1980	eight-months period		
+230	5	home	79	12/12/1980	day	stay	
+231	5	79	home	01/01/1981	month		
+232	5	home	57	18/01/1981	day	stay	
+233	5	57	home	19/01/1981	day		
+234	5	home	93	01/04/1981	day	stay	
+235	5	93	home	03/04/1981	day		
+236	6	Home 	34	01/01/1958	year	stay	
+237	6	34	Home	01/06/1958	year		
+238	6	Home 	53	07/01/1963	day	stay	
+239	6	53	34	07/01/1963	day	stay	
+240	6	34	Home 	23/02/1963	day		
+241	6	Home 	53	07/10/1963	day	stay	
+242	6	53	Home	01/01/1963	month		
+243	6	Home 	57	26/11/1963	day	stay	
+244	6	57	21	09/01/1964	day	daytime care 	
+245	6	21	57	09/01/1964	day	stay 	
+246	6	57	21	12/01/1964	day	daytime care 	
+247	6	21	57	12/01/1964	day	stay 	
+248	6	57	Home	10/02/1964	day		
+249	6	home	12	13/02/1964	day	consultation	
+250	6	12	Home	13/02/1964	day		
+251	6	Home 	21	01/03/1964	six-months period	daytime care 	He goes there (21) several times between February 1964 and April (Sepetmber?) 1964, but I don’t know how many times.
+252	6	21	home	01/03/1964	six-months period		
+253	6	home	34	01/04/1964	six-months period	stay 	
+254	6	34	Home	01/05/1964	six-months period		
+255	6	Home 	53	01/09/1964	month	stay	
+256	6	53	Home	10/09/1964	month		He goes there (21) several times in September 1964 (between his stay at 53 and the one at 57), but I don’t know how many times.
+257	6	Home 	21	25/09/1964	month	daytime care 	
+258	6	21	57	25/09/1964	day	stay	
+259	6	57	Home	10/10/1964	day		
+260	6	Home 	21	11/10/1964	week	daytime care 	He goes there (21) several times in October 1964 (between his two stay at 57), but I don’t know how many times.
+261	6	21	home	11/10/1964	week		
+262	6	Home 	57	17/10/1964	day	stay	
+263	6	57	Home 	29/11/1964	day		
+264	6	Home 	34	01/02/1965	month	stay 	
+265	6	34	Home	01/03/1965	year		
+266	6	Home 	21	01/05/1965	year	daytime care 	He goes there (21) several times in 1965/1966 (between his stay at 34 and 57), but I don’t know how many times.
+267	6	21	Home 	01/05/1965	year		
+268	6	Home 	57	04/01/1966	day	stay	
+269	6	57	21	15/02/1966	day	daytime care 	
+270	6	21	57	15/02/1966	day	stay	
+271	6	57	21	15/03/1966	day	daytime care 	
+272	6	21	57	15/03/1966	day	stay	
+273	6	57	21	16/03/1966	day	daytime care 	
+274	6	21	57	16/03/1966	day	stay	
+275	6	57	21	17/03/1966	day	daytime care 	
+276	6	21	57	17/03/1966	day	stay	
+277	6	57	21	18/03/1966	day	daytime care 	
+278	6	21	57	18/03/1966	day	stay	
+279	6	57	21	19/03/1966	day	daytime care 	
+280	6	21	57	19/03/1966	day	stay	
+281	6	57	21	20/03/1966	day	daytime care 	
+282	6	21	57	20/03/1966	day	stay	
+283	6	57	21	21/03/1966	day	daytime care 	
+284	6	21	57	21/03/1966	day	stay	
+285	6	57	21	22/03/1966	day	daytime care 	
+286	6	21	57	22/03/1966	day	stay	
+287	6	57	21	23/03/1966	day	daytime care 	
+288	6	21	57	23/03/1966	day	stay	
+289	6	57	21	24/03/1966	day	daytime care 	
+290	6	21	57	24/03/1966	day	stay	
+291	6	57	21	25/03/1966	day	daytime care 	
+292	6	21	57	25/03/1966	day	stay	
+293	6	57	21	26/03/1966	day	daytime care 	
+294	6	21	57	26/03/1966	day	stay	
+295	6	57	21	27/03/1966	day	daytime care 	
+296	6	21	57	27/03/1966	day	stay	
+297	6	57	21	28/03/1966	day	daytime care 	
+298	6	21	57	28/03/1966	day	stay	
+299	6	57	21	29/03/1966	day	daytime care 	
+300	6	21	57	29/03/1966	day	stay	
+301	6	57	21	30/03/1966	day	daytime care 	
+302	6	21	57	30/03/1966	day	stay	
+303	6	57	21	31/03/1966	day	daytime care 	
+304	6	21	57	31/03/1966	day	stay	
+305	6	57	21	01/04/1966	day	daytime care 	
+306	6	21	57	01/04/1966	day	stay	
+307	6	57	21	02/04/1966	day	daytime care 	
+308	6	21	57	02/04/1966	day	stay	
+309	6	57	21	03/04/1966	day	daytime care 	
+310	6	21	57	03/04/1966	day	stay	
+311	6	57	21	04/04/1966	day	daytime care 	
+312	6	21	57	04/04/1966	day	stay	
+313	6	57	21	05/04/1966	day	daytime care 	
+314	6	21	57	05/04/1966	day	stay	
+315	6	57	21	06/04/1966	day	daytime care 	
+316	6	21	57	06/04/1966	day	stay	
+317	6	57	21	07/04/1966	day	daytime care 	
+318	6	21	57	07/04/1966	day	stay	
+319	6	57	21	08/04/1966	day	daytime care 	
+320	6	21	57	08/04/1966	day	stay	
+321	6	57	Home	12/04/1966	day		
+322	6	Home 	21	01/05/1966	three-years period	daytime care 	He goes there (21) several times between April 1966 and July 1966, but I don’t know how many times.
+323	6	21	Home 	02/05/1966	three-years period		
+324	6	Home 	107	01/07/1966	week	stay 	
+325	6	107	Home	01/01/1967	three-years period		
+326	6	Home 	21	01/02/1967	three-years period	daytime care 	He goes there (21) several times in 1967-1968, but I don’t know how many times.
+327	6	21	Home 	01/02/1967	three-years period		
+328	6	Home 	57	13/03/1968	day	stay 	
+329	6	57	21	10/04/1968	day	daytime care 	
+330	6	21	57	10/04/1968	day	stay 	
+331	6	57	21	12/04/1968	day	daytime care 	
+332	6	21	57	12/04/1968	day	stay 	
+333	6	57	21	14/04/1968	day	daytime care 	
+334	6	21	57	14/04/1968	day	stay 	
+335	6	57	21	17/04/1968	day	daytime care 	
+336	6	21	57	17/04/1968	day	stay 	
+337	6	57	21	19/04/1968	day	daytime care 	
+338	6	21	57	19/04/1968	day	stay 	
+339	6	57	21	21/04/1968	day	daytime care 	
+340	6	21	57	21/04/1968	day	stay 	
+341	6	57	Home 	22/05/1968	day		
+342	6	Home 	21	01/06/1968	three-months period	daytime care 	He goes there (21) several times between May 1968 and September 1968, but I don’t know how many times.
+343	6	21	Home 	01/06/1968	three-months period		
+344	6	Home 	53	02/09/1968	day	stay	
+345	6	53	Home	15/09/1968	month		
+346	6	Home 	57	11/10/1968	day	stay	
+347	6	57	Home	02/11/1968	day		
+348	6	Home 	57	08/11/1968	day	stay	
+349	6	57	Home	16/12/1968	day		
+350	6	Home 	113	18/12/1968	month	consultation	He goes there (113 & 21) several times between December 1968 and March 1969, but I don’t know how many times.
+351	6	113	Home	18/12/1968	month		
+352	6	Home 	21	01/01/1969	six-months period	daytime care 	
+353	6	21	Home 	01/01/1969	six-months period		
+354	6	Home 	93	01/03/1969	six-months period	stay	
+355	6	93	57	19/06/1969	day	stay	
+356	6	57	Home	01/07/1969	day		
+357	6	Home 	21	02/07/1969	month	daytime care 	He goes there (21) several times in 1969, but I don’t know how many times.
+358	6	21	Home 	02/07/1969	month		
+359	6	Home 	57	08/12/1969	day	stay	
+360	6	57	Home	31/01/1970	day		
+361	6	Home 	21	01/02/1970	month	daytime care 	He goes there (21) several times between January 1970 and May 1970, but I don’t know how many times.
+362	6	21	Home 	01/02/1970	month		
+363	6	Home 	57	12/05/1970	day	stay	
+364	6	57	Home	30/05/1970	day		
+365	6	Home 	103	04/06/1970	day	stay	
+366	6	103	57	12/06/1970	day	stay	
+367	6	57	Home	22/06/1970	day		
+368	6	Home 	53	01/04/1971	week	stay	
+369	6	53	57	02/04/1971	day	stay	
+370	6	57	Home	23/04/1971	day		
+371	6	Home 	53	19/11/1972	day	stay	
+372	6	53	Home	19/11/1972	day		
+373	6	Home 	57	28/12/1972	day	stay	
+374	6	57	Home	17/01/1973	day		
+375	6	Home 	102	26/05/1977	day	stay	
+376	6	102	Home	31/12/1977	two-years period		
+377	6	home	1	01/01/1979	year	consultation	He goes there (1) several times between 1979 and 1986, but I don’t know how many times.
+378	6	1	home	02/01/1979	year		
+379	6	Home 	93	01/07/1986	month	stay	
+380	6	93	57	07/07/1986	day	stay	
+381	6	57	Home	22/08/1986	day		
+382	6	Home 	34	18/08/2004	day	stay	
+383	7	Home 	72	01/01/1962	year	stay	
+384	7	72	Home	01/02/1962	year 		
+385	7	Home 	57	21/05/1962	day	stay	
+386	7	57	Home	16/07/1962	day		
+387	7	Home 	57	14/08/1962	day	stay	
+388	7	57	Home	19/08/1962	day		
+389	7	Home 	57	28/09/1962	day	stay	
+390	7	57	Home	16/01/1963	day		
+391	7	Home 	57	06/05/1963	day	stay	
+392	7	57	Home	28/05/1963	day		
+393	7	Home 	57	09/08/1963	day	stay	
+394	7	57	Home	21/10/1963	day		
+395	7	Home 	57	28/07/1964	day	stay	
+396	7	57	Home	05/08/1964	day		
+397	7	Home 	57	14/08/1964	day	stay	
+398	7	57	Home	16/09/1964	day		
+399	7	Home 	146	17/09/1964	month	consultation	He goes there (146) several times between September 1964 and 1970, but I don’t know how many times.
+400	7	146	Home	18/09/1964	month		
+401	7	Home 	57	13/03/1965	day	stay	
+402	7	57	Home	22/03/1965	day		
+403	7	Home 	56	01/05/1965	week 	consultation	
+404	7	56	Home	10/05/1965	week 		
+405	7	Home 	57	13/05/1965	day	stay	
+406	7	57	106	25/08/1965	day	housing	
+407	7	106	12	01/09/1965	month	consultation	
+408	7	12	106	01/09/1965	month	housing	
+409	7	106	9	07/10/1965	day	consultation	
+410	7	9	106	07/10/1965	day	housing	
+411	7	106	40	20/11/1965	day	nighttime care 	
+412	7	40	106	20/11/1965	day	housing 	
+413	7	106	Home	18/05/1966	day		
+414	7	Home 	57	29/12/1970	day 	stay	
+415	7	57	Home	12/02/1971	day 		
+416	7	Home 	96	01/01/1978	year 	stay	
+417	7	96	Home	01/02/1978	year 		
+418	7	Home 	93	07/11/1978	day	consultation	
+419	7	93	96	08/11/1978	week 	stay	
+420	7	96	Home 	01/01/1980	year		
+421	8	Home 	10	22/06/1960	day	stay	
+422	8	10	Home	02/07/1960	day		
+423	8	Home 	10	16/08/1960	day	stay	
+424	8	10	Home	14/10/1960	day		
+425	8	Home 	93	16/10/1960	day	stay	
+426	8	93	Home	27/10/1960	day		
+427	8	Home 	12	12/01/1961	day	consultation	
+428	8	12	Home	12/01/1961	day		
+429	8	Home 	57	23/01/1961	day	stay	
+430	8	57	Home	15/08/1961	day		
+431	8	Home 	32	13/10/1961	day	stay	
+432	8	32	Home	01/01/1962	two-years period		
+433	8	Home 	54	01/11/1963	month	consultation	
+434	8	54	102	01/11/1963	month	stay	
+435	8	102	Home	30/11/1963	month		
+436	8	Home 	57	28/11/1963	day	stay	
+437	8	57	Home	05/01/1964	day		
+438	8	Home 	57	10/02/1964	day	stay	
+439	8	57	Home	01/04/1964	day		
+440	8	Home 	57	11/04/1964	day	stay	
+441	8	57	Home	16/04/1964	day		
+442	8	Home 	99	01/07/1964	day	stay	
+443	8	99	Home	01/08/1964	month		
+444	8	Home 	57	26/12/1964	day	stay	
+445	8	57	Home	27/03/1965	day		
+446	8	Home 	40	29/03/1965	day	nighttime care 	
+447	8	40	51	15/10/1965	day	stay	
+448	8	51	40	23/10/1965	day	nighttime care 	
+449	8	40	57	30/12/1965	day	stay	
+450	8	57	40	03/01/1966	day	nighttime care 	
+451	8	40	Home	31/01/1966	day		
+452	8	Home 	57	01/05/1966	day	stay	
+453	8	57	21	02/05/1966	three-months period	daytime care	
+454	8	21	57	02/05/1966	three-months period	stay	
+455	8	57	21	15/05/1966	three-months period	daytime care	
+456	8	21	57	15/05/1966	three-months period	stay	
+457	8	57	21	01/06/1966	three-months period	daytime care	
+458	8	21	57	01/06/1966	three-months period	stay	
+459	8	57	21	01/07/1966	three-months period	daytime care	
+460	8	21	57	01/07/1966	three-months period	stay	
+461	8	57	21	03/08/1966	day	daytime care	
+462	8	21	57	03/08/1966	month	stay	
+463	8	57	21	15/08/1966	month	daytime care	
+464	8	21	57	15/08/1966	month	stay	
+465	8	57	21	01/09/1966	month	daytime care	
+466	8	21	57	01/09/1966	month	stay	
+467	8	57	Home	29/04/1967	day		
+468	8	Home 	57	09/04/1969	day	stay	
+469	8	57	Home	17/04/1969	day		
+470	8	Home 	57	12/05/1969	day	stay	
+471	8	57	Home	31/05/1969	day		
+472	8	Home 	57	31/03/1970	day	stay	
+473	8	57	10	02/04/1970	day	stay	
+474	8	10	57	06/04/1970	day	stay	
+475	8	57	Home	27/05/1970	day		
+476	8	Home 	57	05/06/1970	day	stay	
+477	8	57	Home	26/06/1970	day		
+478	8	Home 	57	16/11/1970	day	stay	
+479	8	57	Home	29/12/1970	day		
+480	9	Home 	57	14/03/1963	day	stay	
+481	9	57	Home	14/12/1963	day		
+482	9	Home 	57	11/02/1964	day	stay	
+483	9	57	Home	19/06/1964	day		
+484	9	Home 	40	28/08/1965	day	nighttime care 	
+485	9	40	114	27/05/1966	day	consultation	He goes there (114) several times between May 1966 and 1990, but I don’t know how many times.
+486	9	114	Home	27/05/1966	day		
+487	9	Home 	57	24/01/1968	day	stay	
+488	9	57	Home	31/07/1968	day		
+489	9	Home 	57	01/08/1968	day	stay	
+490	9	57	Home	24/10/1968	day		
+491	9	Home 	57	25/10/1968	day	stay	
+492	9	57	Home	11/12/1968	day		
+493	9	Home 	21	01/01/1969	year	daytime care	He goes there (21) several times between January 1969 and 1973, but I don’t know how many time
+494	9	21	Home	01/01/1969	year		
+495	9	Home 	24	01/09/1973	month	daytime care	He goes there (24) several times between September 1973 and the 31st of August 1974, but I don’t know how many times.
+496	9	24	Home	01/09/1973	day		
+497	9	Home 	7	01/01/1975	year	stay	
+498	9	7	Home	01/01/1975	year		
+499	9	Home 	16	16/11/1977	day	daytime care	
+500	9	16	home	16/11/1977	dy		
+501	9	home	96	04/09/1978	day	stay	
+502	9	96	Home	05/12/1978	day		
+503	9	Home 	96	01/01/1979	year	stay	
+504	9	96	home	01/01/1980	two-years period		
+505	9	home 	23	08/04/1980	day	daytime care	He goes there (23) several times between January 1980 and December 1980, but I don’t know how many time
+506	9	23	home	08/04/1980	day		
+507	9	home	31	02/12/1980	day	stay	
+508	9	31	home	15/12/1980	month		
+509	9	home	23	27/12/1980	day	daytime care	He goes there (23) several times between in December 1980 and January 1981, but I don’t know how many time
+510	9	23	home	01/01/1981	two-months period		
+511	9	home	31	20/01/1981	day	stay	
+512	9	31	home	28/02/1981	week		
+513	9	Home 	44	01/01/1981	month	nighttime care	
+514	9	44	23	04/03/1981	day	daytime care	He goes there (23) several times between 04/03/1981 and 25/07/1983, but I don’t know how many time
+515	9	23	44	04/03/1981	day	nighttime care	
+516	9	44	96	25/07/1983	day	stay	
+517	9	96	44	07/09/1983	day	nighttime care	
+518	9	44	23	08/09/1983	month	daytime care	He goes there (23) several times between September 1983 and November 1984, but I don’t know how many time
+519	9	23	44	08/09/1983	month	nighttime care	
+520	9	44	34	08/11/1984	day	stay	
+521	9	34	44	24/06/1985	day	nighttime care	
+522	9	44	23	25/06/1985	week	daytime care	He goes there (23) several times between June 1985 and August 1987, but I don’t know how many time
+523	9	23	44	25/06/1985	week	nighttime care	
+524	9	44	57	19/08/1987	day	stay	
+525	9	57	44	01/01/1988	six-months period	nighttime care	
+526	9	44	23	02/01/1988	six-months period	daytime care	He goes there (23) several times between the beginning of 1988 and June 1988, but I don’t know how many time
+527	9	23	44	02/01/1988	day	nighttime care	
+528	9	44	96	01/06/1988	two-years period	stay	
+529	9	96	44	08/10/1989	day	nighttime care	
+530	9	44	23	09/10/1989	day	daytime care	He goes there (23) several times between October 1989 and August 1992, but I don’t know how many time
+531	9	23	44	09/10/1989	day	nighttime care	
+532	9	44	50	01/01/1991	year	nighttime care	
+533	9	50	96	25/08/1992	day	stay	
+534	9	96	44	01/12/1992	year	nighttime care	
+535	9	44	23	01/01/1993	year	daytime care	He goes there (23) several times between January 1993 and August 1993, but I don’t know how many time
+536	9	23	44	01/01/1993	year	nighttime care	
+537	9	44	96	25/08/1993	day	stay	
+538	9	96	44	01/01/1994	month	nighttime care	
+539	9	44	23	11/04/1994	day	daytime care	He goes there (23) several times between April 1994 and April 1996, but I don’t know how many time
+540	9	23	44	11/04/1994	day	nighttime care	
+541	9	44	96	24/04/1996	day	stay	
+542	9	96	44	01/09/1996	six-months period	nighttime care	
+543	9	44	23	07/10/1996	day	daytime care	He goes there (23) several times between October 1996 and July 1997, but I don’t know how many time
+544	9	23	44	07/10/1996	day	nighttime care	
+545	9	44	57	01/07/1997	day	stay	
+546	9	57	96	23/07/1997	day	stay	
+547	9	96	44	01/08/1997	month	daytime care	
+548	9	44	23	02/08/1997	month	daytime care	He goes there (23) several times between August 1997 and October 1998, but I don’t know how many time
+549	9	23	44	02/08/1997	month	nighttime care	
+550	9	44	96	26/10/1998	day	stay	
+551	9	96	44	01/04/1999	year	nighttime care	
+552	9	44	23	08/04/1999	day	daytime care	He goes there (23) several times between April 1999 and October 1999, but I don’t know how many time
+553	9	23	44	08/04/1999	day	nighttime care	
+554	9	44	96	20/10/1999	day	stay	
+555	9	96	44	31/12/1999	year	nighttime care	
+556	9	44	23	01/01/2000	year	daytime care	He goes there (23) several times between January 2000 and June 2000, but I don’t know how many time
+557	9	23	44	01/01/2000	year	nighttime care	
+558	9	44	77	01/06/2000	year	stay	
+559	9	77	31	03/04/2000	day	stay	
+560	9	31	44	01/10/2000	month	nighttime care	
+561	10	Home 	57	24/09/1936	day	stay	
+562	10	57	28	06/10/1936	day	stay	
+563	10	28	Home	01/01/1938	five-year period		
+564	10	Home 	57	24/11/1959	day	stay	
+565	10	57	Home	28/12/1959	day 		
+566	10	Home 	137	01/01/1960	year	consultation	She goes there (137) several times in the beginning of 1960, but I don’t know how many time
+567	10	137	home	01/01/1960	year		
+568	10	Home 	57	03/01/1961	day	stay	
+569	10	57	Home	17/03/1961	day		
+570	10	home 	137	01/04/1961	day	consultation	She goes there (137) several times between April 1961 and May 1963 (?), but I don’t know how many time
+571	10	137	home	01/01/1962	two-years period		
+572	10	Home 	57	05/05/1963	day	stay	
+573	10	57	115	17/09/1963	day	stay	
+574	10	115	110	02/12/1964	day	stay	
+575	10	110	57	10/09/1965	day	stay	
+576	10	57	110	23/10/1965	day	stay	
+577	10	110	93	01/11/1965	week	stay	
+578	10	93	109	15/11/1965	week	stay	
+579	10	109	110	02/12/1965	day	stay	
+580	10	110	57	29/12/1965	day	stay	
+581	10	57	109	27/05/1966	day	stay	
+582	11	Home 	52	01/01/1952	year 	consultation	
+583	11	52	Home	01/01/1952	year 		
+584	11	Home 	33	01/06/1952	year 	stay	
+585	11	33	Home	01/01/1961	year 		
+586	11	Home 	43	01/01/1963	year	housing 	
+587	11	43	Home	01/06/1963	year		
+588	11	Home 	57	23/10/1963	day 	stay	
+589	11	57	87	06/01/1964	day 	stay	
+590	11	87	Home	01/07/1972	month		
+591	11	Home 	25	01/06/1978	month	stay	
+592	12	Home 	53	01/03/1963	month	stay	
+593	12	53	Home	30/03/1963	month		
+594	12	Home 	57	17/05/1963	day	stay	
+595	12	57	Home	07/06/1963	day		
+596	12	Home 	57	11/06/1963	day	stay	
+597	12	57	Home	21/09/1963	day		
+598	12	Home 	102	01/01/1964	five-year period	stay	
+599	12	102	Home	01/02/1964	five-year period		
+600	12	Home 	61	01/03/1964	five-year period	stay	
+601	12	61	Home	01/04/1964	five-year period		
+602	12	Home 	12	03/07/1968	day	consultation	
+603	12	12	Home	03/07/1968	day 		
+604	12	Home 	87	01/01/1970	seven-years period	stay	
+605	12	87	37	01/01/1975	year	nighttime care 	
+606	12	37	138	02/01/1975	year	daytime care 	He goes there (138) several times between 1975 and the '90s, but I don’t know how many time
+607	12	138	37	03/01/1975	year	nighttime care 	
+608	12	37	17	01/01/1990	decade 	daytime care 	He goes there (17) several times in the '90s, but I don’t know how many time
+609	12	17	37	02/01/1990	decade 	nighttime care 	
+610	12	37	39	01/02/1990	decade 	nighttime care 	
+611	12	39	38	01/01/2009	year	nighttime care 	
+612	13	Home 	5	01/01/1962	year	housing 	
+613	13	5	93	25/01/1963	week	consultation	
+614	13	93	57	25/01/1963	day	stay	
+615	13	57	68	15/05/1963	day	stay	
+616	14	Home 	136	01/01/1954	month	consultation	
+617	14	136	Home	01/01/1954	month		
+618	14	Home 	93	15/01/1954	month	consultation	
+619	14	93	Home	15/01/1954	month		
+620	14	Home 	57	12/02/1954	day	stay	
+621	14	57	Home	02/03/1954	day		
+622	14	Home 	135	01/01/1956	year	stay	
+623	14	135	Home	01/02/1956	year		
+624	14	Home 	57	21/02/1963	day	stay	
+625	14	57	Home	28/02/1963	day 		
+626	14	Home 	12	01/01/1968	month	consultation	
+627	14	12	96	01/01/1968	month 	stay	
+628	15	Home 	134	10/12/1917	day	stay	
+629	15	134	128	01/01/1919	nine-years period	stay	
+630	15	128	116	01/01/1920	nine-years period	stay	
+631	15	116	129	01/01/1921	nine-years period	stay	
+632	15	129	100	01/01/1922	nine-years period	stay	
+633	15	100	41	01/01/1923	nine-years period	stay	
+634	15	41	76	01/01/1924	nine-years period	stay	
+635	15	76	103	10/07/1926	day	stay	
+636	15	103	84	04/04/1927	day	stay	
+637	15	84	Home	03/08/1927	day		
+638	15	Home 	103	29/09/1927	day	stay	
+639	15	103	Home	17/06/1929	day		
+640	15	Home 	26	25/04/1930	day	stay	
+641	15	26	98	19/05/1930	day	stay	
+642	15	98	Home	01/09/1930	day		
+643	15	Home 	35	27/09/1932	week	stay	
+644	15	35	104	19/12/1932	day	stay	
+645	15	104	Home	01/11/1934	month		
+646	15	Home 	151	02/11/1934	month	mandatory visits	He goes there (151) several times between November 1934 and June 1936, but I don’t know how many time
+647	15	151	Home	02/11/1934	day		
+648	15	Home 	27	20/01/1935	day	mandatory visits	
+649	15	27	Home	20/01/1935	day		
+650	15	Home 	27	07/02/1935	day	mandatory visits	
+651	15	27	Home	07/02/1935	day		
+652	15	Home 	27	08/03/1935	day	mandatory visits	
+653	15	27	Home	08/03/1935	day		
+654	15	Home 	27	05/04/1935	day	mandatory visits	
+655	15	27	Home	05/04/1935	day		
+656	15	Home 	27	17/05/1935	day	mandatory visits	
+657	15	27	Home	17/05/1935	day		
+658	15	Home 	27	16/06/1935	day	mandatory visits	
+659	15	27	Home	17/06/1935	day		
+660	15	Home 	35	01/06/1936	day	stay	
+661	15	35	104	13/07/1936	day	stay	
+662	15	104	Home	05/07/1937	day		
+663	15	Home 	130	06/07/1937	month	mandatory visits	He goes there (130) several times between July 1937 and May 1938, but I don’t know how many time
+664	15	130	Home 	06/07/1937	month		
+665	15	Home 	27	06/07/1937	month	mandatory visits	He goes there (27) several times between July 1937 and May 1938, but I don’t know how many time
+666	15	27	Home 	06/07/1937	month		
+667	15	Home 	35	02/05/1938	day	stay	
+668	15	35	84	02/09/1938	day	stay	
+669	15	84	Home	01/09/1939	day		
+670	15	Home 	130	02/09/1939	month	mandatory visits	He goes there (130) several times between September 1939 and April 1940, but I don’t know how many time
+671	15	130	Home 	02/09/1939	month		
+672	15	Home 	27	02/09/1939	month	mandatory visits	He goes there (27) several times between September 1939 and April 1940, but I don’t know how many time
+673	15	27	Home 	02/09/1939	month		
+674	15	Home 	35	10/04/1940	day	stay	
+675	15	35	Home	24/06/1940	day		
+676	15	Home 	130	25/06/1940	month	mandatory visits	He goes there (130) several times between June 1940 and February 1942, but I don’t know how many time
+677	15	130	Home 	25/06/1940	day		
+678	15	Home 	27	25/06/1940	month	mandatory visits	He goes there (27) several times between June 1940 and February 1942, but I don’t know how many time
+679	15	27	Home 	25/06/1940	month		
+680	15	Home 	35	10/02/1942	day	stay	
+681	15	35	Home	11/02/1942	day		
+682	15	Home 	35	16/05/1942	day	stay	
+683	15	35	89	01/06/1942	month	stay	
+684	15	89	Home	01/02/1943	month		
+685	15	Home 	97	01/03/1943	three-years period	stay	
+686	15	97	74	01/06/1943	three-years period	stay	
+687	15	74	131	01/01/1944	three-years period		
+688	15	131	132	01/01/1945	three-years period		
+689	15	132	Home	01/02/1946	month		
+690	15	Home	35	23/02/1946	day	stay	
+691	15	35	Home	18/03/1946	day		
+692	15	Home 	35	21/05/1946	day	stay	
+693	15	35	104	12/06/1947	day	stay	
+694	15	104	home	04/03/1948	day		
+695	15	home	153	05/03/1948	month	mandatory visits	He goes there (153) several times between March 1948 and April 1948, but I don’t know how many time
+696	15	153	home	05/03/1948	month		
+697	15	home	149	05/03/1948	month	mandatory visits	He goes there (149) several times between March 1948 and April 1948, but I don’t know how many time
+698	15	149	home	05/03/1948	month		
+699	15	Home 	35	16/04/1948	day	stay	
+700	15	35	104	04/05/1948	day	stay	
+701	15	104	Home	10/03/1949	day		
+702	15	home	150	11/03/1949	month	mandatory visits	He goes there (150) several times between March and April 1949, but I don’t know how many time
+703	15	150	home	11/03/1949	month		
+704	15	home	154	11/03/1949	month	mandatory visits	He goes there (154) several times between March and April 1949, but I don’t know how many time
+705	15	154	home	11/03/1949	month		
+706	15	Home 	57	20/04/1949	day	stay	
+707	15	57	98	30/04/1949	day	stay	
+708	15	98	104	01/06/1949	day	stay	
+709	15	104	35	04/08/1949	day	stay	
+710	15	35	104	12/10/1949	day	stay	
+711	15	104	Home	25/07/1951	day		
+712	15	home	152	26/07/1951	month	mandatory visits	He goes there (152) several times between July and August 1951, but I don’t know how many time
+713	15	152	home	26/07/1951	month		
+714	15	home	149	26/07/1951	month	mandatory visits	He goes there (149) several times between July and August 1951, but I don’t know how many time
+715	15	149	home	26/07/1951	month		
+716	15	home 	104	30/08/1951	day	stay	
+717	15	104	35	06/09/1951	day	stay	
+718	15	35	Home	24/09/1951	day		
+719	15	home	27	25/09/1951	month	mandatory visits	He goes there (27) several times between September and October 1951, but I don’t know how many time
+720	15	27	home	25/09/1951	month		
+721	15	home	120	25/09/1951	month	mandatory visits	He goes there (120) several times between September and October 1951, but I don’t know how many time
+722	15	120	home	25/09/1951	month		
+723	15	Home	35	03/10/1951	day	stay	
+724	15	35	104	10/10/1951	day	stay	
+725	15	104	Home	12/06/1952	day		
+726	15	home	155	13/06/1952	month	mandatory visits	He goes there (155) several times in June 1952, but I don’t know how many time
+727	15	155	home	13/06/1952	month		
+728	15	home	149	13/06/1952	month	mandatory visits	He goes there (149) several times in June 1952, but I don’t know how many time
+729	15	149	home	13/06/1952	month		
+730	15	Home 	57	19/06/1952	day	stay	
+731	15	57	35	25/06/1952	day	stay	
+732	15	35	104	16/07/1952	day	stay	
+733	15	104	75	30/10/1952	day	stay	
+734	15	75	Home	01/04/1953	month		
+735	15	Home 	75	01/10/1953	year	stay	
+736	15	75	97	04/12/1953	day	stay	
+737	15	97	57	24/02/1954	day	stay	
+738	15	57	97	25/02/1954	day	stay	
+739	15	97	home	01/06/1954	year		
+740	15	home	103	01/10/1954	month	stay	
+741	15	103	41	01/01/1955	year	stay	
+742	15	41	Home	01/03/1955	month		
+743	15	Home 	56	01/04/1955	month	stay	
+744	15	56	Home	15/04/1955	month		
+745	15	Home 	57	27/04/1955	day	stay	
+746	15	57	41	27/04/1955	day	stay	
+747	15	41	Home	01/01/1956	two-years period		
+748	15	Home 	57	15/06/1956	day	stay	
+749	15	57	Home	01/08/1956	day		
+750	15	Home 	54	01/12/1956	month	stay	
+751	15	54	Home	31/12/1956	month		
+752	15	Home 	35	12/08/1957	day	stay	
+753	15	35	home	01/12/1957	year		
+754	15	home	35	20/02/1958	day	stay	
+755	15	35	75	08/04/1958	day	stay	
+756	15	75	142	23/10/1959	day	stay	
+757	15	142	104	28/10/1959	day 	stay	
+758	15	104	35	07/12/1960	day	stay	
+759	15	35	91	08/12/1960	day	stay	
+760	15	91	Home	09/12/1960	day		
+761	15	Home	155	10/12/1960	month	mandatory visits	He goes there (155) several times in December 1960, but I don’t know how many time
+762	15	155	home	10/12/1960	month		
+763	15	home	150	10/12/1960	month	mandatory visits	He goes there (150) several times in December 1960, but I don’t know how many time
+764	15	150	home	10/12/1960	month		
+765	15	Home 	93	01/01/1961	year	stay	
+766	15	93	57	02/01/1961	year	stay	
+767	15	57	35	04/01/1961	day	stay	
+768	15	35	89	06/01/1961	day	stay	
+769	15	89	35	12/01/1961	day	stay	
+770	15	35	Home	22/02/1961	day		
+771	15	Home	155	23/02/1961	month	mandatory visits	He goes there (155) several times between February 1961 and March 1961, but I don’t know how many time
+772	15	155	home	23/02/1961	month		
+773	15	home	150	23/02/1961	month	mandatory visits	He goes there (150) several times between February 1961 and March 1961, but I don’t know how many time
+774	15	150	home	23/02/1961	month		
+775	15	Home	43	01/03/1961	month	housing	
+776	15	43	93	10/03/1961	month	stay	
+777	15	93	Home	20/03/1961	month		
+778	15	Home 	12	23/08/1961	day	consultation 	
+779	15	12	Home	23/08/1961	day		
+780	15	Home	120	26/08/1961	day	mandatory visits	He goes there (120) several times between the 26th of August 1961 and December 1961, but I don’t know how many time
+781	15	120	home	26/08/1961	day		
+782	15	Home 	93	18/12/1961	month	consultation	
+783	15	93	57	18/12/1961	day	stay	
+784	15	57	Home	20/12/1961	day		
+785	15	Home 	93	22/12/1961	day	consultation	
+786	15	93	57	23/12/1961	day	stay	
+787	15	57	Home	02/01/1962	day		
+788	15	Home 	93	03/01/1962	day	consultation	
+789	15	93	57	03/01/1962	day	stay	
+790	15	57	35	12/01/1962	day	stay	
+791	15	35	43	31/01/1962	day	housing 	
+792	15	43	120	31/01/1962	day	mandatory visits	He goes there (120) several times between January 1962 and March 1962, but I don’t know how many time
+793	15	120	43	31/01/1962	day	housing	
+794	15	43	27	31/01/1962	day	mandatory visits	He goes there (27) several times between January 1962 and March 1962, but I don’t know how many time
+795	15	27	43	31/01/1962	day	housing	
+796	15	43	home	03/03/1962	day		
+797	15	home	35	15/03/1962	day	stay	
+798	15	35	104	28/03/1962	day	stay	
+799	15	104	Home	13/10/1962	day		
+800	15	home	150	14/10/1962	month	mandatory visits	He goes there (150) several times between October 1962 and June 1963, but I don’t know how many time
+801	15	150	home	14/10/1962	month		
+802	15	home	155	14/10/1962	month	mandatory visits	He goes there (155) several times between October 1962 and June 1963, but I don’t know how many time
+803	15	155	home	14/10/1962	month		
+804	15	Home 	57	11/06/1963	day	stay	
+805	15	57	27	08/07/1963	day	consultation	
+806	15	27	138	01/08/1963	year	daytime care 	
+807	16	home	119	01/01/1963	year	consultation	
+808	16	119	home	01/01/1963	year		
+809	16	Home 	57	01/02/1963	day	stay	
+810	16	57	106	18/04/1963	day	housing	
+811	16	106	12	13/07/1963	day	consultation	
+812	16	12	106	13/07/1963	day	housing	
+813	16	106	12	01/09/1963	month	consultation	
+814	16	12	106	01/09/1963	month	housing	
+815	16	106	96	15/09/1963	month	stay	
+816	16	96	Home	01/10/1963	month		
+817	16	Home 	6	02/10/1963	month	stay	
+818	16	6	Home	15/10/1963	month		
+819	16	Home 	46	01/03/1964	month	stay	
+820	16	46	Home	01/01/1965	two-years period		
+821	16	Home	12	27/01/1966	day	consultation 	
+822	16	12	Home	27/01/1966	day		
+823	16	Home	12	12/03/1966	day	consultation 	
+824	16	12	Home	12/03/1966	day		
+825	16	Home 	93	13/10/1966	day	consultation	
+826	16	93	Home	13/10/1966	day		
+827	16	Home	12	18/10/1966	day	consultation 	
+828	16	12	Home	18/10/1966	day		
+829	16	Home 	21	01/11/1966	year	daytime care 	He goes there (21) several times between 1966 and 1967, but I don’t know how many time
+830	16	21	Home	01/11/1966	year		
+831	16	Home	12	15/03/1967	day	consultation 	
+832	16	12	Home	15/03/1967	day		
+833	16	home	12	09/06/1967	day	consultation	
+834	16	12	home	09/06/1967	day		
+835	16	home	12	30/06/1967	day	consultation	
+836	16	12	home	30/06/1967	day		
+837	16	home	12	01/08/1967	day	consultation	
+838	16	12	home	01/08/1967	day		
+839	16	home	12	28/09/1967	day	consultation	
+840	16	12	home	28/09/1967	day		
+841	16	home	12	27/11/1967	day	consultation	
+842	16	12	home	27/11/1967	day		
+843	16	Home 	118	01/12/1967	two-years period	consultation 	
+844	16	118	Home	01/12/1967	two-years period		
+845	16	Home 	36	01/11/1968	month	stay	
+846	16	36	Home 	01/01/1969	two-years period		
+847	16	home	12	22/07/1969	day	consultation	
+848	16	12	home	22/07/1969	day		
+849	16	home	12	19/08/1969	day	consultation	
+850	16	12	home	19/08/1969	day		
+851	16	home	12	28/08/1969	day	consultation	
+852	16	12	home	28/08/1969	day		
+853	16	home	12	27/09/1969	day	consultation	
+854	16	12	home	27/09/1969	day		
+855	16	home	12	13/12/1969	day	consultation	
+856	16	12	home	13/12/1969	day		
+857	16	home	12	24/01/1970	day	consultation	
+858	16	12	home	24/01/1970	day		
+859	16	home	12	07/03/1970	day	consultation	
+860	16	12	home	07/03/1970	day		
+861	16	home	12	14/03/1970	day	consultation	
+862	16	12	home	14/03/1970	day		
+863	16	Home 	36	01/04/1970	month	stay	
+864	16	36	104	08/06/1970	day	stay	
+865	16	104	102	01/07/1970	month	stay	
+866	16	102	35	08/10/1970	day	stay	
+867	16	35	Home	10/10/1970	day		
+868	16	home	102	11/10/1970	month	mandatory visits	He goes there (102) several times between October 1970 and March 1971, but I don’t know how many time
+869	16	102	Home	11/10/1970	month		
+870	16	home	120	16/10/1970	day	mandatory visits	
+871	16	120	home	16/10/1970	day		
+872	16	home	12	27/10/1970	day	consultation	
+873	16	12	home	27/10/1970	day		
+874	16	home	120	30/10/1970	day	mandatory visits	
+875	16	120	home	30/10/1970	day		
+876	16	home	12	10/11/1970	day	consultation	
+877	16	12	home	10/11/1970	day		
+878	16	home	120	13/11/1970	day	mandatory visits	
+879	16	120	home	13/11/1970	day		
+880	16	home	120	18/11/1970	day	mandatory visits	
+881	16	120	home	18/11/1970	day		
+882	16	home	120	14/12/1970	day	mandatory visits	
+883	16	120	home	14/12/1970	day		
+884	16	home	120	22/12/1970	day	mandatory visits	
+885	16	120	home	22/12/1970	day		
+886	16	home	120	08/01/1971	day	mandatory visits	
+887	16	120	home	08/01/1971	day		
+888	16	home	120	15/01/1971	day	mandatory visits	
+889	16	120	home	15/01/1971	day		
+890	16	home	120	21/01/1971	day	mandatory visits	
+891	16	120	home	21/01/1971	day		
+892	16	home	120	20/02/1971	day	mandatory visits	
+893	16	120	home	20/02/1971	day		
+894	16	home	120	11/03/1971	day	mandatory visits	
+895	16	120	home	11/03/1971	day		
+896	16	home	120	16/03/1971	day	mandatory visits	
+897	16	120	home	16/03/1971	day		
+898	16	home	120	17/03/1971	day	mandatory visits	
+899	16	120	home	17/03/1971	day		
+900	16	Home 	35	27/03/1971	day	stay	
+901	16	35	102	30/03/1971	month	stay	
+902	16	102	35	01/05/1971	two-months period	stay	
+903	16	35	63	24/06/1971	day	housing 	
+904	16	63	102	29/06/1971	day	stay	
+905	16	102	35	01/08/1971	month	stay	
+906	16	35	home	05/08/1971	day		
+907	16	home	120	05/08/1971	day	mandatory visits	
+908	16	120	home	05/08/1971	day		
+909	16	home	120	19/08/1971	day	mandatory visits	
+910	16	120	home	19/08/1971	day		
+911	16	Home 	56	01/09/1971	month	mandatory visits	He goes there (56) several times between September 1971 and December 1971, but I don’t know how many time
+912	16	56	Home	01/09/1971	month		
+913	16	home	120	12/10/1971	day	mandatory visits	
+914	16	120	home	12/10/1971	day		
+915	16	home	120	12/11/1971	day	mandatory visits	
+916	16	120	home	12/11/1971	day		
+917	16	Home 	35	09/12/1971	day	stay	
+918	16	35	Home	15/12/1971	month		
+919	16	home	120	03/01/1972	day	mandatory visits	
+920	16	120	home	03/01/1972	day		
+921	16	home	120	11/02/1972	day	mandatory visits	
+922	16	120	home	11/02/1972	day		
+923	16	home	120	21/03/1972	day	mandatory visits	
+924	16	120	home	21/03/1972	day		
+925	16	home	120	08/05/1972	day	mandatory visits	
+926	16	120	home	08/05/1972	day		
+927	16	home	120	08/06/1972	day	mandatory visits	
+928	16	120	home	08/06/1972	day		
+929	16	home	120	25/07/1972	day	mandatory visits	
+930	16	120	home	25/07/1972	day		
+931	16	Home 	35	08/08/1972	day	stay	
+932	16	35	75	12/10/1972	day	stay	
+933	16	75	36	26/03/1973	day	stay	
+934	16	36	Home	28/03/1973	day		
+935	16	home	120	28/03/1973	day	mandatory visits	
+936	16	120	home	28/03/1973	day		
+937	16	home	120	30/03/1973	day	mandatory visits	
+938	16	120	home	30/03/1973	day		
+939	16	home	120	06/04/1973	day	mandatory visits	
+940	16	120	home	06/04/1973	day		
+941	16	home	120	13/04/1973	day	mandatory visits	
+942	16	120	home	13/04/1973	day		
+943	16	home	120	24/04/1973	day	mandatory visits	
+944	16	120	home	24/04/1973	day		
+945	16	home	120	30/04/1973	day	mandatory visits	
+946	16	120	home	30/04/1973	day		
+947	16	home	120	07/05/1973	day	mandatory visits	
+948	16	120	home	07/05/1973	day		
+949	16	home	120	09/05/1973	day	mandatory visits	
+950	16	120	home	09/05/1973	day		
+951	16	home	120	18/05/1973	day	mandatory visits	
+952	16	120	home	18/05/1973	day		
+953	16	home	120	01/06/1973	day	mandatory visits	
+954	16	120	home	01/06/1973	day		
+955	16	home	120	05/06/1973	day	mandatory visits	
+956	16	120	home	05/06/1973	day		
+957	16	home	120	12/06/1973	day	mandatory visits	
+958	16	120	home	12/06/1973	day		
+959	16	home	120	20/06/1973	day	mandatory visits	
+960	16	120	home	20/06/1973	day		
+961	16	home	120	25/06/1973	day	mandatory visits	
+962	16	120	home	25/06/1973	day		
+963	16	home	120	04/07/1973	day	mandatory visits	
+964	16	120	home	04/07/1973	day		
+965	16	home	120	06/08/1973	day	mandatory visits	
+966	16	120	home	06/08/1973	day		
+967	16	home	120	22/08/1973	day	mandatory visits	
+968	16	120	home	22/08/1973	day		
+969	16	home	120	04/09/1973	day	mandatory visits	
+970	16	120	home	04/09/1973	day		
+971	16	Home 	35	12/09/1973	day	stay	
+972	16	35	Home	26/09/1973	day		
+973	16	home	120	01/10/1973	day	mandatory visits	
+974	16	120	home	01/10/1973	day		
+975	16	Home	43	02/10/1973	month	housing 	
+976	16	43	120	03/10/1973	day	mandatory visits	
+977	16	120	43	03/10/1973	day	housing	
+978	16	43	120	04/10/1973	day	mandatory visits	
+979	16	120	43	04/10/1973	day	housing	
+980	16	43	home	14/10/1973	month		
+981	16	home	120	15/10/1973	day	mandatory visits	
+982	16	120	home	15/10/1973	day		
+983	16	home	120	18/10/1973	day	mandatory visits	
+984	16	120	home	18/10/1973	day		
+985	16	home	120	22/10/1973	day	mandatory visits	
+986	16	120	home	22/10/1973	day		
+987	16	home	120	13/11/1973	day	mandatory visits	
+988	16	120	home	13/11/1973	day		
+989	16	home	120	28/11/1973	day	mandatory visits	
+990	16	120	home	28/11/1973	day		
+991	16	home	120	13/12/1973	day	mandatory visits	
+992	16	120	home	13/12/1973	day		
+993	16	home	120	08/01/1974	day	mandatory visits	
+994	16	120	home	08/01/1974	day		
+995	16	home	120	06/02/1974	day	mandatory visits	
+996	16	120	home	06/02/1974	day		
+997	16	home	120	11/02/1974	day	mandatory visits	
+998	16	120	home	11/02/1974	day		
+999	16	home	120	25/03/1974	day	mandatory visits	
+1000	16	120	home	25/03/1974	day		
+1001	16	home	120	07/06/1974	day	mandatory visits	
+1002	16	120	home	07/06/1974	day		
+1003	16	home	120	08/08/1974	day	mandatory visits	
+1004	16	120	home	08/08/1974	day		
+1005	16	home	120	09/10/1974	day	mandatory visits	
+1006	16	120	home	09/10/1974	day		
+1007	16	home	120	19/11/1974	day	mandatory visits	
+1008	16	120	home	19/11/1974	day		
+1009	16	home	120	06/02/1975	day	mandatory visits	
+1010	16	120	home	06/02/1975	day		
+1011	16	home	120	21/03/1975	day	mandatory visits	
+1012	16	120	home	21/03/1975	day		
+1013	16	home	120	24/04/1975	day	mandatory visits	
+1014	16	120	home	24/04/1975	day		
+1015	16	home	120	18/06/1975	day	mandatory visits	
+1016	16	120	home	18/06/1975	day		
+1017	16	home	120	03/09/1975	day	mandatory visits	
+1018	16	120	home	03/09/1975	day		
+1019	16	home	120	13/11/1975	day	mandatory visits	
+1020	16	120	home	13/11/1975	day		
+1021	16	home	120	19/12/1975	day	mandatory visits	
+1022	16	120	home	19/12/1975	day		
+1023	16	home	120	30/01/1976	day	mandatory visits	
+1024	16	120	home	30/01/1976	day		
+1025	16	home	120	02/04/1976	day	mandatory visits	
+1026	16	120	home	02/04/1976	day		
+1027	16	home	120	14/05/1976	day	mandatory visits	
+1028	16	120	home	14/05/1976	day		
+1029	16	home	120	26/06/1976	day	mandatory visits	
+1030	16	120	home	26/06/1976	day		
+1031	16	home	120	09/08/1976	day	mandatory visits	
+1032	16	120	home	09/08/1976	day		
+1033	16	Home 	65	19/04/1978	day	stay	
+1034	16	65	Home	01/06/1978	month		
+1035	16	home	120	02/06/1978	day	mandatory visits	
+1036	16	120	home	02/06/1978	day		
+1037	16	Home 	35	15/06/1978	month	stay	
+1038	16	35	65	07/09/1978	day	stay	
+1039	16	65	Home	01/02/1979	month		
+1040	16	home	120	19/02/1979	day	mandatory visits	
+1041	16	120	home	19/02/1979	day		
+1042	16	home	120	22/02/1979	day	mandatory visits	
+1043	16	120	home	22/02/1979	day		
+1044	16	home	120	27/02/1979	day	mandatory visits	
+1045	16	120	home	27/02/1979	day		
+1046	16	home	120	01/03/1979	day	mandatory visits	
+1047	16	120	home	01/03/1979	day		
+1048	16	Home 	35	07/03/1979	day	stay	
+1049	16	35	Home	22/03/1979	day		
+1050	16	home	120	26/03/1979	day	mandatory visits	
+1051	16	120	home	26/03/1979	day		
+1052	16	Home 	35	27/03/1979	day	stay	
+1053	16	35	104	05/04/1979	day	stay	
+1054	16	104	home	03/07/1980	day		
+1055	16	home	120	08/07/1980	day	mandatory visits	
+1056	16	120	home	08/07/1980	day		
+1057	16	home	120	25/07/1980	day	mandatory visits	
+1058	16	120	home	25/07/1980	day		
+1059	16	home	120	01/09/1980	day	mandatory visits	
+1060	16	120	home	01/09/1980	day		
+1061	16	home	120	08/09/1980	day	mandatory visits	
+1062	16	120	home	08/09/1980	day		
+1063	16	home	120	18/09/1980	day	mandatory visits	
+1064	16	120	home	18/09/1980	day		
+1065	16	home	120	12/11/1980	day	mandatory visits	
+1066	16	120	home	12/11/1980	day		
+1067	16	home	120	20/11/1980	day	mandatory visits	
+1068	16	120	home	20/11/1980	day		
+1069	16	home	120	08/01/1981	day	mandatory visits	
+1070	16	120	home	08/01/1981	day		
+1071	16	home	120	05/02/1981	day	mandatory visits	
+1072	16	120	home	05/02/1981	day		
+1073	16	home	120	05/03/1981	day	mandatory visits	
+1074	16	120	home	05/03/1981	day		
+1075	16	home	120	07/05/1981	day	mandatory visits	
+1076	16	120	home	07/05/1981	day		
+1077	16	home	120	29/06/1981	day	mandatory visits	
+1078	16	120	home	29/06/1981	day		
+1079	16	Home 	35	11/08/1981	day	stay	
+1080	16	35	Home	29/10/1981	day		
+1081	16	Home 	21	01/11/1981	month	daytime care	He goes there (21) several times between November 1981 and December 1981, but I don’t know how many time
+1082	16	21	Home	01/11/1981	year		
+1083	16	home	120	05/11/1981	day	mandatory visits	
+1084	16	120	home	05/11/1981	day		
+1085	16	home	120	12/11/1981	day	mandatory visits	
+1086	16	120	home	12/11/1981	day		
+1087	16	home	120	02/12/1981	day	mandatory visits	
+1088	16	120	home	02/12/1981	day		
+1089	16	home	120	04/12/1981	day	mandatory visits	
+1090	16	120	home	04/12/1981	day		
+1091	16	Home 	35	11/12/1981	day	stay	
+1092	16	35	104	14/01/1982	day	stay	
+1093	16	104	home	06/10/1982	day		
+1094	16	home	120	07/10/1982	day	mandatory visits	
+1095	16	120	home	07/10/1982	day		
+1096	16	home	120	11/10/1982	day	mandatory visits	
+1097	16	120	home	11/10/1982	day		
+1098	16	home	120	25/11/1982	day	mandatory visits	
+1099	16	120	home	25/11/1982	day		
+1100	16	Home 	35	21/12/1982	day	stay	
+1101	16	35	Home	24/03/1983	day		
+1102	16	home	120	14/04/1983	day	mandatory visits	
+1103	16	120	home	14/04/1983	day		
+1104	16	home	121	10/05/1983	day	mandatory visits	
+1105	16	120	home	10/05/1983	day		
+1106	16	home	35	14/06/1983	day	stay	
+1107	16	35	home	22/09/1983	day		
+1108	16	home	120	07/11/1983	day	mandatory visits	
+1109	16	120	home	07/11/1983	day		
+1110	16	home	120	28/11/1983	day	mandatory visits	
+1111	16	120	home	28/11/1983	day		
+1112	16	home	120	01/01/1984	month	mandatory visits	
+1113	16	120	home	31/01/1984	month		
+1114	16	home	120	08/03/1984	day	mandatory visits	
+1115	16	120	home	08/03/1984	day		
+1116	16	home	120	10/05/1984	day	mandatory visits	
+1117	16	120	home	10/05/1984	day		
+1118	16	home	120	28/06/1984	day	mandatory visits	
+1119	16	120	home	28/06/1984	day		
+1120	16	home	120	16/08/1984	day	mandatory visits	
+1121	16	120	home	16/08/1984	day		
+1122	16	home	120	20/09/1984	day	mandatory visits	
+1123	16	120	home	20/09/1984	day		
+1124	16	home	120	25/10/1984	day	mandatory visits	
+1125	16	120	home	25/10/1984	day		
+1126	16	home	120	29/11/1984	day	mandatory visits	
+1127	16	120	home	29/11/1984	day		
+1128	16	home	120	14/01/1985	day	mandatory visits	
+1129	16	120	home	14/01/1985	day		
+1130	16	home	120	07/03/1985	day	mandatory visits	
+1131	16	120	home	07/03/1985	day		
+1132	16	home	120	25/04/1985	day	mandatory visits	
+1133	16	120	home	25/04/1985	day		
+1134	16	home	120	06/06/1985	day	mandatory visits	
+1135	16	120	home	06/06/1985	day		
+1136	16	home	120	11/07/1985	day	mandatory visits	
+1137	16	120	home	11/07/1985	day		
+1138	16	home	120	05/09/1985	day	mandatory visits	
+1139	16	120	home	05/09/1985	day		
+1140	16	home	120	21/11/1985	day	mandatory visits	
+1141	16	120	home	21/11/1985	day		
+1142	16	Home 	63	01/01/1986	year	daytime activity 	He goes there (63) several times in 1986, but I don’t know how many time
+1143	16	63	Home 	01/01/1986	year		
+1144	16	home	120	02/01/1986	day	mandatory visits	
+1145	16	120	home	02/01/1986	day		
+1146	16	home 	35	30/01/1986	day	stay	
+1147	16	35	home	01/02/1986	month		
+1148	16	home	120	13/02/1986	day	mandatory visits	
+1149	16	120	home	13/02/1986	day		
+1150	16	home	120	20/03/1986	day	mandatory visits	
+1151	16	120	home	20/03/1986	day		
+1152	16	home	120	30/04/1986	day	mandatory visits	
+1153	16	120	home	30/04/1986	day		
+1154	16	home	120	05/06/1986	day	mandatory visits	
+1155	16	120	home	05/06/1986	day		
+1156	16	home	120	28/08/1986	day	mandatory visits	
+1157	16	120	home	28/08/1986	day		
+1158	16	home	120	09/10/1986	day	mandatory visits	
+1159	16	120	home	09/10/1986	day		
+1160	16	home	120	20/11/1986	day	mandatory visits	
+1161	16	120	home	20/11/1986	day		
+1162	16	home	120	14/01/1987	day	mandatory visits	
+1163	16	120	home	14/01/1987	day		
+1164	16	home	120	16/01/1987	day	mandatory visits	
+1165	16	120	home	16/01/1987	day		
+1166	16	home	120	12/03/1987	day	mandatory visits	
+1167	16	120	home	12/03/1987	day		
+1168	16	home	120	15/03/1987	day	mandatory visits	
+1169	16	120	home	15/03/1987	day		
+1170	16	home	120	11/05/1987	day	mandatory visits	
+1171	16	120	home	11/05/1987	day		
+1172	16	home	120	15/06/1987	day	mandatory visits	
+1173	16	120	home	15/06/1987	day		
+1174	16	home	120	10/09/1987	day	mandatory visits	
+1175	16	120	home	10/09/1987	day		
+1176	16	home	120	07/10/1987	day	mandatory visits	
+1177	16	120	home	07/10/1987	day		
+1178	16	home	120	19/11/1987	day	mandatory visits	
+1179	16	120	home	19/11/1987	day		
+1180	16	home	120	15/12/1987	day	mandatory visits	
+1181	16	120	home	15/12/1987	day		
+1182	16	home	120	14/01/1988	day	mandatory visits	
+1183	16	120	home	14/01/1988	day		
+1184	16	home	120	11/02/1988	day	mandatory visits	
+1185	16	120	home	11/02/1988	day		
+1186	16	home	120	04/03/1988	day	mandatory visits	
+1187	16	120	home	04/03/1988	day		
+1188	16	home	120	08/04/1988	day	mandatory visits	
+1189	16	120	home	08/04/1988	day		
+1190	16	home	120	20/05/1988	day	mandatory visits	
+1191	16	120	home	20/05/1988	day		
+1192	16	home	120	21/06/1988	day	mandatory visits	
+1193	16	120	home	21/06/1988	day		
+1194	16	home	120	26/07/1988	day	mandatory visits	
+1195	16	120	home	26/07/1988	day		
+1196	16	home	120	25/08/1988	day	mandatory visits	
+1197	16	120	home	25/08/1988	day		
+1198	16	home	120	12/09/1988	day	mandatory visits	
+1199	16	120	home	12/09/1988	day		
+1200	16	home	120	20/10/1988	day	mandatory visits	
+1201	16	120	home	20/10/1988	day		
+1202	16	home	120	23/11/1988	day	mandatory visits	
+1203	16	120	home	23/11/1988	day		
+1204	16	home	120	15/12/1988	day	mandatory visits	
+1205	16	120	home	15/12/1988	day		
+1206	16	home	120	16/01/1989	day	mandatory visits	
+1207	16	120	home	16/01/1989	day		
+1208	16	home	120	20/02/1989	day	mandatory visits	
+1209	16	120	home	20/02/1989	day		
+1210	16	home	120	21/03/1989	day	mandatory visits	
+1211	16	120	home	21/03/1989	day		
+1212	16	home	120	21/04/1989	day	mandatory visits	
+1213	16	120	home	21/04/1989	day		
+1214	16	home	120	26/05/1989	day	mandatory visits	
+1215	16	120	home	26/05/1989	day		
+1216	16	home	120	27/06/1989	day	mandatory visits	
+1217	16	120	home	27/06/1989	day		
+1218	16	home	120	01/09/1989	day	mandatory visits	
+1219	16	120	home	01/09/1989	day		
+1220	16	home	120	11/09/1989	day	mandatory visits	
+1221	16	120	home	11/09/1989	day		
+1222	16	home	120	19/10/1989	day	mandatory visits	
+1223	16	120	home	19/10/1989	day		
+1224	16	home	120	10/11/1989	day	mandatory visits	
+1225	16	120	home	10/11/1989	day		
+1226	16	home	120	15/11/1989	day	mandatory visits	
+1227	16	120	home	15/11/1989	day		
+1228	16	home	120	16/01/1990	day	mandatory visits	
+1229	16	120	home	16/01/1990	day		
+1230	16	home	120	14/02/1990	day	mandatory visits	
+1231	16	120	home	14/02/1990	day		
+1232	16	home	120	13/03/1990	day	mandatory visits	
+1233	16	120	home	13/03/1990	day		
+1234	16	home	120	17/04/1990	day	mandatory visits	
+1235	16	120	home	17/04/1990	day		
+1236	16	home	43	31/12/1991	day	housing	
+1237	16	43	120	07/01/1992	day	mandatory visits	
+1238	16	120	43	07/01/1992	day	housing	
+1239	16	43	120	22/01/1992	day	mandatory visits	
+1240	16	120	43	22/01/1992	day	housing	
+1241	16	43	120	24/03/1992	day	mandatory visits	
+1242	16	120	43	24/03/1992	day	housing	
+1243	16	43	120	11/05/1992	day	mandatory visits	
+1244	16	120	43	11/05/1992	day		
+1245	16	43	92	01/06/1992	month	stay	
+1246	16	92	43	01/07/1992	month	housing 	
+1247	16	43	147	31/07/1992	day	stay	
+1248	16	147	95	30/11/1993	day	stay	
+1249	16	95	35	01/03/1993	month	stay	
+1250	16	35	95	01/04/1993	month	stay	
+1251	16	95	120	22/09/1993	day	mandatory visits	
+1252	16	120	95	22/09/1993	day	stay	
+1253	16	95	120	25/10/1993	day	mandatory visits	
+1254	16	120	95	25/10/1993	day	stay	
+1255	16	95	120	13/12/1993	day	mandatory visits	
+1256	16	120	95	13/12/1993	day	stay	
+1257	16	95	120	25/01/1994	day	mandatory visits	
+1258	16	120	95	25/01/1994	day	stay	
+1259	16	95	120	22/02/1994	day	mandatory visits	
+1260	16	120	95	22/02/1994	day	stay	
+1261	16	95	120	29/03/1994	day	mandatory visits	
+1262	16	120	95	29/03/1994	day	stay	
+1263	16	95	120	19/04/1994	day	mandatory visits	
+1264	16	120	95	19/04/1994	day	stay	
+1265	16	95	120	17/05/1994	day	mandatory visits	
+1266	16	120	95	17/05/1994	day	stay	
+1267	16	95	120	13/06/1994	day	mandatory visits	
+1268	16	120	95	13/06/1994	day	stay	
+1269	16	95	120	26/07/1994	day	mandatory visits	
+1270	16	120	95	26/07/1994	day	stay	
+1271	16	95	120	30/08/1994	day	mandatory visits	
+1272	16	120	95	30/08/1994	day	stay	
+1273	16	95	120	11/10/1994	day	mandatory visits	
+1274	16	120	95	11/10/1994	day	stay	
+1275	16	95	120	09/11/1994	day	mandatory visits	
+1276	16	120	95	09/11/1994	day	stay	
+1277	16	95	120	13/12/1994	day	mandatory visits	
+1278	16	120	95	13/12/1994	day	stay	
+1279	16	95	117	01/01/1995	month	stay	
+1280	16	117	95	01/08/1995	year	stay	
+1281	16	95	117	01/09/1995	month	stay	
+1282	17	Home 	2	29/02/1944	day	stay	
+1283	17	2	8	13/11/1944	day	stay	
+1284	17	8	49	09/07/1946	day	stay	
+1285	17	49	119	28/09/1946	day	stay	
+1286	17	119	140	06/12/1946	day	stay	
+1287	17	119	90	03/12/1951	day	stay	
+1288	17	90	60	01/09/1956	day	stay	
+1289	17	60	29	26/02/1960	day	stay	
+1290	17	29	93	14/02/1961	day	stay	
+1291	17	93	29	23/02/1961	day	stay	
+1292	17	29	93	17/06/1961	day	stay	
+1293	17	93	57	11/07/1961	day	stay	
+1294	17	57	41	26/09/1961	day	stay	
+1295	17	41	Home	17/01/1962	day		
+1296	17	Home 	58	20/01/1962	month	stay	
+1297	17	58	48	25/01/1962	month	stay	
+1298	17	48	58	30/01/1962	month	stay	
+1299	17	58	83	14/02/1962	day	stay	
+1300	17	83	65	07/03/1962	day	stay	
+1301	17	65	57	02/05/1962	day	stay	
+1302	17	57	Home	07/03/1963	day		
+1303	17	Home 	118	29/08/1963	day	stay	
+1304	17	118	57	30/08/1963	day	stay	
+1305	17	57	Home	10/09/1963	day		
+1306	17	Home 	12	11/03/1964	day	consultation	
+1307	17	12	Home	11/03/1964	day		
+1308	17	Home 	21	01/01/1968	year	daytime care 	He goes there (21) several times in 1968, but I don’t know how many time
+1309	17	21	Home	01/01/1968	year		
+1310	17	Home 	65	01/01/1969	year	stay	
+1311	17	65	Home	01/07/1969	year		
+1312	17	Home 	12	10/01/1970	day	consultation	
+1313	17	12	Home	10/01/1970	day		
+1314	17	Home 	57	19/01/1970	day	stay	
+1315	17	57	69	31/01/1970	day	housing 	
+1316	17	69	12	06/02/1970	day	consultation	
+1317	17	12	69	06/02/1970	day	housing	
+1318	17	69	12	13/02/1970	day	consultation	
+1319	17	12	69	13/02/1970	day	housing	
+1320	17	69	12	25/02/1970	day	consultation	
+1321	17	12	69	25/02/1970	day	housing	
+1322	17	69	12	27/02/1970	day	consultation	
+1323	17	12	69	27/02/1970	day	housing	
+1324	17	69	12	05/03/1970	day	consultation	
+1325	17	12	69	05/03/1970	day	housing	
+1326	17	69	53	01/01/1972	year	stay	
+1327	17	53	Home	01/02/1972	year		
+1328	17	Home 	93	01/03/1972	year	stay	
+1329	17	93	Home	01/04/1972	year		
+1330	17	Home 	102	01/05/1972	year	stay	
+1331	17	102	12	01/06/1972	year	consultation	
+1332	17	12	7	01/06/1972	year	stay	
+1333	17	7	83	01/08/1972	year	consultation	
+1334	17	83	7	01/08/1972	year	stay	
+1335	17	7	Home	01/01/1973	two-years period		
+1339	17	Home 	57	13/12/1974	day	stay	
+1340	17	57	102	13/12/1974	day	stay	
+1341	17	102	Home	01/01/1976	three-years period		
+1342	17	Home 	3	01/01/1977	three-years period	stay	
+1343	17	3	Home	12/07/1978	day		
+1344	17	Home 	57	14/07/1978	day	stay	
+1345	17	57	25	20/07/1978	day	stay	
+1346	17	25	Home	21/07/1978	day		
+1347	17	Home 	64	01/08/1978	month	stay	
+1348	17	64	Home	31/08/1978	month		
+1349	17	Home 	65	01/01/1980	month	stay	
+1350	17	65	Home	31/01/1980	month		
+1351	17	Home 	57	18/03/1980	day	stay	
+1352	17	57	Home	19/03/1980	day		
+1353	17	Home 	57	26/05/1983	day	stay	
+1354	17	57	Home	30/05/1983	day		
+1355	17	Home 	57	21/01/1984	day	stay	
+1356	17	57	Home	27/01/1984	day		
+1357	17	Home 	57	31/01/1986	day	stay	
+1358	17	57	Home	13/02/1986	day		
+1359	17	Home 	35	26/06/1986	day	stay	
+1360	17	35	104	01/08/1986	year	stay	
+1361	17	104	Home	24/03/1987	day		
+1362	17	Home	120	30/03/1987	day	mandatory visits	
+1363	17	120	Home	30/03/1987	day		
+1364	17	home	14	01/04/1987	day	mandatory visits	
+1365	17	14	home	01/04/1987	day		
+1366	17	home	14	09/04/1987	day	mandatory visits	
+1367	17	14	home	09/04/1987	day		
+1368	17	home	120	16/04/1987	day	mandatory visits	
+1369	17	120	home	16/04/1987	day		
+1370	17	home	14	30/04/1987	day	mandatory visits	
+1371	17	14	home	30/04/1987	day		
+1372	17	home	158	13/05/1987	day	consultation	
+1373	17	158	home	13/05/1987	day		
+1374	17	home	14	26/05/1987	day	mandatory visits	
+1375	17	14	home	26/05/1987	day		
+1376	17	home	120	24/06/1987	day	mandatory visits	
+1377	17	120	home	24/06/1987	day		
+1378	17	home	14	25/06/1987	day	mandatory visits	
+1379	17	14	home	25/06/1987	day		
+1380	17	home	120	26/06/1987	day	mandatory visits	
+1381	17	120	home	26/06/1987	day		
+1382	17	home	120	16/07/1987	day	mandatory visits	
+1383	17	120	home	16/07/1987	day		
+1384	17	home	14	30/07/1987	day	mandatory visits	
+1385	17	14	home	30/07/1987	day		
+1386	17	home	158	12/08/1987	day	consultation	
+1387	17	158	home	12/08/1987	day		
+1388	17	home	120	20/08/1987	day	mandatory visits	
+1389	17	120	home	20/08/1987	day		
+1390	17	home	120	17/09/1987	day	mandatory visits	
+1391	17	120	home	17/09/1987	day		
+1392	17	home	158	21/09/1987	day	consultation	
+1393	17	158	home	21/09/1987	day		
+1394	17	home	120	24/09/1987	day	mandatory visits	
+1395	17	120	home	24/09/1987	day		
+1396	17	home	158	14/10/1987	day	consultation	
+1397	17	158	home	14/10/1987	day		
+1398	17	home	14	27/10/1987	day	mandatory visits	
+1399	17	14	home	27/10/1987	day		
+1400	17	Home 	93	03/11/1987	day	stay	
+1401	17	93	Home	12/11/1987	day		
+1402	17	home	120	13/11/1987	day	mandatory visits	
+1403	17	120	home	13/11/1987	day		
+1404	17	home	14	26/11/1987	day	mandatory visits	
+1405	17	14	home	26/11/1987	day		
+1406	17	home	120	09/12/1987	day	mandatory visits	
+1407	17	120	home	09/12/1987	day		
+1408	17	home	14	05/01/1988	day	mandatory visits	
+1409	17	14	home	05/01/1988	day		
+1410	17	home	120	13/01/1988	day	mandatory visits	
+1411	17	120	home	13/01/1988	day		
+1412	17	home	14	19/01/1988	day	mandatory visits	
+1413	17	14	home	19/01/1988	day		
+1414	17	home	14	02/02/1988	day	mandatory visits	
+1415	17	14	home	02/02/1988	day		
+1416	17	home	158	19/02/1988	day	consultation	
+1417	17	158	home	19/02/1988	day		
+1418	17	home	14	23/02/1988	day	mandatory visits	
+1419	17	14	home	23/02/1988	day		
+1420	17	home	120	10/03/1988	day	mandatory visits	
+1421	17	120	home	10/03/1988	day		
+1422	17	home	14	15/03/1988	day	mandatory visits	
+1423	17	14	home	15/03/1988	day		
+1424	17	home	14	29/03/1988	day	mandatory visits	
+1425	17	14	home	29/03/1988	day		
+1426	17	home	120	31/03/1988	day	mandatory visits	
+1427	17	120	home	31/03/1988	day		
+1428	17	home	14	05/04/1988	day	mandatory visits	
+1429	17	14	home	05/04/1988	day		
+1430	17	home	120	05/05/1988	day	mandatory visits	
+1431	17	120	home	05/05/1988	day		
+1432	17	home	14	05/05/1988	day	mandatory visits	
+1433	17	14	home	05/05/1988	day		
+1434	17	home	120	27/05/1988	day	mandatory visits	
+1435	17	120	home	27/05/1988	day		
+1436	17	Home 	93	31/05/1988	day	consultation	
+1437	17	93	Home	31/05/1988	day		
+1438	17	home	14	02/06/1988	day	mandatory visits	
+1439	17	14	home	02/06/1988	day		
+1440	17	home	157	06/06/1988	day	consultation 	
+1441	17	157	home	06/06/1988	day		
+1442	17	home	159	07/06/1988	day	stay 	
+1443	17	159	home	14/06/1988	day		
+1444	17	home	157	15/06/1988	day	consultation 	
+1445	17	157	home	15/06/1988	day		
+1446	17	home	120	22/06/1988	day	mandatory visits	
+1447	17	120	home	22/06/1988	day		
+1448	17	home	14	30/06/1988	day	mandatory visits	
+1449	17	14	home	30/06/1988	day		
+1450	17	home	120	01/07/1988	day	mandatory visits	
+1451	17	120	home	01/07/1988	day		
+1452	17	home	120	19/07/1988	day	mandatory visits	
+1453	17	120	home	19/07/1988	day		
+1454	17	home	14	28/07/1988	day	mandatory visits	
+1455	17	14	home	28/07/1988	day		
+1456	17	Home 	93	08/08/1988	day	stay 	
+1457	17	93	Home	24/08/1988	day		
+1458	17	home	14	25/08/1988	day	mandatory visits	
+1459	17	14	home	25/08/1988	day		
+1460	17	home	120	30/08/1988	day	mandatory visits	
+1461	17	120	home	30/08/1988	day		
+1462	17	home	156	10/09/1988	day	stay	
+1463	17	156	home	21/09/1988	day		
+1464	17	home	120	27/09/1988	day	mandatory visits	
+1465	17	120	home	27/09/1988	day		
+1466	17	home	14	04/10/1988	day	mandatory visits	
+1467	17	14	home	04/10/1988	day		
+1468	17	Home 	35	04/10/1988	day	stay	
+1469	17	35	Home	27/10/1988	day		
+1470	17	home	120	28/10/1988	day	mandatory visits	
+1471	17	120	home	28/10/1988	day		
+1472	17	home	14	03/11/1988	day	mandatory visits	
+1473	17	14	home	03/11/1988	day		
+1474	17	home	120	03/11/1988	day	mandatory visits	
+1475	17	120	home	03/11/1988	day		
+1476	17	home	120	28/11/1988	day	mandatory visits	
+1477	17	120	home	28/11/1988	day		
+1478	17	home	14	01/12/1988	day	mandatory visits	
+1479	17	14	home	01/12/1988	day		
+1480	17	home	14	06/12/1988	day	mandatory visits	
+1481	17	14	home	06/12/1988	day		
+1482	17	home	14	29/12/1988	day	mandatory visits	
+1483	17	14	home	29/12/1988	day		
+1484	17	home	120	03/01/1989	day	mandatory visits	
+1485	17	120	home	03/01/1989	day		
+1486	17	home	120	16/01/1989	day	mandatory visits	
+1487	17	120	home	16/01/1989	day		
+1488	17	home	14	20/01/1989	day	mandatory visits	
+1489	17	14	home	20/01/1989	day		
+1490	17	home	120	01/02/1989	day	mandatory visits	
+1491	17	120	home	01/02/1989	day		
+1492	17	home	14	02/02/1989	day	mandatory visits	
+1493	17	14	home	02/02/1989	day		
+1494	17	home	120	12/02/1989	day	mandatory visits	
+1495	17	120	home	12/02/1989	day		
+1496	17	home	14	28/02/1989	day	mandatory visits	
+1497	17	14	home	28/02/1989	day		
+1498	17	home	120	03/03/1989	day	mandatory visits	
+1499	17	120	home	03/03/1989	day		
+1500	17	home	120	13/03/1989	day	mandatory visits	
+1501	17	120	home	13/03/1989	day		
+1502	17	home	14	28/03/1989	day	mandatory visits	
+1503	17	14	home	28/03/1989	day		
+1504	17	home	120	13/04/1989	day	mandatory visits	
+1505	17	120	home	13/04/1989	day		
+1506	17	home	120	19/04/1989	day	mandatory visits	
+1507	17	120	home	19/04/1989	day		
+1508	17	home	120	08/05/1989	day	mandatory visits	
+1509	17	120	home	08/05/1989	day		
+1510	17	home	14	09/05/1989	day	mandatory visits	
+1511	17	14	home	09/05/1989	day		
+1512	17	home	120	18/05/1989	day	mandatory visits	
+1513	17	120	home	18/05/1989	day		
+1514	17	home	14	25/05/1989	day	mandatory visits	
+1515	17	14	home	25/05/1989	day		
+1516	17	home	120	12/06/1989	day	mandatory visits	
+1517	17	120	home	12/06/1989	day		
+1518	17	home	14	27/06/1989	day	mandatory visits	
+1519	17	14	home	27/06/1989	day		
+1520	17	home	120	07/07/1989	day	mandatory visits	
+1521	17	120	home	07/07/1989	day		
+1522	17	home	14	19/07/1989	day	mandatory visits	
+1523	17	14	home	19/07/1989	day		
+1524	17	home	120	09/08/1989	day	mandatory visits	
+1525	17	120	home	09/08/1989	day		
+1526	17	home	14	29/08/1989	day	mandatory visits	
+1527	17	14	home	29/08/1989	day		
+1528	17	home	120	06/09/1989	day	mandatory visits	
+1529	17	120	home	06/09/1989	day		
+1530	17	home	14	21/09/1989	day	mandatory visits	
+1531	17	14	home	21/09/1989	day		
+1532	17	home	120	24/09/1989	day	mandatory visits	
+1533	17	120	home	24/09/1989	day		
+1534	17	home	120	20/10/1989	day	mandatory visits	
+1535	17	120	home	20/10/1989	day		
+1536	17	home	14	09/11/1989	day	mandatory visits	
+1537	17	14	home	09/11/1989	day		
+1538	17	home	14	17/11/1989	day	mandatory visits	
+1539	17	14	home	17/11/1989	day		
+1540	17	home	14	07/12/1989	day	mandatory visits	
+1541	17	14	home	07/12/1989	day		
+1542	17	home	120	15/12/1989	day	mandatory visits	
+1543	17	120	home	15/12/1989	day		
+1544	17	home	14	08/01/1990	day	mandatory visits	
+1545	17	14	home	08/01/1990	day		
+1546	17	home	120	11/01/1990	day	mandatory visits	
+1547	17	120	home	11/01/1990	day		
+1548	17	home	14	29/01/1990	day	mandatory visits	
+1549	17	14	home	29/01/1990	day		
+1550	17	home	120	14/02/1990	day	mandatory visits	
+1551	17	120	home	14/02/1990	day		
+1552	17	home	14	27/02/1990	day	mandatory visits	
+1553	17	14	home	27/02/1990	day		
+1554	17	home	14	26/03/1990	day	mandatory visits	
+1555	17	14	home	26/03/1990	day		
+1556	17	home	120	11/04/1990	day	mandatory visits	
+1557	17	120	home	11/04/1990	day		
+1558	17	home	120	03/05/1990	day	mandatory visits	
+1559	17	120	home	03/05/1990	day		
+1560	17	home	120	04/05/1990	day	mandatory visits	
+1561	17	120	home	04/05/1990	day		
+1562	17	home	120	07/05/1990	day	mandatory visits	
+1563	17	120	home	07/05/1990	day		
+1564	17	home	120	31/05/1990	day	mandatory visits	
+1565	17	120	home	31/05/1990	day		
+1566	17	home	14	26/06/1990	day	mandatory visits	
+1567	17	14	home	26/06/1990	day		
+1568	17	home	120	29/06/1990	day	mandatory visits	
+1569	17	120	home	29/06/1990	day		
+1570	17	home	120	27/07/1990	day	mandatory visits	
+1571	17	120	home	27/07/1990	day		
+1572	17	home	14	28/08/1990	day	mandatory visits	
+1573	17	14	home	28/08/1990	day		
+1574	17	home	120	20/09/1990	day	mandatory visits	
+1575	17	120	home	20/09/1990	day		
+1576	17	home	14	27/09/1990	day	mandatory visits	
+1577	17	14	home	27/09/1990	day		
+1578	17	home	120	08/10/1990	day	mandatory visits	
+1579	17	120	home	08/10/1990	day		
+1580	17	home	14	19/10/1990	day	mandatory visits	
+1581	17	14	home	19/10/1990	day		
+1582	17	home	120	12/11/1990	day	mandatory visits	
+1583	17	120	home	12/11/1990	day		
+1584	17	home	14	27/11/1990	day	mandatory visits	
+1585	17	14	home	27/11/1990	day		
+1586	17	home	120	03/12/1990	day	mandatory visits	
+1587	17	120	home	03/12/1990	day		
+1588	17	home	14	15/01/1991	day	mandatory visits	
+1589	17	14	home	15/01/1991	day		
+1590	17	home	120	21/01/1991	day	mandatory visits	
+1591	17	120	home	21/01/1991	day		
+1592	17	home	120	11/02/1991	day	mandatory visits	
+1593	17	120	home	11/02/1991	day		
+1594	17	home	14	28/02/1991	day	mandatory visits	
+1595	17	14	home	28/02/1991	day		
+1596	17	home	120	20/03/1991	day	mandatory visits	
+1597	17	120	home	20/03/1991	day		
+1598	17	home	14	26/03/1991	day	mandatory visits	
+1599	17	14	home	26/03/1991	day		
+1600	17	home	120	18/04/1991	day	mandatory visits	
+1601	17	120	home	18/04/1991	day		
+1602	17	home	120	29/05/1991	day	mandatory visits	
+1603	17	120	home	29/05/1991	day		
+1604	17	home	120	08/07/1991	day	mandatory visits	
+1605	17	120	home	08/07/1991	day		
+1606	17	home	14	09/07/1991	day	mandatory visits	
+1607	17	14	home	09/07/1991	day		
+1608	17	home	120	02/08/1991	day	mandatory visits	
+1609	17	120	home	02/08/1991	day		
+1610	17	home	14	27/08/1991	day	mandatory visits	
+1611	17	14	home	27/08/1991	day		
+1612	17	home	93	01/09/1991	month	stay	
+1613	17	93	home	30/09/1991	month		
+1614	17	home	120	11/10/1991	day	mandatory visits	
+1615	17	120	home	11/10/1991	day		
+1616	17	home	120	28/10/1991	day	mandatory visits	
+1617	17	120	home	28/10/1991	day		
+1618	17	home	59	29/10/1991	day	stay 	
+1619	17	59	home	15/11/1991	two-months period		
+1620	17	home	148	01/12/1991	month	stay	
+1621	17	148	home	31/12/1991	month		
+1622	17	home	120	16/12/1991	day	mandatory visits	
+1623	17	120	home	16/12/1991	day		
+1624	17	home	120	15/01/1992	day	mandatory visits	
+1625	17	120	home	15/01/1992	day		
+1626	17	home	120	10/02/1992	day	mandatory visits	
+1627	17	120	home	10/02/1992	day		
+1628	17	home	148	15/02/1992	month	stay	
+1629	17	148	home	25/02/1992	month		
+1630	17	home	120	17/03/1992	day	mandatory visits	
+1631	17	120	home	17/03/1992	day		
+1632	17	home	148	20/03/1992	month	stay 	
+1633	17	148	home	30/03/1992	month		
+1634	17	home	148	01/04/1992	month	stay 	
+1635	17	148	home	30/04/1992	month		
+1636	17	home	148	01/05/1992	month	stay 	
+1637	17	148	home	30/05/1992	month		
+1638	17	home	148	01/06/1992	month	stay 	
+1639	17	148	home	30/06/1992	month		
+1640	17	home	120	08/07/1992	day	mandatory visits	
+1641	17	120	home	08/07/1992	day		
+1642	17	home	148	09/07/1992	day	stay	
+1643	17	148	home	16/07/1992	day		
+1644	17	home	120	18/09/1992	day	mandatory visits	
+1645	17	120	home	18/09/1992	day		
+1646	17	home	120	28/09/1992	day	mandatory visits	
+1647	17	120	home	28/09/1992	day		
+1648	17	home	148	22/10/1992	day	stay	
+1649	17	148	home	29/10/1992	day		
+1650	17	home	148	03/11/1992	day	stay	
+1651	17	148	home	03/11/1992	day		
+1652	17	home	120	30/11/1992	day	mandatory visits	
+1653	17	120	home	30/11/1992	day		
+1654	17	home	148	10/12/1992	day	consultation	
+1655	17	148	home	10/12/1992	day		
+1656	17	home	148	14/12/1992	day	stay	
+1657	17	148	home	02/01/1993	day		
+1658	17	home	120	18/01/1993	day	mandatory visits	
+1659	17	120	home	18/01/1993	day		
+1660	17	home	148	15/03/1993	week	stay	
+1661	17	148	home	15/04/1993	week		
+1662	17	home	120	19/04/1993	day	mandatory visits	
+1663	17	120	home	19/04/1993	day		
+1664	17	home	148	20/04/1993	month	consultation	
+1665	17	148	home	30/04/1993	month		
+1666	17	home	148	01/05/1993	month	consultation	
+1667	17	148	home	15/05/1993	month		
+1668	17	home	148	20/05/1993	month	consultation	
+1669	17	148	home	30/05/1993	month		
+1670	17	home	120	13/05/1993	day	mandatory visits	
+1671	17	120	home	13/05/1993	day		
+1672	17	home	148	20/05/1993	month	consultation	
+1673	17	148	home	20/05/1993	month		
+1674	17	home	148	25/05/1993	month	consultation	
+1675	17	148	home	25/05/1993	month		
+1676	17	home	148	01/06/1993	month	consultation	
+1677	17	148	home	01/06/1993	month		
+1678	17	home	148	08/06/1993	month	consultation	
+1679	17	148	home	08/06/1993	month		
+1680	17	home	148	15/06/1993	month	consultation	
+1681	17	148	home	15/06/1993	month		
+1682	17	home	148	22/06/1993	month	consultation	
+1683	17	148	home	22/06/1993	month		
+1684	17	home	148	28/06/1993	month	consultation	
+1685	17	148	home	28/06/1993	month		
+1686	17	home	148	01/07/1993	month	consultation	
+1687	17	148	home	01/07/1993	month		
+1688	17	home	148	10/07/1993	month	consultation	
+1689	17	148	home	10/07/1993	month		
+1690	17	home	148	20/07/1993	month	consultation	
+1691	17	148	home	20/07/1993	month		
+1692	17	home	120	26/07/1993	day	mandatory visits	
+1693	17	120	home	26/07/1993	day		
+1694	17	home	148	28/07/1993	month	consultation	
+1695	17	148	home	28/07/1993	month		
+1696	17	home	148	30/07/1993	month	consultation	
+1697	17	148	home	30/07/1993	month		
+1698	17	home	148	01/08/1993	month	consultation	
+1699	17	148	home	01/08/1993	month		
+1700	17	home	148	10/08/1993	month	consultation	
+1701	17	148	home	10/08/1993	month		
+1702	17	home	148	15/08/1993	month	consultation	
+1703	17	148	home	15/08/1993	month		
+1704	17	home	148	20/08/1993	month	consultation	
+1705	17	148	home	20/08/1993	month		
+1706	17	home	120	26/08/1993	day	mandatory visits	
+1707	17	120	home	26/08/1993	day		
+1708	17	home	148	26/08/1993	month	consultation	
+1709	17	148	home	26/08/1993	month		
+1710	17	home	148	30/08/1993	month	consultation	
+1711	17	148	home	30/08/1993	month		
+1712	17	home	148	05/09/1993	month	consultation	
+1713	17	148	home	05/09/1993	month		
+1714	17	home	148	08/09/1993	month	consultation	
+1715	17	148	home	08/09/1993	month		
+1716	17	home	148	12/09/1993	month	consultation	
+1717	17	148	home	12/09/1993	month		
+1718	17	home	148	15/09/1993	month	consultation	
+1719	17	148	home	15/09/1993	month		
+1720	17	home	148	18/09/1993	month	consultation	
+1721	17	148	home	18/09/1993	month		
+1722	17	home	148	22/09/1993	month	consultation	
+1723	17	148	home	22/09/1993	month		
+1724	17	home	148	24/09/1993	month	consultation	
+1725	17	148	home	24/09/1993	month		
+1726	17	home	148	26/09/1993	month	consultation	
+1727	17	148	home	26/09/1993	month		
+1728	17	home	148	01/10/1993	month	consultation	
+1729	17	148	home	02/10/1993	month		
+1730	17	home	148	06/10/1993	month	consultation	
+1731	17	148	home	06/10/1993	month		
+1732	17	home	148	10/10/1993	month	consultation	
+1733	17	148	home	10/10/1993	month		
+1734	17	home	148	12/10/1993	month	consultation	
+1735	17	148	home	12/10/1993	month		
+1736	17	home	148	14/10/1993	month	consultation	
+1737	17	148	home	14/10/1993	month		
+1738	17	home	120	15/10/1993	day	mandatory visits	
+1739	17	120	home	15/10/1993	day		
+1740	17	home	148	01/11/1993	month	stay	
+1741	17	148	home	01/11/1993	month		
+1742	17	home	120	08/02/1994	day	mandatory visits	
+1743	17	120	home	08/02/1994	day		
+1744	17	home	120	28/03/1994	day	mandatory visits	
+1745	17	120	home	28/03/1994	day		
+1746	17	home	120	04/05/1994	day	mandatory visits	
+1747	17	120	home	04/05/1994	day		
+1748	17	home	120	26/05/1994	day	mandatory visits	
+1749	17	120	home	26/05/1994	day		
+1750	17	home	120	27/10/1994	day	mandatory visits	
+1751	17	120	home	27/10/1994	day		
+1752	17	home	120	15/03/1995	day	mandatory visits	
+1753	17	120	home	15/03/1995	day		
+1754	18	Home 	93	01/01/1960	year	stay	
+1755	18	93	Home	01/03/1960	year		
+1756	18	Home 	74	01/04/1960	year	stay	
+1757	18	74	Home	01/06/1960	year		
+1758	18	Home 	105	01/08/1961	year	stay	
+1759	18	105	Home	01/10/1961	year		
+1760	18	Home 	105	01/11/1961	year	stay	
+1761	18	105	Home	30/11/1961	year		
+1762	18	Home 	9	01/01/1962	three-months period	consultation	
+1763	18	9	Home	01/01/1962	three-months period		
+1764	18	Home 	121	05/02/1962	month	consultation	
+1765	18	121	12	06/02/1962	day	consultation	
+1766	18	12	home	06/02/1962	day		
+1767	18	Home 	89	10/02/1962	month	stay	
+1768	18	89	Home	30/02/1962	month		
+1769	18	Home 	57	04/04/1962	day	stay	
+1770	18	57	36	11/05/1962	day	stay	
+1771	18	36	70	23/05/1962	week	stay	
+1772	18	70	89	31/05/1962	week	stay	
+1773	18	89	102	15/06/1962	month	stay	
+1774	18	102	12	01/07/1962	month	consultation	
+1775	18	12	43	01/07/1962	month	housing 	
+1776	18	43	Home	31/12/1962	year		
+1777	18	Home 	57	01/01/1963	day	stay	
+1778	18	57	Home	07/01/1963	day		
+1779	18	Home 	57	17/01/1963	day	stay	
+1780	18	57	Home	27/02/1963	day		
+1781	18	Home 	1	01/03/1963	month	consultation	He goes there (1) several times in March 1963 (and mayber after?), but I don’t know how many time
+1782	18	1	Home	01/03/1963	month		
+1783	18	Home 	56	01/04/1963	month	stay	
+1784	18	56	Home	01/04/1963	month		
+1785	18	Home 	91	01/05/1963	month	stay	
+1786	18	91	Home	31/12/1963	two-years period		
+1787	18	Home 	73	01/10/1964	month	stay	
+1788	19	Home 	54	01/12/1950	year	consultation	
+1789	19	54	10	01/12/1950	year	stay	
+1790	19	10	Home	01/01/1951	year		
+1791	19	Home 	1	02/01/1951	decade 	consultation	He goes there (1) several times in the 1950's, but I don’t know how many time
+1792	19	1	Home	02/01/1951	decade 		
+1793	19	Home 	102	18/09/1961	day	stay	
+1794	19	102	54	18/10/1961	day	stay	
+1795	19	54	102	24/10/1961	day	stay	
+1796	19	102	Home	12/03/1962	day		
+1797	19	Home 	57	05/11/1962	day	stay	
+1798	19	57	Home	03/01/1963	day		
+1799	19	Home 	12	01/02/1963	week	consultation	
+1800	19	12	69	01/02/1963	week	housing 	
+1801	19	69	15	09/08/1963	day	consultation	
+1802	19	15	47	03/11/1963	day	stay	
+1803	19	47	57	03/11/1963	day	stay	
+1804	19	57	Home	18/11/1963	day		
+1805	19	Home 	101	29/06/1964	day	housing 	
+1806	19	101	66	27/09/1967	day	housing 	
+1807	19	66	80	17/10/1969	day	housing 	
+1808	19	80	93	01/01/1970	year	consultation	
+1809	19	93	57	20/08/1970	day	stay	
+1810	19	57	65	07/09/1970	day	stay	
+1811	19	65	80	06/10/1971	day	housing	
+1812	19	80	57	19/09/1972	day	stay	
+1813	19	57	home	12/10/1972	day		
+1814	19	Home 	59	01/01/1973	year	stay	
+1815	19	59	63	05/10/1973	day	housing	
+1816	19	63	57	19/12/1973	day	stay	
+1817	19	57	home	20/12/1973	day		
+1818	19	home	59	06/03/1974	day	stay	
+1819	19	59	home	23/03/1974	day		
+1820	19	home	59	25/03/1974	day	stay	
+1821	19	59	home	30/03/1974	day		
+1822	19	home 	102	01/04/1974	day	stay	
+1823	19	102	59	01/04/1974	day	stay	
+1824	19	59	102	05/04/1974	day	stay	
+1825	19	102	home	26/04/1974	day		
+1826	19	home	93	07/07/1974	day	stay	
+1827	19	93	59	11/07/1974	day	stay	
+1828	19	59	home	17/08/1974	day		
+1829	19	home	59	21/08/1974	day	stay	
+1830	19	59	home	23/08/1974	day		
+1831	19	home	59	07/09/1974	day	stay	
+1832	19	59	home	11/09/1974	day		
+1833	20	Home 	122	01/01/1951	year	consultation 	He goes there (122) several times in the beginning of the 1950's, but I don’t know how many time
+1834	20	122	Home	01/01/1951	year		
+1835	20	Home 	12	01/11/1955	month	consultation	
+1836	20	12	Home	01/11/1955	month		
+1837	20	Home 	57	16/11/1955	day	stay	
+1838	20	57	28	30/12/1955	day	stay	
+1839	20	28	Home	01/06/1961	month		
+1840	20	Home 	57	27/01/1963	day	stay	
+1841	20	57	Home	16/02/1963	day		
+1842	20	Home 	57	21/03/1965	day	stay	
+1843	20	57	Home	20/04/1965	day		
+1844	20	Home 	12	01/04/1965	month	consutation	
+1845	20	12	108	01/04/1965	month	housing	
+1846	20	108	5	01/05/1965	month	housing	
+1847	20	5	12	23/05/1965	day	consultation	
+1848	20	12	home	23/05/1965	day		
+1849	20	home	57	25/06/1965	day	stay	
+1850	20	57	109	15/12/1965	day	stay	
+1851	21	Home 	57	01/08/1947	month	stay	
+1852	21	57	Home	01/01/1948	year		
+1853	21	Home 	51	13/07/1948	week	consultation	
+1854	21	51	57	13/07/1948	day	stay	
+1855	21	57	Home	24/07/1948	day		
+1856	21	Home 	57	03/08/1948	day	stay	
+1857	21	57	42	19/08/1948	day	stay	
+1858	21	42	Home	09/11/1948	day 		
+1859	21	Home 	10	01/01/1949	year	stay	
+1860	21	10	Home	01/02/1949	year		
+1861	21	Home 	10	01/03/1949	year	stay	
+1862	21	10	Home	01/04/1949	year		
+1863	21	Home 	57	13/07/1949	day	stay	
+1864	21	57	Home	16/08/1949	day		
+1865	21	Home 	102	01/10/1949	month	stay	
+1866	21	102	57	20/10/1949	day	stay	
+1867	21	57	Home	21/10/1949	day		
+1868	21	Home 	57	10/06/1950	day	stay	
+1869	21	57	42	05/07/1950	day	stay	
+1870	21	42	Home	29/03/1951	day		
+1871	21	Home 	57	30/03/1951	day	stay	
+1872	21	57	42	06/04/1951	day	stay	
+1873	21	42	Home	15/11/1951	day		
+1874	21	Home 	55	19/01/1952	week	consultation	
+1875	21	55	57	20/01/1952	day	stay	
+1876	21	57	84	26/01/1952	day	stay	
+1877	21	84	Home	01/03/1952	three-months period		
+1878	21	Home 	57	14/04/1952	day	stay	
+1879	21	57	84	20/04/1952	day	stay	
+1880	21	84	123	18/09/1952	day	housing	
+1881	21	123	57	19/09/1952	day	stay	
+1882	21	57	84	19/09/1952	day	stay	
+1883	21	84	Home	15/05/1953	day		
+1884	21	Home 	57	01/07/1953	day	stay	
+1885	21	57	Home	13/09/1953	day		
+1886	21	Home 	57	10/10/1953	day	stay	
+1887	21	57	123	12/10/1953	day	housing	
+1888	21	123	57	24/10/1953	day	stay	
+1889	21	57	41	09/11/1953	day	stay	
+1890	21	41	123	01/06/1955	day	housing	
+1891	21	123	57	14/08/1955	day	stay	
+1892	21	57	139	31/08/1955	day	stay	
+1893	21	139	123	16/08/1956	day	housing	
+1894	21	123	57	16/09/1956	day	stay	
+1895	21	57	139	19/09/1956	day	stay	
+1896	21	139	123	11/06/1957	day	housing	
+1897	21	123	57	05/08/1957	day	stay	
+1898	21	57	139	06/08/1957	day	stay	
+1899	21	139	123	03/09/1958	day	housing	
+1900	21	123	57	26/09/1958	day	stay	
+1901	21	57	139	30/09/1958	day	stay	
+1902	21	139	123	02/02/1960	day	housing	
+1903	21	123	12	20/06/1960	day	consultation	
+1904	21	12	57	20/06/1960	day	stay	
+1905	21	57	139	24/06/1960	day	stay	
+1906	21	139	123	02/08/1962	day	housing	
+1907	21	123	57	07/06/1963	day	stay	
+1908	21	57	5	01/08/1963	day	housing 	
+1909	21	5	1	02/08/1963	month	consultation	He goes there (1) several times on August 1963, but I don’t know how many time
+1910	21	1	5	02/08/1963	month	housing 	
+1911	21	5	57	17/09/1963	day	stay	
+1912	21	57	43	14/02/1964	day	housing 	
+1913	21	43	57	08/08/1964	day	stay	
+1914	21	57	5	25/08/1964	day	housing 	
+1915	21	5	93	03/08/1970	week	stay	
+1916	21	93	12	03/08/1970	day	consultation	
+1917	21	12	5	03/08/1970	day	housing 	
+1918	22	Home	133	01/01/1956	year	consultation	She goes there (133) several times between 1956 and 1960, but I don’t know how many time
+1919	22	133	Home	01/01/1956	year		
+1920	22	Home	102	01/01/1960	year	stay	
+1921	22	102	Home	01/06/1960	year		
+1922	22	Home	12	01/04/1963	day	consultation	
+1923	22	12	57	01/04/1963	day	stay	
+1924	22	57	Home	08/05/1963	day		
+1925	22	Home	12	21/05/1963	day	consultation	
+1926	22	12	Home	21/05/1963	day		
+1927	22	Home	12	06/11/1963	day	consultation	
+1928	22	12	Home	06/11/1963	day		
+1929	22	Home	27	01/01/1964	year	consultation	She goes there (27) several times between May 1963 and January 1964, but I don’t know how many time
+1930	22	27	Home	01/01/1964	year		
+1931	22	Home	127	01/01/1964	year	daily activity	She goes there (127) several times between May 1963 and January 1964, but I don’t know how many time
+1932	22	127	Home	01/01/1964	year		
+1933	22	Home	102	15/01/1964	month	stay	
+1934	22	102	127	01/12/1965	month	stay	
+1935	22	127	Home	01/01/1966	year		
+1936	22	Home	57	02/02/1967	day	stay	
+1937	22	57	Home	10/02/1967	day		
+1938	22	Home	57	22/02/1967	day	stay	
+1939	22	57	Home	27/03/1967	week		
+1940	23	Home	93	23/03/1962	day	stay	
+1941	23	93	3	09/04/1962	day	stay	
+1942	23	3	124	24/10/1962	day	stay	
+1943	23	124	57	14/02/1963	day	stay	
+1944	23	57	84	03/04/1963	day	stay	
+1945	23	84	125	04/08/1969	day	stay	
+1946	23	125	126	11/09/1969	day	stay	
+1947	23	126	Home	02/03/1970	day		
+1948	23	Home	93	02/10/1974	day	stay	
+1949	24	home	57	15/03/1962	day	stay	
+1950	24	57	109	20/07/1962	day	stay	
+1951	24	109	57	27/02/1963	day	stay	
+1952	24	57	109	19/06/1963	day	stay	
+1953	24	109	115	21/12/1966	day	stay	
+1954	24	115	109	25/01/1967	day	stay	
+1955	24	109	93	24/02/1969	day	stay	
+1956	24	93	109	25/02/1969	day	stay	
+1957	25	Home	102	01/04/1962	month	stay	
+1958	25	102	Home	01/07/1962	month		
+1959	25	home	57	19/09/1963	day	stay	
+1960	25	57	Home	20/11/1963	day		
+1961	25	Home	12	23/11/1963	day	consultation	
+1962	25	12	Home	23/11/1963	day		
+1963	25	home	12	06/01/1964	day	consultation	
+1964	25	12	57	06/01/1964	day	stay	
+1965	25	57	Home	14/04/1964	day		
+1966	25	Home	12	11/07/1964	day	consultation	
+1967	25	12	Home	11/07/1964	day		
+1968	25	Home	12	19/08/1964	day	consultation	
+1969	25	12	Home	19/08/1964	day		
+1970	25	Home	12	22/08/1964	day	consultation	
+1971	25	12	Home	22/08/1964	day		
+1972	25	Home	12	26/08/1964	day	consultation	
+1973	25	12	Home	26/08/1964	day		
+1974	25	Home	12	11/09/1964	day	consultation	
+1975	25	12	Home	11/09/1964	day		
+1976	25	Home	12	01/11/1964	month	consultation	
+1977	25	12	Home	01/11/1964	month		
+1978	25	Home	12	05/01/1965	day	consultation	
+1979	25	12	Home	05/01/1965	day		
+1980	25	Home	145	01/08/1964	month	stay	
+1981	25	145	home	31/08/1964	month		
+1982	25	Home 	57	03/02/1965	day	stay	
+1983	25	57	Home	22/06/1965	day		
+1984	25	Home	21	23/06/1965	year	daytime care	He goes there (21) several times between 1965 and 1980, but I don’t know how many time
+1985	25	21	home	23/06/1965	year		
+1986	25	home	57	03/12/1977	day	stay	
+1987	25	57	home	09/02/1978	day		
+1988	25	home	102	21/04/1979	day	stay	
+1989	25	102	home	18/08/1980	day		
+1990	25	home	57	04/09/1981	day	stay	
+1991	25	57	home	30/10/1981	day		
+1992	25	home	65	01/01/1982	year	stay	
+1993	25	65	home	01/06/1982	year		
+1994	25	home	44	01/02/1983	month	nighttime care	
+1995	25	44	143	01/01/1988	year	stay	
+1996	25	143	65	01/06/1988	year	stay	
+1997	25	65	141	24/10/1988	day	stay	
+1998	25	141	57	27/10/1988	day	stay	
+1999	25	57	141	28/10/1988	day	stay	
+2000	25	141	144	01/11/1988	month	stay	
+2001	25	144	57	22/12/1988	day	stay	
+2002	25	57	144	13/02/1989	day	stay	
+2003	25	144	Home	01/01/1990	decade 		
+2004	25	Home	93	14/02/1998	day	stay	
+2005	25	93	109	09/03/1998	day	stay	
+2006	25	109	93	08/05/1998	day	stay	
+2007	25	93	109	15/05/1998	month	stay	
+2008	25	109	143	20/05/1998	month	stay	
