@@ -1,7 +1,7 @@
 import React from 'react'
 import * as d3 from 'd3'
 
-interface Trajectory {
+export interface Trajectory {
   trajNumber: number
   personId: number
   sourceId: string
@@ -19,8 +19,8 @@ interface CircularTimelineProps {
 
 const CircularTimeline: React.FC<CircularTimelineProps> = ({
   data,
-  width = 500,
-  height = 500,
+  width = 1000,
+  height = 1000,
 }) => {
   // Parse dates and sort chronologically
   const parsedData = data
@@ -87,7 +87,7 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
       <svg width={width} height={height}>
         <g transform={`translate(${centerX},${centerY})`}>
           {/* Draw circle */}
-          <circle cx={0} cy={0} r={radius} fill='none' stroke='black' />
+          {/* <circle cx={0} cy={0} r={radius} fill='none' stroke='black' /> */}
           {/* Draw circles for each unique location */}
           {locationArray.map((loc, i) => {
             const r = radiusScale(loc === 'Home' ? 0 : parseInt(loc)) // Scale based on numeric ID
@@ -108,14 +108,13 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
             )
           })}
           {/* Draw trajectory lines */}
-          {parsedData.map((d, i) => {
+          {/* {parsedData.map((d, i) => {
             if (!d.date) return null
             const sourceCoords = getCoordinates(d.sourceId, d.date)
             const targetCoords = getCoordinates(d.targetId, d.date)
 
             return (
               <g key={`line-${i}`}>
-                {/* Line from source to target */}
                 <line
                   x1={sourceCoords.x}
                   y1={sourceCoords.y}
@@ -126,7 +125,7 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
                 />
               </g>
             )
-          })}
+          })} */}
           {/* Draw continuous smooth Bézier curve */}
           <path
             d={lineGenerator(pathPoints)!}
@@ -134,6 +133,7 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
             stroke='#ff1500a5'
             strokeWidth={5}
           />
+
           {/* Draw connection lines between successive trajectories */}
           {/* {parsedData.map((d, i) => {
             if (i === 0 || !d.date) return null
@@ -179,7 +179,7 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
           })} */}
 
           {/* Draw Bézier curve from previous targetId to current sourceId */}
-          {parsedData.map((d, i) => {
+          {/* {parsedData.map((d, i) => {
             if (i === 0 || !d.date) return null
             const prevTargetCoords = getCoordinates(
               parsedData[i - 1].targetId,
@@ -202,7 +202,7 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
                 />
               </g>
             )
-          })}
+          })} */}
           {/* Plot points along the circumference */}
           {parsedData.map((d, i) => {
             if (!d.date) return null
@@ -217,7 +217,15 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
             return (
               <g key={i}>
                 <circle cx={x} cy={y} r={3.5} fill='blue' />
-
+                <text
+                  x={x}
+                  y={y - 20}
+                  dy='0.35em'
+                  textAnchor='middle'
+                  fontSize='10'
+                >
+                  {d.trajNumber} - {d.dataAccuracy}
+                </text>
                 <text
                   x={(radius + 30) * Math.cos(angle)}
                   y={(radius + 30) * Math.sin(angle)}

@@ -10,7 +10,10 @@ interface Place {
   type: string
 }
 
-const CsvLoader: React.FC<{ url: string }> = ({ url }) => {
+const CsvLoader: React.FC<{ url: string; children: React.ReactNode }> = ({
+  url,
+  children,
+}) => {
   const [data, setData] = useState<Place[]>([])
   const [error, setError] = useState<string | null>(null)
 
@@ -27,6 +30,7 @@ const CsvLoader: React.FC<{ url: string }> = ({ url }) => {
         Papa.parse<Place>(csvText, {
           header: true, // Assuming the first row contains column names
           skipEmptyLines: true,
+
           complete: (result) => {
             setData(result.data)
           },
@@ -45,7 +49,9 @@ const CsvLoader: React.FC<{ url: string }> = ({ url }) => {
   if (error) {
     return <div>Error: {error}</div>
   }
-
+  if (children) {
+    return React.cloneElement(children as React.ReactElement<any>, { data })
+  }
   return (
     <div>
       <h1>Places</h1>

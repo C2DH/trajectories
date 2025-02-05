@@ -1,10 +1,16 @@
 import CircularTimeline from './CircularTimeline'
+import Trajectories from './components/Trajectories'
 import CsvLoader from './CsvLoader'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
     <div className='container'>
+      <div className='row'>
+        <CsvLoader url='/data/trajectories.csv'>
+          <Trajectories />
+        </CsvLoader>
+      </div>
       <div className='row'>
         <CircularTimeline
           data={[
@@ -97,9 +103,7 @@ function App() {
             },
           ]}
         />
-        <div className='col'>
-          <CsvLoader url='/data/places.csv' />
-        </div>
+
         <div className='col'></div>
       </div>
     </div>
