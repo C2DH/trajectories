@@ -66,10 +66,10 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
     .domain([
       0,
       d3.max(
-        locationArray.map((id) => (id === 'Home' ? 0 : distancesByPlaceId[id]))
+        places.map((p: Place) => (p.id === 'Home' ? 0 : (p.distance as number)))
       ) || 1,
     ])
-    .range([50, radius]) // "Home" is small, others grow with distance
+    .range([0, radius]) // "Home" is small, others grow with distance
     .exponent(0.5) // Adjust curvature
   // Define time scale mapped to angle (0 to 2π)
   const timeScale = d3
@@ -253,8 +253,8 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
 
             const x = r * Math.cos(angle)
             const y = r * Math.sin(angle)
-            const x2 = (radius / 2 + i * 15) * Math.cos(angle)
-            const y2 = (radius / 2 + i * 15) * Math.sin(angle)
+            const x2 = (radius + Math.sin(i) * 100) * Math.cos(angle)
+            const y2 = (radius + Math.sin(i) * 100) * Math.sin(angle)
 
             return (
               <g key={i}>
@@ -273,19 +273,19 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
                   y={angle > Math.PI ? y2 - 15 : y2 + 15}
                   dy='0.35em'
                   textAnchor='middle'
-                  fill='black'
+                  fill='#00000099'
                   className='small'
                 >
                   {d.dateLabel}
                 </text>
-                <circle cx={x2} cy={y2} r={2} fill='red' />
+                <circle cx={x2} cy={y2} r={2} stroke='#00000025' />
 
                 <line
                   x1={x}
                   y1={y}
                   x2={x2}
                   y2={y2}
-                  stroke='green'
+                  stroke='#00000025'
                   strokeWidth={1}
                 />
               </g>

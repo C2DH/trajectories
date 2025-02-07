@@ -36,3 +36,62 @@ trajNumber	personId	sourceId	targetId	movingDate	endDate	dataAccuracy	trajectory
 35	2	Home	55	26/07/1968		day 	stay
 36	2	55	84	28/07/1968		day 	stay
 37	2	84	103	21/09/1972		day 	stay
+421	8	Home	10	22/06/1960		day	stay
+422	8	10	Home	02/07/1960		day	
+423	8	Home	10	16/08/1960		day	stay
+424	8	10	Home	14/10/1960		day	
+425	8	Home	93	16/10/1960		day	stay
+426	8	93	Home	27/10/1960		day	
+427	8	Home	12	12/01/1961		day	consultation
+428	8	12	Home	12/01/1961		day	
+429	8	Home	57	23/01/1961		day	stay
+430	8	57	Home	15/08/1961		day	
+431	8	Home	32	13/10/1961		day	stay
+432	8	32	Home	inconnu 			
+433	8	Home	54	XX/11/1963		month	consultation
+434	8	54	102	XX/11/1963		month	stay
+435	8	102	Home	XX/11/1963		month	
+436	8	Home	57	28/11/1963		day	stay
+437	8	57	Home	05/01/1964		day	
+438	8	Home	57	10/02/1964		day	stay
+439	8	57	Home	01/04/1964		day	
+440	8	Home	57	11/04/1964		day	stay
+441	8	57	Home	16/04/1964		day	
+442	8	Home	99	01/07/1964		day	stay
+443	8	99	Home	01/08/1964		month	
+444	8	Home	57	26/12/1964		day	stay
+445	8	57	Home	27/03/1965		day	
+446	8	Home	40	29/03/1965		day	nighttime care 
+447	8	40	51	15/10/1965		day	stay
+448	8	51	40	23/10/1965		day	nighttime care 
+449	8	40	57	30/12/1965		day	stay
+450	8	57	40	03/01/1966		day	nighttime care 
+451	8	40	Home	31/01/1966		day	
+452	8	Home	57	01/05/1966		day	stay
+453	8	57	21	01/06/1966		year	daytime care
+454	8	21	57	01/06/1966		year	stay
+455	8	57	21	01/06/1966		year	daytime care
+456	8	21	57	01/06/1966		year	stay
+457	8	57	21	01/06/1966		year	daytime care
+458	8	21	57	01/06/1966		year	stay
+459	8	57	21	01/06/1966		year	daytime care
+460	8	21	57	01/06/1966		year	stay
+461	8	57	21	03/08/1966		day	daytime care
+462	8	21	57	04/08/1966		month	stay
+463	8	57	21	04/08/1966		month	daytime care
+464	8	21	57	01/09/1966		month	stay
+465	8	57	21	01/09/1966		month	daytime care
+466	8	21	57	01/09/1966		month	stay
+467	8	57	Home	29/04/1967		day	
+468	8	Home	57	09/04/1969		day	stay
+469	8	57	Home	17/04/1969		day	
+470	8	Home	57	12/05/1969		day	stay
+471	8	57	Home	31/05/1969		day	
+472	8	Home	57	31/03/1970		day	stay
+473	8	57	10	02/04/1970		day	stay
+474	8	10	57	06/04/1970		day	stay
+475	8	57	Home	27/05/1970		day	
+476	8	Home	57	05/06/1970		day	stay
+477	8	57	Home	26/06/1970		day	
+478	8	Home	57	16/11/1970		day	stay
+479	8	57	Home	29/12/1970		day	
