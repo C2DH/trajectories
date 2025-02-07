@@ -1,13 +1,16 @@
-import CircularTimeline, { Trajectory } from '../CircularTimeline'
+import CircularTimeline from '../CircularTimeline'
+import { Trajectory, Place } from '../types'
 
 interface TrajectoriesProps {
-  data?: Trajectory[]
+  data: [Trajectory[], Place[]]
 }
 
-const Trajectories: React.FC<TrajectoriesProps> = ({ data }) => {
-  if (Array.isArray(data)) {
+const Trajectories: React.FC<TrajectoriesProps> = ({ data = [[], []] }) => {
+  const [trajectories, places] = data
+
+  if (Array.isArray(trajectories)) {
     // group by personId
-    const grouped = data.reduce((acc, d) => {
+    const grouped = trajectories.reduce((acc, d) => {
       if (!acc[d.personId]) {
         acc[d.personId] = []
       }
@@ -21,7 +24,11 @@ const Trajectories: React.FC<TrajectoriesProps> = ({ data }) => {
           <pre key={personId}>{JSON.stringify(grouped[personId], null, 2)}</pre>
         ))} */}
         {Object.keys(grouped).map((personId) => (
-          <CircularTimeline data={grouped[personId]} key={personId} />
+          <CircularTimeline
+            trajectories={grouped[personId]}
+            places={places}
+            key={personId}
+          />
         ))}
       </>
     )
