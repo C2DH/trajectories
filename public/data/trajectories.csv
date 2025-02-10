@@ -95,3 +95,947 @@ trajNumber	personId	sourceId	targetId	movingDate	endDate	dataAccuracy	trajectory
 477	8	57	Home	26/06/1970		day	
 478	8	Home	57	16/11/1970		day	stay
 479	8	57	Home	29/12/1970		day	
+807	16	home	119	01/01/1963	year	consultation
+808	16	119	home	01/01/1963	year	
+809	16	Home 	57	01/02/1963	day	stay
+810	16	57	106	18/04/1963	day	housing
+811	16	106	12	13/07/1963	day	consultation
+812	16	12	106	13/07/1963	day	housing
+813	16	106	12	01/09/1963	month	consultation
+814	16	12	106	01/09/1963	month	housing
+815	16	106	96	15/09/1963	month	stay
+816	16	96	Home	01/10/1963	month	
+817	16	Home 	6	02/10/1963	month	stay
+818	16	6	Home	15/10/1963	month	
+819	16	Home 	46	01/03/1964	month	stay
+820	16	46	Home	01/01/1965	two-years period	
+821	16	Home	12	27/01/1966	day	consultation 
+822	16	12	Home	27/01/1966	day	
+823	16	Home	12	12/03/1966	day	consultation 
+824	16	12	Home	12/03/1966	day	
+825	16	Home 	93	13/10/1966	day	consultation
+826	16	93	Home	13/10/1966	day	
+827	16	Home	12	18/10/1966	day	consultation 
+828	16	12	Home	18/10/1966	day	
+829	16	Home 	21	01/11/1966	year	daytime care 
+830	16	21	Home	01/11/1966	year	
+831	16	Home	12	15/03/1967	day	consultation 
+832	16	12	Home	15/03/1967	day	
+833	16	home	12	09/06/1967	day	consultation
+834	16	12	home	09/06/1967	day	
+835	16	home	12	30/06/1967	day	consultation
+836	16	12	home	30/06/1967	day	
+837	16	home	12	01/08/1967	day	consultation
+838	16	12	home	01/08/1967	day	
+839	16	home	12	28/09/1967	day	consultation
+840	16	12	home	28/09/1967	day	
+841	16	home	12	27/11/1967	day	consultation
+842	16	12	home	27/11/1967	day	
+843	16	Home 	118	01/12/1967	two-years period	consultation 
+844	16	118	Home	01/12/1967	two-years period	
+845	16	Home 	36	01/11/1968	month	stay
+846	16	36	Home 	01/01/1969	two-years period	
+847	16	home	12	22/07/1969	day	consultation
+848	16	12	home	22/07/1969	day	
+849	16	home	12	19/08/1969	day	consultation
+850	16	12	home	19/08/1969	day	
+851	16	home	12	28/08/1969	day	consultation
+852	16	12	home	28/08/1969	day	
+853	16	home	12	27/09/1969	day	consultation
+854	16	12	home	27/09/1969	day	
+855	16	home	12	13/12/1969	day	consultation
+856	16	12	home	13/12/1969	day	
+857	16	home	12	24/01/1970	day	consultation
+858	16	12	home	24/01/1970	day	
+859	16	home	12	07/03/1970	day	consultation
+860	16	12	home	07/03/1970	day	
+861	16	home	12	14/03/1970	day	consultation
+862	16	12	home	14/03/1970	day	
+863	16	Home 	36	01/04/1970	month	stay
+864	16	36	104	08/06/1970	day	stay
+865	16	104	102	01/07/1970	month	stay
+866	16	102	35	08/10/1970	day	stay
+867	16	35	Home	10/10/1970	day	
+868	16	home	102	11/10/1970	month	mandatory visits
+869	16	102	Home	11/10/1970	month	
+870	16	home	120	16/10/1970	day	mandatory visits
+871	16	120	home	16/10/1970	day	
+872	16	home	12	27/10/1970	day	consultation
+873	16	12	home	27/10/1970	day	
+874	16	home	120	30/10/1970	day	mandatory visits
+875	16	120	home	30/10/1970	day	
+876	16	home	12	10/11/1970	day	consultation
+877	16	12	home	10/11/1970	day	
+878	16	home	120	13/11/1970	day	mandatory visits
+879	16	120	home	13/11/1970	day	
+880	16	home	120	18/11/1970	day	mandatory visits
+881	16	120	home	18/11/1970	day	
+882	16	home	120	14/12/1970	day	mandatory visits
+883	16	120	home	14/12/1970	day	
+884	16	home	120	22/12/1970	day	mandatory visits
+885	16	120	home	22/12/1970	day	
+886	16	home	120	08/01/1971	day	mandatory visits
+887	16	120	home	08/01/1971	day	
+888	16	home	120	15/01/1971	day	mandatory visits
+889	16	120	home	15/01/1971	day	
+890	16	home	120	21/01/1971	day	mandatory visits
+891	16	120	home	21/01/1971	day	
+892	16	home	120	20/02/1971	day	mandatory visits
+893	16	120	home	20/02/1971	day	
+894	16	home	120	11/03/1971	day	mandatory visits
+895	16	120	home	11/03/1971	day	
+896	16	home	120	16/03/1971	day	mandatory visits
+897	16	120	home	16/03/1971	day	
+898	16	home	120	17/03/1971	day	mandatory visits
+899	16	120	home	17/03/1971	day	
+900	16	Home 	35	27/03/1971	day	stay
+901	16	35	102	30/03/1971	month	stay
+902	16	102	35	01/05/1971	two-months period	stay
+903	16	35	63	24/06/1971	day	housing 
+904	16	63	102	29/06/1971	day	stay
+905	16	102	35	01/08/1971	month	stay
+906	16	35	home	05/08/1971	day	
+907	16	home	120	05/08/1971	day	mandatory visits
+908	16	120	home	05/08/1971	day	
+909	16	home	120	19/08/1971	day	mandatory visits
+910	16	120	home	19/08/1971	day	
+911	16	Home 	56	01/09/1971	month	mandatory visits
+912	16	56	Home	01/09/1971	month	
+913	16	home	120	12/10/1971	day	mandatory visits
+914	16	120	home	12/10/1971	day	
+915	16	home	120	12/11/1971	day	mandatory visits
+916	16	120	home	12/11/1971	day	
+917	16	Home 	35	09/12/1971	day	stay
+918	16	35	Home	15/12/1971	month	
+919	16	home	120	03/01/1972	day	mandatory visits
+920	16	120	home	03/01/1972	day	
+921	16	home	120	11/02/1972	day	mandatory visits
+922	16	120	home	11/02/1972	day	
+923	16	home	120	21/03/1972	day	mandatory visits
+924	16	120	home	21/03/1972	day	
+925	16	home	120	08/05/1972	day	mandatory visits
+926	16	120	home	08/05/1972	day	
+927	16	home	120	08/06/1972	day	mandatory visits
+928	16	120	home	08/06/1972	day	
+929	16	home	120	25/07/1972	day	mandatory visits
+930	16	120	home	25/07/1972	day	
+931	16	Home 	35	08/08/1972	day	stay
+932	16	35	75	12/10/1972	day	stay
+933	16	75	36	26/03/1973	day	stay
+934	16	36	Home	28/03/1973	day	
+935	16	home	120	28/03/1973	day	mandatory visits
+936	16	120	home	28/03/1973	day	
+937	16	home	120	30/03/1973	day	mandatory visits
+938	16	120	home	30/03/1973	day	
+939	16	home	120	06/04/1973	day	mandatory visits
+940	16	120	home	06/04/1973	day	
+941	16	home	120	13/04/1973	day	mandatory visits
+942	16	120	home	13/04/1973	day	
+943	16	home	120	24/04/1973	day	mandatory visits
+944	16	120	home	24/04/1973	day	
+945	16	home	120	30/04/1973	day	mandatory visits
+946	16	120	home	30/04/1973	day	
+947	16	home	120	07/05/1973	day	mandatory visits
+948	16	120	home	07/05/1973	day	
+949	16	home	120	09/05/1973	day	mandatory visits
+950	16	120	home	09/05/1973	day	
+951	16	home	120	18/05/1973	day	mandatory visits
+952	16	120	home	18/05/1973	day	
+953	16	home	120	01/06/1973	day	mandatory visits
+954	16	120	home	01/06/1973	day	
+955	16	home	120	05/06/1973	day	mandatory visits
+956	16	120	home	05/06/1973	day	
+957	16	home	120	12/06/1973	day	mandatory visits
+958	16	120	home	12/06/1973	day	
+959	16	home	120	20/06/1973	day	mandatory visits
+960	16	120	home	20/06/1973	day	
+961	16	home	120	25/06/1973	day	mandatory visits
+962	16	120	home	25/06/1973	day	
+963	16	home	120	04/07/1973	day	mandatory visits
+964	16	120	home	04/07/1973	day	
+965	16	home	120	06/08/1973	day	mandatory visits
+966	16	120	home	06/08/1973	day	
+967	16	home	120	22/08/1973	day	mandatory visits
+968	16	120	home	22/08/1973	day	
+969	16	home	120	04/09/1973	day	mandatory visits
+970	16	120	home	04/09/1973	day	
+971	16	Home 	35	12/09/1973	day	stay
+972	16	35	Home	26/09/1973	day	
+973	16	home	120	01/10/1973	day	mandatory visits
+974	16	120	home	01/10/1973	day	
+975	16	Home	43	02/10/1973	month	housing 
+976	16	43	120	03/10/1973	day	mandatory visits
+977	16	120	43	03/10/1973	day	housing
+978	16	43	120	04/10/1973	day	mandatory visits
+979	16	120	43	04/10/1973	day	housing
+980	16	43	home	14/10/1973	month	
+981	16	home	120	15/10/1973	day	mandatory visits
+982	16	120	home	15/10/1973	day	
+983	16	home	120	18/10/1973	day	mandatory visits
+984	16	120	home	18/10/1973	day	
+985	16	home	120	22/10/1973	day	mandatory visits
+986	16	120	home	22/10/1973	day	
+987	16	home	120	13/11/1973	day	mandatory visits
+988	16	120	home	13/11/1973	day	
+989	16	home	120	28/11/1973	day	mandatory visits
+990	16	120	home	28/11/1973	day	
+991	16	home	120	13/12/1973	day	mandatory visits
+992	16	120	home	13/12/1973	day	
+993	16	home	120	08/01/1974	day	mandatory visits
+994	16	120	home	08/01/1974	day	
+995	16	home	120	06/02/1974	day	mandatory visits
+996	16	120	home	06/02/1974	day	
+997	16	home	120	11/02/1974	day	mandatory visits
+998	16	120	home	11/02/1974	day	
+999	16	home	120	25/03/1974	day	mandatory visits
+1000	16	120	home	25/03/1974	day	
+1001	16	home	120	07/06/1974	day	mandatory visits
+1002	16	120	home	07/06/1974	day	
+1003	16	home	120	08/08/1974	day	mandatory visits
+1004	16	120	home	08/08/1974	day	
+1005	16	home	120	09/10/1974	day	mandatory visits
+1006	16	120	home	09/10/1974	day	
+1007	16	home	120	19/11/1974	day	mandatory visits
+1008	16	120	home	19/11/1974	day	
+1009	16	home	120	06/02/1975	day	mandatory visits
+1010	16	120	home	06/02/1975	day	
+1011	16	home	120	21/03/1975	day	mandatory visits
+1012	16	120	home	21/03/1975	day	
+1013	16	home	120	24/04/1975	day	mandatory visits
+1014	16	120	home	24/04/1975	day	
+1015	16	home	120	18/06/1975	day	mandatory visits
+1016	16	120	home	18/06/1975	day	
+1017	16	home	120	03/09/1975	day	mandatory visits
+1018	16	120	home	03/09/1975	day	
+1019	16	home	120	13/11/1975	day	mandatory visits
+1020	16	120	home	13/11/1975	day	
+1021	16	home	120	19/12/1975	day	mandatory visits
+1022	16	120	home	19/12/1975	day	
+1023	16	home	120	30/01/1976	day	mandatory visits
+1024	16	120	home	30/01/1976	day	
+1025	16	home	120	02/04/1976	day	mandatory visits
+1026	16	120	home	02/04/1976	day	
+1027	16	home	120	14/05/1976	day	mandatory visits
+1028	16	120	home	14/05/1976	day	
+1029	16	home	120	26/06/1976	day	mandatory visits
+1030	16	120	home	26/06/1976	day	
+1031	16	home	120	09/08/1976	day	mandatory visits
+1032	16	120	home	09/08/1976	day	
+1033	16	Home 	65	19/04/1978	day	stay
+1034	16	65	Home	01/06/1978	month	
+1035	16	home	120	02/06/1978	day	mandatory visits
+1036	16	120	home	02/06/1978	day	
+1037	16	Home 	35	15/06/1978	month	stay
+1038	16	35	65	07/09/1978	day	stay
+1039	16	65	Home	01/02/1979	month	
+1040	16	home	120	19/02/1979	day	mandatory visits
+1041	16	120	home	19/02/1979	day	
+1042	16	home	120	22/02/1979	day	mandatory visits
+1043	16	120	home	22/02/1979	day	
+1044	16	home	120	27/02/1979	day	mandatory visits
+1045	16	120	home	27/02/1979	day	
+1046	16	home	120	01/03/1979	day	mandatory visits
+1047	16	120	home	01/03/1979	day	
+1048	16	Home 	35	07/03/1979	day	stay
+1049	16	35	Home	22/03/1979	day	
+1050	16	home	120	26/03/1979	day	mandatory visits
+1051	16	120	home	26/03/1979	day	
+1052	16	Home 	35	27/03/1979	day	stay
+1053	16	35	104	05/04/1979	day	stay
+1054	16	104	home	03/07/1980	day	
+1055	16	home	120	08/07/1980	day	mandatory visits
+1056	16	120	home	08/07/1980	day	
+1057	16	home	120	25/07/1980	day	mandatory visits
+1058	16	120	home	25/07/1980	day	
+1059	16	home	120	01/09/1980	day	mandatory visits
+1060	16	120	home	01/09/1980	day	
+1061	16	home	120	08/09/1980	day	mandatory visits
+1062	16	120	home	08/09/1980	day	
+1063	16	home	120	18/09/1980	day	mandatory visits
+1064	16	120	home	18/09/1980	day	
+1065	16	home	120	12/11/1980	day	mandatory visits
+1066	16	120	home	12/11/1980	day	
+1067	16	home	120	20/11/1980	day	mandatory visits
+1068	16	120	home	20/11/1980	day	
+1069	16	home	120	08/01/1981	day	mandatory visits
+1070	16	120	home	08/01/1981	day	
+1071	16	home	120	05/02/1981	day	mandatory visits
+1072	16	120	home	05/02/1981	day	
+1073	16	home	120	05/03/1981	day	mandatory visits
+1074	16	120	home	05/03/1981	day	
+1075	16	home	120	07/05/1981	day	mandatory visits
+1076	16	120	home	07/05/1981	day	
+1077	16	home	120	29/06/1981	day	mandatory visits
+1078	16	120	home	29/06/1981	day	
+1079	16	Home 	35	11/08/1981	day	stay
+1080	16	35	Home	29/10/1981	day	
+1081	16	Home 	21	01/11/1981	month	daytime care
+1082	16	21	Home	01/11/1981	year	
+1083	16	home	120	05/11/1981	day	mandatory visits
+1084	16	120	home	05/11/1981	day	
+1085	16	home	120	12/11/1981	day	mandatory visits
+1086	16	120	home	12/11/1981	day	
+1087	16	home	120	02/12/1981	day	mandatory visits
+1088	16	120	home	02/12/1981	day	
+1089	16	home	120	04/12/1981	day	mandatory visits
+1090	16	120	home	04/12/1981	day	
+1091	16	Home 	35	11/12/1981	day	stay
+1092	16	35	104	14/01/1982	day	stay
+1093	16	104	home	06/10/1982	day	
+1094	16	home	120	07/10/1982	day	mandatory visits
+1095	16	120	home	07/10/1982	day	
+1096	16	home	120	11/10/1982	day	mandatory visits
+1097	16	120	home	11/10/1982	day	
+1098	16	home	120	25/11/1982	day	mandatory visits
+1099	16	120	home	25/11/1982	day	
+1100	16	Home 	35	21/12/1982	day	stay
+1101	16	35	Home	24/03/1983	day	
+1102	16	home	120	14/04/1983	day	mandatory visits
+1103	16	120	home	14/04/1983	day	
+1104	16	home	121	10/05/1983	day	mandatory visits
+1105	16	120	home	10/05/1983	day	
+1106	16	home	35	14/06/1983	day	stay
+1107	16	35	home	22/09/1983	day	
+1108	16	home	120	07/11/1983	day	mandatory visits
+1109	16	120	home	07/11/1983	day	
+1110	16	home	120	28/11/1983	day	mandatory visits
+1111	16	120	home	28/11/1983	day	
+1112	16	home	120	01/01/1984	month	mandatory visits
+1113	16	120	home	31/01/1984	month	
+1114	16	home	120	08/03/1984	day	mandatory visits
+1115	16	120	home	08/03/1984	day	
+1116	16	home	120	10/05/1984	day	mandatory visits
+1117	16	120	home	10/05/1984	day	
+1118	16	home	120	28/06/1984	day	mandatory visits
+1119	16	120	home	28/06/1984	day	
+1120	16	home	120	16/08/1984	day	mandatory visits
+1121	16	120	home	16/08/1984	day	
+1122	16	home	120	20/09/1984	day	mandatory visits
+1123	16	120	home	20/09/1984	day	
+1124	16	home	120	25/10/1984	day	mandatory visits
+1125	16	120	home	25/10/1984	day	
+1126	16	home	120	29/11/1984	day	mandatory visits
+1127	16	120	home	29/11/1984	day	
+1128	16	home	120	14/01/1985	day	mandatory visits
+1129	16	120	home	14/01/1985	day	
+1130	16	home	120	07/03/1985	day	mandatory visits
+1131	16	120	home	07/03/1985	day	
+1132	16	home	120	25/04/1985	day	mandatory visits
+1133	16	120	home	25/04/1985	day	
+1134	16	home	120	06/06/1985	day	mandatory visits
+1135	16	120	home	06/06/1985	day	
+1136	16	home	120	11/07/1985	day	mandatory visits
+1137	16	120	home	11/07/1985	day	
+1138	16	home	120	05/09/1985	day	mandatory visits
+1139	16	120	home	05/09/1985	day	
+1140	16	home	120	21/11/1985	day	mandatory visits
+1141	16	120	home	21/11/1985	day	
+1142	16	Home 	63	01/01/1986	year	daytime activity 
+1143	16	63	Home 	01/01/1986	year	
+1144	16	home	120	02/01/1986	day	mandatory visits
+1145	16	120	home	02/01/1986	day	
+1146	16	home 	35	30/01/1986	day	stay
+1147	16	35	home	01/02/1986	month	
+1148	16	home	120	13/02/1986	day	mandatory visits
+1149	16	120	home	13/02/1986	day	
+1150	16	home	120	20/03/1986	day	mandatory visits
+1151	16	120	home	20/03/1986	day	
+1152	16	home	120	30/04/1986	day	mandatory visits
+1153	16	120	home	30/04/1986	day	
+1154	16	home	120	05/06/1986	day	mandatory visits
+1155	16	120	home	05/06/1986	day	
+1156	16	home	120	28/08/1986	day	mandatory visits
+1157	16	120	home	28/08/1986	day	
+1158	16	home	120	09/10/1986	day	mandatory visits
+1159	16	120	home	09/10/1986	day	
+1160	16	home	120	20/11/1986	day	mandatory visits
+1161	16	120	home	20/11/1986	day	
+1162	16	home	120	14/01/1987	day	mandatory visits
+1163	16	120	home	14/01/1987	day	
+1164	16	home	120	16/01/1987	day	mandatory visits
+1165	16	120	home	16/01/1987	day	
+1166	16	home	120	12/03/1987	day	mandatory visits
+1167	16	120	home	12/03/1987	day	
+1168	16	home	120	15/03/1987	day	mandatory visits
+1169	16	120	home	15/03/1987	day	
+1170	16	home	120	11/05/1987	day	mandatory visits
+1171	16	120	home	11/05/1987	day	
+1172	16	home	120	15/06/1987	day	mandatory visits
+1173	16	120	home	15/06/1987	day	
+1174	16	home	120	10/09/1987	day	mandatory visits
+1175	16	120	home	10/09/1987	day	
+1176	16	home	120	07/10/1987	day	mandatory visits
+1177	16	120	home	07/10/1987	day	
+1178	16	home	120	19/11/1987	day	mandatory visits
+1179	16	120	home	19/11/1987	day	
+1180	16	home	120	15/12/1987	day	mandatory visits
+1181	16	120	home	15/12/1987	day	
+1182	16	home	120	14/01/1988	day	mandatory visits
+1183	16	120	home	14/01/1988	day	
+1184	16	home	120	11/02/1988	day	mandatory visits
+1185	16	120	home	11/02/1988	day	
+1186	16	home	120	04/03/1988	day	mandatory visits
+1187	16	120	home	04/03/1988	day	
+1188	16	home	120	08/04/1988	day	mandatory visits
+1189	16	120	home	08/04/1988	day	
+1190	16	home	120	20/05/1988	day	mandatory visits
+1191	16	120	home	20/05/1988	day	
+1192	16	home	120	21/06/1988	day	mandatory visits
+1193	16	120	home	21/06/1988	day	
+1194	16	home	120	26/07/1988	day	mandatory visits
+1195	16	120	home	26/07/1988	day	
+1196	16	home	120	25/08/1988	day	mandatory visits
+1197	16	120	home	25/08/1988	day	
+1198	16	home	120	12/09/1988	day	mandatory visits
+1199	16	120	home	12/09/1988	day	
+1200	16	home	120	20/10/1988	day	mandatory visits
+1201	16	120	home	20/10/1988	day	
+1202	16	home	120	23/11/1988	day	mandatory visits
+1203	16	120	home	23/11/1988	day	
+1204	16	home	120	15/12/1988	day	mandatory visits
+1205	16	120	home	15/12/1988	day	
+1206	16	home	120	16/01/1989	day	mandatory visits
+1207	16	120	home	16/01/1989	day	
+1208	16	home	120	20/02/1989	day	mandatory visits
+1209	16	120	home	20/02/1989	day	
+1210	16	home	120	21/03/1989	day	mandatory visits
+1211	16	120	home	21/03/1989	day	
+1212	16	home	120	21/04/1989	day	mandatory visits
+1213	16	120	home	21/04/1989	day	
+1214	16	home	120	26/05/1989	day	mandatory visits
+1215	16	120	home	26/05/1989	day	
+1216	16	home	120	27/06/1989	day	mandatory visits
+1217	16	120	home	27/06/1989	day	
+1218	16	home	120	01/09/1989	day	mandatory visits
+1219	16	120	home	01/09/1989	day	
+1220	16	home	120	11/09/1989	day	mandatory visits
+1221	16	120	home	11/09/1989	day	
+1222	16	home	120	19/10/1989	day	mandatory visits
+1223	16	120	home	19/10/1989	day	
+1224	16	home	120	10/11/1989	day	mandatory visits
+1225	16	120	home	10/11/1989	day	
+1226	16	home	120	15/11/1989	day	mandatory visits
+1227	16	120	home	15/11/1989	day	
+1228	16	home	120	16/01/1990	day	mandatory visits
+1229	16	120	home	16/01/1990	day	
+1230	16	home	120	14/02/1990	day	mandatory visits
+1231	16	120	home	14/02/1990	day	
+1232	16	home	120	13/03/1990	day	mandatory visits
+1233	16	120	home	13/03/1990	day	
+1234	16	home	120	17/04/1990	day	mandatory visits
+1235	16	120	home	17/04/1990	day	
+1236	16	home	43	31/12/1991	day	housing
+1237	16	43	120	07/01/1992	day	mandatory visits
+1238	16	120	43	07/01/1992	day	housing
+1239	16	43	120	22/01/1992	day	mandatory visits
+1240	16	120	43	22/01/1992	day	housing
+1241	16	43	120	24/03/1992	day	mandatory visits
+1242	16	120	43	24/03/1992	day	housing
+1243	16	43	120	11/05/1992	day	mandatory visits
+1244	16	120	43	11/05/1992	day	
+1245	16	43	92	01/06/1992	month	stay
+1246	16	92	43	01/07/1992	month	housing 
+1247	16	43	147	31/07/1992	day	stay
+1248	16	147	95	30/11/1993	day	stay
+1249	16	95	35	01/03/1993	month	stay
+1250	16	35	95	01/04/1993	month	stay
+1251	16	95	120	22/09/1993	day	mandatory visits
+1252	16	120	95	22/09/1993	day	stay
+1253	16	95	120	25/10/1993	day	mandatory visits
+1254	16	120	95	25/10/1993	day	stay
+1255	16	95	120	13/12/1993	day	mandatory visits
+1256	16	120	95	13/12/1993	day	stay
+1257	16	95	120	25/01/1994	day	mandatory visits
+1258	16	120	95	25/01/1994	day	stay
+1259	16	95	120	22/02/1994	day	mandatory visits
+1260	16	120	95	22/02/1994	day	stay
+1261	16	95	120	29/03/1994	day	mandatory visits
+1262	16	120	95	29/03/1994	day	stay
+1263	16	95	120	19/04/1994	day	mandatory visits
+1264	16	120	95	19/04/1994	day	stay
+1265	16	95	120	17/05/1994	day	mandatory visits
+1266	16	120	95	17/05/1994	day	stay
+1267	16	95	120	13/06/1994	day	mandatory visits
+1268	16	120	95	13/06/1994	day	stay
+1269	16	95	120	26/07/1994	day	mandatory visits
+1270	16	120	95	26/07/1994	day	stay
+1271	16	95	120	30/08/1994	day	mandatory visits
+1272	16	120	95	30/08/1994	day	stay
+1273	16	95	120	11/10/1994	day	mandatory visits
+1274	16	120	95	11/10/1994	day	stay
+1275	16	95	120	09/11/1994	day	mandatory visits
+1276	16	120	95	09/11/1994	day	stay
+1277	16	95	120	13/12/1994	day	mandatory visits
+1278	16	120	95	13/12/1994	day	stay
+1279	16	95	117	01/01/1995	month	stay
+1280	16	117	95	01/08/1995	year	stay
+1281	16	95	117	01/09/1995	month	stay
+1282	17	Home 	2	29/02/1944	day	stay
+1283	17	2	8	13/11/1944	day	stay
+1284	17	8	49	09/07/1946	day	stay
+1285	17	49	119	28/09/1946	day	stay
+1286	17	119	140	06/12/1946	day	stay
+1287	17	119	90	03/12/1951	day	stay
+1288	17	90	60	01/09/1956	day	stay
+1289	17	60	29	26/02/1960	day	stay
+1290	17	29	93	14/02/1961	day	stay
+1291	17	93	29	23/02/1961	day	stay
+1292	17	29	93	17/06/1961	day	stay
+1293	17	93	57	11/07/1961	day	stay
+1294	17	57	41	26/09/1961	day	stay
+1295	17	41	Home	17/01/1962	day	
+1296	17	Home 	58	20/01/1962	month	stay
+1297	17	58	48	25/01/1962	month	stay
+1298	17	48	58	30/01/1962	month	stay
+1299	17	58	83	14/02/1962	day	stay
+1300	17	83	65	07/03/1962	day	stay
+1301	17	65	57	02/05/1962	day	stay
+1302	17	57	Home	07/03/1963	day	
+1303	17	Home 	118	29/08/1963	day	stay
+1304	17	118	57	30/08/1963	day	stay
+1305	17	57	Home	10/09/1963	day	
+1306	17	Home 	12	11/03/1964	day	consultation
+1307	17	12	Home	11/03/1964	day	
+1308	17	Home 	21	01/01/1968	year	daytime care 
+1309	17	21	Home	01/01/1968	year	
+1310	17	Home 	65	01/01/1969	year	stay
+1311	17	65	Home	01/07/1969	year	
+1312	17	Home 	12	10/01/1970	day	consultation
+1313	17	12	Home	10/01/1970	day	
+1314	17	Home 	57	19/01/1970	day	stay
+1315	17	57	69	31/01/1970	day	housing 
+1316	17	69	12	06/02/1970	day	consultation
+1317	17	12	69	06/02/1970	day	housing
+1318	17	69	12	13/02/1970	day	consultation
+1319	17	12	69	13/02/1970	day	housing
+1320	17	69	12	25/02/1970	day	consultation
+1321	17	12	69	25/02/1970	day	housing
+1322	17	69	12	27/02/1970	day	consultation
+1323	17	12	69	27/02/1970	day	housing
+1324	17	69	12	05/03/1970	day	consultation
+1325	17	12	69	05/03/1970	day	housing
+1326	17	69	53	01/01/1972	year	stay
+1327	17	53	Home	01/02/1972	year	
+1328	17	Home 	93	01/03/1972	year	stay
+1329	17	93	Home	01/04/1972	year	
+1330	17	Home 	102	01/05/1972	year	stay
+1331	17	102	12	01/06/1972	year	consultation
+1332	17	12	7	01/06/1972	year	stay
+1333	17	7	83	01/08/1972	year	consultation
+1334	17	83	7	01/08/1972	year	stay
+1335	17	7	Home	01/01/1973	two-years period	
+1339	17	Home 	57	13/12/1974	day	stay
+1340	17	57	102	13/12/1974	day	stay
+1341	17	102	Home	01/01/1976	three-years period	
+1342	17	Home 	3	01/01/1977	three-years period	stay
+1343	17	3	Home	12/07/1978	day	
+1344	17	Home 	57	14/07/1978	day	stay
+1345	17	57	25	20/07/1978	day	stay
+1346	17	25	Home	21/07/1978	day	
+1347	17	Home 	64	01/08/1978	month	stay
+1348	17	64	Home	31/08/1978	month	
+1349	17	Home 	65	01/01/1980	month	stay
+1350	17	65	Home	31/01/1980	month	
+1351	17	Home 	57	18/03/1980	day	stay
+1352	17	57	Home	19/03/1980	day	
+1353	17	Home 	57	26/05/1983	day	stay
+1354	17	57	Home	30/05/1983	day	
+1355	17	Home 	57	21/01/1984	day	stay
+1356	17	57	Home	27/01/1984	day	
+1357	17	Home 	57	31/01/1986	day	stay
+1358	17	57	Home	13/02/1986	day	
+1359	17	Home 	35	26/06/1986	day	stay
+1360	17	35	104	01/08/1986	year	stay
+1361	17	104	Home	24/03/1987	day	
+1362	17	Home	120	30/03/1987	day	mandatory visits
+1363	17	120	Home	30/03/1987	day	
+1364	17	home	14	01/04/1987	day	mandatory visits
+1365	17	14	home	01/04/1987	day	
+1366	17	home	14	09/04/1987	day	mandatory visits
+1367	17	14	home	09/04/1987	day	
+1368	17	home	120	16/04/1987	day	mandatory visits
+1369	17	120	home	16/04/1987	day	
+1370	17	home	14	30/04/1987	day	mandatory visits
+1371	17	14	home	30/04/1987	day	
+1372	17	home	158	13/05/1987	day	consultation
+1373	17	158	home	13/05/1987	day	
+1374	17	home	14	26/05/1987	day	mandatory visits
+1375	17	14	home	26/05/1987	day	
+1376	17	home	120	24/06/1987	day	mandatory visits
+1377	17	120	home	24/06/1987	day	
+1378	17	home	14	25/06/1987	day	mandatory visits
+1379	17	14	home	25/06/1987	day	
+1380	17	home	120	26/06/1987	day	mandatory visits
+1381	17	120	home	26/06/1987	day	
+1382	17	home	120	16/07/1987	day	mandatory visits
+1383	17	120	home	16/07/1987	day	
+1384	17	home	14	30/07/1987	day	mandatory visits
+1385	17	14	home	30/07/1987	day	
+1386	17	home	158	12/08/1987	day	consultation
+1387	17	158	home	12/08/1987	day	
+1388	17	home	120	20/08/1987	day	mandatory visits
+1389	17	120	home	20/08/1987	day	
+1390	17	home	120	17/09/1987	day	mandatory visits
+1391	17	120	home	17/09/1987	day	
+1392	17	home	158	21/09/1987	day	consultation
+1393	17	158	home	21/09/1987	day	
+1394	17	home	120	24/09/1987	day	mandatory visits
+1395	17	120	home	24/09/1987	day	
+1396	17	home	158	14/10/1987	day	consultation
+1397	17	158	home	14/10/1987	day	
+1398	17	home	14	27/10/1987	day	mandatory visits
+1399	17	14	home	27/10/1987	day	
+1400	17	Home 	93	03/11/1987	day	stay
+1401	17	93	Home	12/11/1987	day	
+1402	17	home	120	13/11/1987	day	mandatory visits
+1403	17	120	home	13/11/1987	day	
+1404	17	home	14	26/11/1987	day	mandatory visits
+1405	17	14	home	26/11/1987	day	
+1406	17	home	120	09/12/1987	day	mandatory visits
+1407	17	120	home	09/12/1987	day	
+1408	17	home	14	05/01/1988	day	mandatory visits
+1409	17	14	home	05/01/1988	day	
+1410	17	home	120	13/01/1988	day	mandatory visits
+1411	17	120	home	13/01/1988	day	
+1412	17	home	14	19/01/1988	day	mandatory visits
+1413	17	14	home	19/01/1988	day	
+1414	17	home	14	02/02/1988	day	mandatory visits
+1415	17	14	home	02/02/1988	day	
+1416	17	home	158	19/02/1988	day	consultation
+1417	17	158	home	19/02/1988	day	
+1418	17	home	14	23/02/1988	day	mandatory visits
+1419	17	14	home	23/02/1988	day	
+1420	17	home	120	10/03/1988	day	mandatory visits
+1421	17	120	home	10/03/1988	day	
+1422	17	home	14	15/03/1988	day	mandatory visits
+1423	17	14	home	15/03/1988	day	
+1424	17	home	14	29/03/1988	day	mandatory visits
+1425	17	14	home	29/03/1988	day	
+1426	17	home	120	31/03/1988	day	mandatory visits
+1427	17	120	home	31/03/1988	day	
+1428	17	home	14	05/04/1988	day	mandatory visits
+1429	17	14	home	05/04/1988	day	
+1430	17	home	120	05/05/1988	day	mandatory visits
+1431	17	120	home	05/05/1988	day	
+1432	17	home	14	05/05/1988	day	mandatory visits
+1433	17	14	home	05/05/1988	day	
+1434	17	home	120	27/05/1988	day	mandatory visits
+1435	17	120	home	27/05/1988	day	
+1436	17	Home 	93	31/05/1988	day	consultation
+1437	17	93	Home	31/05/1988	day	
+1438	17	home	14	02/06/1988	day	mandatory visits
+1439	17	14	home	02/06/1988	day	
+1440	17	home	157	06/06/1988	day	consultation 
+1441	17	157	home	06/06/1988	day	
+1442	17	home	159	07/06/1988	day	stay 
+1443	17	159	home	14/06/1988	day	
+1444	17	home	157	15/06/1988	day	consultation 
+1445	17	157	home	15/06/1988	day	
+1446	17	home	120	22/06/1988	day	mandatory visits
+1447	17	120	home	22/06/1988	day	
+1448	17	home	14	30/06/1988	day	mandatory visits
+1449	17	14	home	30/06/1988	day	
+1450	17	home	120	01/07/1988	day	mandatory visits
+1451	17	120	home	01/07/1988	day	
+1452	17	home	120	19/07/1988	day	mandatory visits
+1453	17	120	home	19/07/1988	day	
+1454	17	home	14	28/07/1988	day	mandatory visits
+1455	17	14	home	28/07/1988	day	
+1456	17	Home 	93	08/08/1988	day	stay 
+1457	17	93	Home	24/08/1988	day	
+1458	17	home	14	25/08/1988	day	mandatory visits
+1459	17	14	home	25/08/1988	day	
+1460	17	home	120	30/08/1988	day	mandatory visits
+1461	17	120	home	30/08/1988	day	
+1462	17	home	156	10/09/1988	day	stay
+1463	17	156	home	21/09/1988	day	
+1464	17	home	120	27/09/1988	day	mandatory visits
+1465	17	120	home	27/09/1988	day	
+1466	17	home	14	04/10/1988	day	mandatory visits
+1467	17	14	home	04/10/1988	day	
+1468	17	Home 	35	04/10/1988	day	stay
+1469	17	35	Home	27/10/1988	day	
+1470	17	home	120	28/10/1988	day	mandatory visits
+1471	17	120	home	28/10/1988	day	
+1472	17	home	14	03/11/1988	day	mandatory visits
+1473	17	14	home	03/11/1988	day	
+1474	17	home	120	03/11/1988	day	mandatory visits
+1475	17	120	home	03/11/1988	day	
+1476	17	home	120	28/11/1988	day	mandatory visits
+1477	17	120	home	28/11/1988	day	
+1478	17	home	14	01/12/1988	day	mandatory visits
+1479	17	14	home	01/12/1988	day	
+1480	17	home	14	06/12/1988	day	mandatory visits
+1481	17	14	home	06/12/1988	day	
+1482	17	home	14	29/12/1988	day	mandatory visits
+1483	17	14	home	29/12/1988	day	
+1484	17	home	120	03/01/1989	day	mandatory visits
+1485	17	120	home	03/01/1989	day	
+1486	17	home	120	16/01/1989	day	mandatory visits
+1487	17	120	home	16/01/1989	day	
+1488	17	home	14	20/01/1989	day	mandatory visits
+1489	17	14	home	20/01/1989	day	
+1490	17	home	120	01/02/1989	day	mandatory visits
+1491	17	120	home	01/02/1989	day	
+1492	17	home	14	02/02/1989	day	mandatory visits
+1493	17	14	home	02/02/1989	day	
+1494	17	home	120	12/02/1989	day	mandatory visits
+1495	17	120	home	12/02/1989	day	
+1496	17	home	14	28/02/1989	day	mandatory visits
+1497	17	14	home	28/02/1989	day	
+1498	17	home	120	03/03/1989	day	mandatory visits
+1499	17	120	home	03/03/1989	day	
+1500	17	home	120	13/03/1989	day	mandatory visits
+1501	17	120	home	13/03/1989	day	
+1502	17	home	14	28/03/1989	day	mandatory visits
+1503	17	14	home	28/03/1989	day	
+1504	17	home	120	13/04/1989	day	mandatory visits
+1505	17	120	home	13/04/1989	day	
+1506	17	home	120	19/04/1989	day	mandatory visits
+1507	17	120	home	19/04/1989	day	
+1508	17	home	120	08/05/1989	day	mandatory visits
+1509	17	120	home	08/05/1989	day	
+1510	17	home	14	09/05/1989	day	mandatory visits
+1511	17	14	home	09/05/1989	day	
+1512	17	home	120	18/05/1989	day	mandatory visits
+1513	17	120	home	18/05/1989	day	
+1514	17	home	14	25/05/1989	day	mandatory visits
+1515	17	14	home	25/05/1989	day	
+1516	17	home	120	12/06/1989	day	mandatory visits
+1517	17	120	home	12/06/1989	day	
+1518	17	home	14	27/06/1989	day	mandatory visits
+1519	17	14	home	27/06/1989	day	
+1520	17	home	120	07/07/1989	day	mandatory visits
+1521	17	120	home	07/07/1989	day	
+1522	17	home	14	19/07/1989	day	mandatory visits
+1523	17	14	home	19/07/1989	day	
+1524	17	home	120	09/08/1989	day	mandatory visits
+1525	17	120	home	09/08/1989	day	
+1526	17	home	14	29/08/1989	day	mandatory visits
+1527	17	14	home	29/08/1989	day	
+1528	17	home	120	06/09/1989	day	mandatory visits
+1529	17	120	home	06/09/1989	day	
+1530	17	home	14	21/09/1989	day	mandatory visits
+1531	17	14	home	21/09/1989	day	
+1532	17	home	120	24/09/1989	day	mandatory visits
+1533	17	120	home	24/09/1989	day	
+1534	17	home	120	20/10/1989	day	mandatory visits
+1535	17	120	home	20/10/1989	day	
+1536	17	home	14	09/11/1989	day	mandatory visits
+1537	17	14	home	09/11/1989	day	
+1538	17	home	14	17/11/1989	day	mandatory visits
+1539	17	14	home	17/11/1989	day	
+1540	17	home	14	07/12/1989	day	mandatory visits
+1541	17	14	home	07/12/1989	day	
+1542	17	home	120	15/12/1989	day	mandatory visits
+1543	17	120	home	15/12/1989	day	
+1544	17	home	14	08/01/1990	day	mandatory visits
+1545	17	14	home	08/01/1990	day	
+1546	17	home	120	11/01/1990	day	mandatory visits
+1547	17	120	home	11/01/1990	day	
+1548	17	home	14	29/01/1990	day	mandatory visits
+1549	17	14	home	29/01/1990	day	
+1550	17	home	120	14/02/1990	day	mandatory visits
+1551	17	120	home	14/02/1990	day	
+1552	17	home	14	27/02/1990	day	mandatory visits
+1553	17	14	home	27/02/1990	day	
+1554	17	home	14	26/03/1990	day	mandatory visits
+1555	17	14	home	26/03/1990	day	
+1556	17	home	120	11/04/1990	day	mandatory visits
+1557	17	120	home	11/04/1990	day	
+1558	17	home	120	03/05/1990	day	mandatory visits
+1559	17	120	home	03/05/1990	day	
+1560	17	home	120	04/05/1990	day	mandatory visits
+1561	17	120	home	04/05/1990	day	
+1562	17	home	120	07/05/1990	day	mandatory visits
+1563	17	120	home	07/05/1990	day	
+1564	17	home	120	31/05/1990	day	mandatory visits
+1565	17	120	home	31/05/1990	day	
+1566	17	home	14	26/06/1990	day	mandatory visits
+1567	17	14	home	26/06/1990	day	
+1568	17	home	120	29/06/1990	day	mandatory visits
+1569	17	120	home	29/06/1990	day	
+1570	17	home	120	27/07/1990	day	mandatory visits
+1571	17	120	home	27/07/1990	day	
+1572	17	home	14	28/08/1990	day	mandatory visits
+1573	17	14	home	28/08/1990	day	
+1574	17	home	120	20/09/1990	day	mandatory visits
+1575	17	120	home	20/09/1990	day	
+1576	17	home	14	27/09/1990	day	mandatory visits
+1577	17	14	home	27/09/1990	day	
+1578	17	home	120	08/10/1990	day	mandatory visits
+1579	17	120	home	08/10/1990	day	
+1580	17	home	14	19/10/1990	day	mandatory visits
+1581	17	14	home	19/10/1990	day	
+1582	17	home	120	12/11/1990	day	mandatory visits
+1583	17	120	home	12/11/1990	day	
+1584	17	home	14	27/11/1990	day	mandatory visits
+1585	17	14	home	27/11/1990	day	
+1586	17	home	120	03/12/1990	day	mandatory visits
+1587	17	120	home	03/12/1990	day	
+1588	17	home	14	15/01/1991	day	mandatory visits
+1589	17	14	home	15/01/1991	day	
+1590	17	home	120	21/01/1991	day	mandatory visits
+1591	17	120	home	21/01/1991	day	
+1592	17	home	120	11/02/1991	day	mandatory visits
+1593	17	120	home	11/02/1991	day	
+1594	17	home	14	28/02/1991	day	mandatory visits
+1595	17	14	home	28/02/1991	day	
+1596	17	home	120	20/03/1991	day	mandatory visits
+1597	17	120	home	20/03/1991	day	
+1598	17	home	14	26/03/1991	day	mandatory visits
+1599	17	14	home	26/03/1991	day	
+1600	17	home	120	18/04/1991	day	mandatory visits
+1601	17	120	home	18/04/1991	day	
+1602	17	home	120	29/05/1991	day	mandatory visits
+1603	17	120	home	29/05/1991	day	
+1604	17	home	120	08/07/1991	day	mandatory visits
+1605	17	120	home	08/07/1991	day	
+1606	17	home	14	09/07/1991	day	mandatory visits
+1607	17	14	home	09/07/1991	day	
+1608	17	home	120	02/08/1991	day	mandatory visits
+1609	17	120	home	02/08/1991	day	
+1610	17	home	14	27/08/1991	day	mandatory visits
+1611	17	14	home	27/08/1991	day	
+1612	17	home	93	01/09/1991	month	stay
+1613	17	93	home	30/09/1991	month	
+1614	17	home	120	11/10/1991	day	mandatory visits
+1615	17	120	home	11/10/1991	day	
+1616	17	home	120	28/10/1991	day	mandatory visits
+1617	17	120	home	28/10/1991	day	
+1618	17	home	59	29/10/1991	day	stay 
+1619	17	59	home	15/11/1991	two-months period	
+1620	17	home	148	01/12/1991	month	stay
+1621	17	148	home	31/12/1991	month	
+1622	17	home	120	16/12/1991	day	mandatory visits
+1623	17	120	home	16/12/1991	day	
+1624	17	home	120	15/01/1992	day	mandatory visits
+1625	17	120	home	15/01/1992	day	
+1626	17	home	120	10/02/1992	day	mandatory visits
+1627	17	120	home	10/02/1992	day	
+1628	17	home	148	15/02/1992	month	stay
+1629	17	148	home	25/02/1992	month	
+1630	17	home	120	17/03/1992	day	mandatory visits
+1631	17	120	home	17/03/1992	day	
+1632	17	home	148	20/03/1992	month	stay 
+1633	17	148	home	30/03/1992	month	
+1634	17	home	148	01/04/1992	month	stay 
+1635	17	148	home	30/04/1992	month	
+1636	17	home	148	01/05/1992	month	stay 
+1637	17	148	home	30/05/1992	month	
+1638	17	home	148	01/06/1992	month	stay 
+1639	17	148	home	30/06/1992	month	
+1640	17	home	120	08/07/1992	day	mandatory visits
+1641	17	120	home	08/07/1992	day	
+1642	17	home	148	09/07/1992	day	stay
+1643	17	148	home	16/07/1992	day	
+1644	17	home	120	18/09/1992	day	mandatory visits
+1645	17	120	home	18/09/1992	day	
+1646	17	home	120	28/09/1992	day	mandatory visits
+1647	17	120	home	28/09/1992	day	
+1648	17	home	148	22/10/1992	day	stay
+1649	17	148	home	29/10/1992	day	
+1650	17	home	148	03/11/1992	day	stay
+1651	17	148	home	03/11/1992	day	
+1652	17	home	120	30/11/1992	day	mandatory visits
+1653	17	120	home	30/11/1992	day	
+1654	17	home	148	10/12/1992	day	consultation
+1655	17	148	home	10/12/1992	day	
+1656	17	home	148	14/12/1992	day	stay
+1657	17	148	home	02/01/1993	day	
+1658	17	home	120	18/01/1993	day	mandatory visits
+1659	17	120	home	18/01/1993	day	
+1660	17	home	148	15/03/1993	week	stay
+1661	17	148	home	15/04/1993	week	
+1662	17	home	120	19/04/1993	day	mandatory visits
+1663	17	120	home	19/04/1993	day	
+1664	17	home	148	20/04/1993	month	consultation
+1665	17	148	home	30/04/1993	month	
+1666	17	home	148	01/05/1993	month	consultation
+1667	17	148	home	15/05/1993	month	
+1668	17	home	148	20/05/1993	month	consultation
+1669	17	148	home	30/05/1993	month	
+1670	17	home	120	13/05/1993	day	mandatory visits
+1671	17	120	home	13/05/1993	day	
+1672	17	home	148	20/05/1993	month	consultation
+1673	17	148	home	20/05/1993	month	
+1674	17	home	148	25/05/1993	month	consultation
+1675	17	148	home	25/05/1993	month	
+1676	17	home	148	01/06/1993	month	consultation
+1677	17	148	home	01/06/1993	month	
+1678	17	home	148	08/06/1993	month	consultation
+1679	17	148	home	08/06/1993	month	
+1680	17	home	148	15/06/1993	month	consultation
+1681	17	148	home	15/06/1993	month	
+1682	17	home	148	22/06/1993	month	consultation
+1683	17	148	home	22/06/1993	month	
+1684	17	home	148	28/06/1993	month	consultation
+1685	17	148	home	28/06/1993	month	
+1686	17	home	148	01/07/1993	month	consultation
+1687	17	148	home	01/07/1993	month	
+1688	17	home	148	10/07/1993	month	consultation
+1689	17	148	home	10/07/1993	month	
+1690	17	home	148	20/07/1993	month	consultation
+1691	17	148	home	20/07/1993	month	
+1692	17	home	120	26/07/1993	day	mandatory visits
+1693	17	120	home	26/07/1993	day	
+1694	17	home	148	28/07/1993	month	consultation
+1695	17	148	home	28/07/1993	month	
+1696	17	home	148	30/07/1993	month	consultation
+1697	17	148	home	30/07/1993	month	
+1698	17	home	148	01/08/1993	month	consultation
+1699	17	148	home	01/08/1993	month	
+1700	17	home	148	10/08/1993	month	consultation
+1701	17	148	home	10/08/1993	month	
+1702	17	home	148	15/08/1993	month	consultation
+1703	17	148	home	15/08/1993	month	
+1704	17	home	148	20/08/1993	month	consultation
+1705	17	148	home	20/08/1993	month	
+1706	17	home	120	26/08/1993	day	mandatory visits
+1707	17	120	home	26/08/1993	day	
+1708	17	home	148	26/08/1993	month	consultation
+1709	17	148	home	26/08/1993	month	
+1710	17	home	148	30/08/1993	month	consultation
+1711	17	148	home	30/08/1993	month	
+1712	17	home	148	05/09/1993	month	consultation
+1713	17	148	home	05/09/1993	month	
+1714	17	home	148	08/09/1993	month	consultation
+1715	17	148	home	08/09/1993	month	
+1716	17	home	148	12/09/1993	month	consultation
+1717	17	148	home	12/09/1993	month	
+1718	17	home	148	15/09/1993	month	consultation
+1719	17	148	home	15/09/1993	month	
+1720	17	home	148	18/09/1993	month	consultation
+1721	17	148	home	18/09/1993	month	
+1722	17	home	148	22/09/1993	month	consultation
+1723	17	148	home	22/09/1993	month	
+1724	17	home	148	24/09/1993	month	consultation
+1725	17	148	home	24/09/1993	month	
+1726	17	home	148	26/09/1993	month	consultation
+1727	17	148	home	26/09/1993	month	
+1728	17	home	148	01/10/1993	month	consultation
+1729	17	148	home	02/10/1993	month	
+1730	17	home	148	06/10/1993	month	consultation
+1731	17	148	home	06/10/1993	month	
+1732	17	home	148	10/10/1993	month	consultation
+1733	17	148	home	10/10/1993	month	
+1734	17	home	148	12/10/1993	month	consultation
+1735	17	148	home	12/10/1993	month	
+1736	17	home	148	14/10/1993	month	consultation
+1737	17	148	home	14/10/1993	month	
+1738	17	home	120	15/10/1993	day	mandatory visits
+1739	17	120	home	15/10/1993	day	
+1740	17	home	148	01/11/1993	month	stay
+1741	17	148	home	01/11/1993	month	
+1742	17	home	120	08/02/1994	day	mandatory visits
+1743	17	120	home	08/02/1994	day	
+1744	17	home	120	28/03/1994	day	mandatory visits
+1745	17	120	home	28/03/1994	day	
+1746	17	home	120	04/05/1994	day	mandatory visits
+1747	17	120	home	04/05/1994	day	
+1748	17	home	120	26/05/1994	day	mandatory visits
+1749	17	120	home	26/05/1994	day	
+1750	17	home	120	27/10/1994	day	mandatory visits
+1751	17	120	home	27/10/1994	day	
+1752	17	home	120	15/03/1995	day	mandatory visits
+1753	17	120	home	15/03/1995	day	
