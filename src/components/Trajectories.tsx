@@ -1,12 +1,13 @@
+import { Fragment } from 'react/jsx-runtime'
 import CircularTimeline from '../CircularTimeline'
-import { Trajectory, Place } from '../types'
+import { Trajectory, Place, Settings } from '../types'
 
 interface TrajectoriesProps {
-  data: [Trajectory[], Place[]]
+  data: [Trajectory[], Place[], Settings[]]
 }
 
-const Trajectories: React.FC<TrajectoriesProps> = ({ data = [[], []] }) => {
-  const [trajectories, places] = data
+const Trajectories: React.FC<TrajectoriesProps> = ({ data = [[], [], []] }) => {
+  const [trajectories, places, settings] = data
 
   if (Array.isArray(trajectories)) {
     // group by personId
@@ -20,15 +21,16 @@ const Trajectories: React.FC<TrajectoriesProps> = ({ data = [[], []] }) => {
 
     return (
       <>
-        {/* {Object.keys(grouped).map((personId) => (
-          <pre key={personId}>{JSON.stringify(grouped[personId], null, 2)}</pre>
-        ))} */}
         {Object.keys(grouped).map((personId) => (
-          <CircularTimeline
-            trajectories={grouped[personId]}
-            places={places}
-            key={personId}
-          />
+          <Fragment key={personId}>
+            <h2>Person {personId}</h2>
+            <CircularTimeline
+              trajectories={grouped[personId]}
+              places={places}
+              key={personId}
+              settings={settings.find((s) => s.personId === personId)}
+            />
+          </Fragment>
         ))}
       </>
     )

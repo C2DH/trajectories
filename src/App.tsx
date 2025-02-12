@@ -7,8 +7,8 @@ function App() {
   return (
     <div className='container'>
       <div className='row'>
-        <CsvLoader url='/data/trajectories.csv,/data/places.csv'>
-          <Trajectories data={[[], []]} />
+        <CsvLoader url='/data/trajectories.csv,/data/places.csv,/data/settings.csv'>
+          <Trajectories data={[[], [], []]} />
         </CsvLoader>
       </div>
     </div>

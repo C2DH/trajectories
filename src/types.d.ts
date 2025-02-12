@@ -17,3 +17,8 @@ export interface Place {
   accuracy: string
   distance: number | string
 }
+
+export interface Settings {
+  personId: string
+  exponent: string
+}

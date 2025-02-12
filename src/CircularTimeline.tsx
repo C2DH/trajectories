@@ -1,6 +1,6 @@
 import React from 'react'
 import * as d3 from 'd3'
-import { Place, Trajectory } from './types'
+import { Place, Settings, Trajectory } from './types'
 import { DateTime } from 'luxon'
 
 interface CircularTimelineProps {
@@ -9,6 +9,7 @@ interface CircularTimelineProps {
   height?: number
   margin?: number
   places: Place[]
+  settings?: Settings
 }
 
 const CircularTimeline: React.FC<CircularTimelineProps> = ({
@@ -17,16 +18,20 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
   height = 1000,
   margin = 100,
   places = [],
+  settings = {},
 }) => {
   const placeIndex: { [key: string]: Place } = places.reduce((acc, place) => {
     acc[place.id] = place
     return acc
   }, {} as { [key: string]: Place })
-  console.info('[CircularTimeline] placeIndex:', placeIndex)
+  // uncomment to debug
+  // console.debug('[CircularTimeline] placeIndex:', placeIndex)
   // Parse dates and sort chronologically
   const parsedData = trajectories
     .map((d) => ({
       ...d,
+      targetId: d.targetId.trim(),
+      sourceId: d.sourceId.trim(),
       date: d3.timeParse('%d/%m/%Y')(d.movingDate),
       dateLabel: DateTime.fromFormat(d.movingDate, 'dd/MM/yyyy').toLocaleString(
         {
@@ -58,19 +63,28 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
   })
   const locationArray = Array.from(locations)
   const distancesByPlaceId = locationArray.reduce((acc, loc, i) => {
-    acc[loc] = parseFloat(placeIndex[loc].distance as string)
+    try {
+      acc[loc] = parseFloat(placeIndex[loc].distance as string)
+    } catch (e) {
+      console.error(e, loc)
+    }
     return acc
   }, {} as { [key: string]: number })
+  const exponent: number = settings?.exponent
+    ? parseFloat(settings.exponent)
+    : 0.5
   const radiusScale = d3
     .scalePow()
     .domain([
-      0,
+      d3.min(
+        places.map((p: Place) => (p.id === 'Home' ? 0 : (p.distance as number)))
+      ) || 0,
       d3.max(
         places.map((p: Place) => (p.id === 'Home' ? 0 : (p.distance as number)))
       ) || 1,
     ])
     .range([0, radius]) // "Home" is small, others grow with distance
-    .exponent(0.5) // Adjust curvature
+    .exponent(exponent) // Adjust curvature
   // Define time scale mapped to angle (0 to 2π)
   const timeScale = d3
     .scaleTime()
@@ -161,8 +175,8 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
                   y1={sourceCoords.y}
                   x2={targetCoords.x}
                   y2={targetCoords.y}
-                  stroke='blue'
-                  strokeWidth={3}
+                  stroke={colorScale(placeIndex[d.targetId].type) as string}
+                  strokeWidth={2}
                 />
               </g>
             )
@@ -172,7 +186,7 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
             d={lineGenerator(pathPoints)!}
             fill='none'
             stroke='#0000ff25'
-            strokeWidth={30}
+            strokeWidth={10}
           />
 
           {/* Draw connection lines between successive trajectories */}
@@ -194,103 +208,110 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
               .outerRadius(currCoords.r)
               .startAngle(prevCoords.angle + Math.PI / 2)
               .endAngle(currCoords.angle + Math.PI / 2)
-
+            const color = colorScale(placeIndex[d.targetId].type) as string
             return (
               <>
-                <g key={`link-${i}`}>
-                  {/* <line
-                    x1={prevCoords.x}
-                    y1={prevCoords.y}
-                    x2={currCoords.x}
-                    y2={currCoords.y}
-                    stroke='red'
-                    strokeWidth={1}
-                    strokeDasharray='4 2'
-                  /> */}
-                </g>
                 <path
                   key={`arc-${i}`}
                   d={arcGenerator({} as any) || ''}
                   fill='none'
-                  stroke='blue'
-                  strokeWidth={3}
+                  stroke={color}
+                  strokeWidth={2}
                 />
               </>
             )
           })}
 
-          {/* Draw Bézier curve from previous targetId to current sourceId */}
-          {/* {parsedData.map((d, i) => {
-            if (i === 0 || !d.date) return null
-            const prevTargetCoords = getCoordinates(
-              parsedData[i - 1].targetId,
-              parsedData[i - 1].date
-            )
-            const currentSourceCoords = getCoordinates(d.sourceId, d.date)
-
-            return (
-              <g key={`bezier-${i}`}>
-                <path
-                  d={createBezierPath(
-                    prevTargetCoords.x,
-                    prevTargetCoords.y,
-                    currentSourceCoords.x,
-                    currentSourceCoords.y
-                  )}
-                  fill='none'
-                  stroke='blue'
-                  strokeWidth={2}
-                />
-              </g>
-            )
-          })} */}
           {/* Plot points along the circumference */}
           {parsedData.map((d, i) => {
             if (!d.date) return null
             const angle = timeScale(d.date)
-            console.info('angle', angle)
             const r = radiusScale(distancesByPlaceId[d.targetId])
 
             const x = r * Math.cos(angle)
             const y = r * Math.sin(angle)
             const x2 = (radius + Math.sin(i) * 100) * Math.cos(angle)
             const y2 = (radius + Math.sin(i) * 100) * Math.sin(angle)
-
+            const color = colorScale(placeIndex[d.targetId].type) as string
             return (
               <g key={i}>
-                <circle cx={x} cy={y} r={i === 0 ? 10 : 5} fill='blue' />
-                <text
-                  x={x}
-                  y={y - 20}
-                  dy='0.35em'
-                  className='font-weight-bold'
-                  textAnchor='middle'
-                >
-                  {i + 1}
-                </text>
-                <text
-                  x={x2}
-                  y={angle > Math.PI ? y2 - 15 : y2 + 15}
-                  dy='0.35em'
-                  textAnchor='middle'
-                  fill='#00000099'
-                  className='small'
-                >
-                  {d.dateLabel}
-                </text>
-                <circle cx={x2} cy={y2} r={2} stroke='#00000025' />
+                <circle cx={x} cy={y} r={i === 0 ? 5 : 3} fill={color} />
+                {i === 0 || i === parsedData.length - 1 ? (
+                  <text
+                    x={x}
+                    y={y - 20}
+                    dy='0.35em'
+                    className='font-weight-bold'
+                    textAnchor='middle'
+                  >
+                    {i + 1}
+                  </text>
+                ) : null}
+                {i === 0 || i === parsedData.length - 1 ? (
+                  <>
+                    <text
+                      x={x2}
+                      y={angle > Math.PI ? y2 - 15 : y2 + 15}
+                      dy='0.35em'
+                      textAnchor='middle'
+                      fill='#00000099'
+                      className='small'
+                    >
+                      {d.dateLabel}
+                    </text>
+                    <circle cx={x2} cy={y2} r={2} stroke='#00000025' />
 
-                <line
-                  x1={x}
-                  y1={y}
-                  x2={x2}
-                  y2={y2}
-                  stroke='#00000025'
-                  strokeWidth={1}
-                />
+                    <line
+                      x1={x}
+                      y1={y}
+                      x2={x2}
+                      y2={y2}
+                      stroke='#00000025'
+                      strokeWidth={1}
+                    />
+                  </>
+                ) : null}
               </g>
             )
           })}
+          {/* Display years in correct angular position */}
+          {d3.timeYear
+            .range(
+              parsedData[0].date as Date,
+              parsedData[parsedData.length - 1].date as Date
+            )
+            .map((year, i) => {
+              const angle = timeScale(year)
+              const x = (radius + 50) * Math.cos(angle)
+              const y = (radius + 50) * Math.sin(angle)
+              return (
+                <>
+                  <line
+                    key={`line-${i}`}
+                    x1={0}
+                    y1={0}
+                    x2={x}
+                    y2={y}
+                    stroke='#00000015'
+                    strokeWidth={1}
+                  />
+                  <text
+                    key={`year-${i}`}
+                    x={x}
+                    y={y}
+                    textAnchor='middle'
+                    alignmentBaseline='middle'
+                    // transform={`rotate(${(angle * 180) / Math.PI}, ${
+                    //   x + centerX
+                    // }, ${y + centerY + topOffset})`}
+                    className='small'
+                    color={'#00000025'}
+                  >
+                    {year.getFullYear()}
+                  </text>
+                </>
+              )
+            })}
         </g>
       </svg>
     </div>
