@@ -159,7 +159,18 @@ const LinearTimeline: React.FC<LinearTimelineProps> = ({
               y2={height - yMargin * 2}
               stroke={'#00000020'}
             ></line>
-            <circle r={3} cx={x} cy={y} fill={color} />
+            {index === 0 || index === parsedData.length - 1 ? (
+              <text
+                x={index === 0 ? x - 10 : x + 5}
+                y={y - 5}
+                className='font-weight-bold'
+                textAnchor={index === 0 ? 'end' : 'start'}
+                fill='#000'
+              >
+                {index + 1}
+              </text>
+            ) : null}
+            <circle r={index === 0 ? 8 : 3} cx={x} cy={y} fill={color} />
           </g>
         )
       })}
