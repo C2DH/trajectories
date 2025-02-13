@@ -1,5 +1,5 @@
 id	lat	lng	accuracy	type	name	distance
-Home	50.8465573	4.351697	Exact	Home	Home	0.416169298
+Home	50.8465573	4.351697	Exact	Home	Home	0
 1	50.84022564	4.351051984	Exact	Groupe de soutien 	Alcooliques Anonymes 	1.121141276
 2	50.89601665	4.390128964	Exact	Crèche 	Alix Bauwens 	5.754359954
 3	50.75441556	4.31770104	Exact	Sanatorium 	Alsemberg 	10.92629626
@@ -20,7 +20,7 @@ Home	50.8465573	4.351697	Exact	Home	Home	0.416169298
 18	50.83204765	4.363926495	Exact	Centre psychiatrique extra-hospitalier 	Psychiatrische Kliniek St.-Alexius	2.203672963
 19	50.69869276	4.61589095	Exact	Centre de revalidation 	Clinique du Docteur Derscheid	25.08578191
 20	50.4835042	4.824804652	Exact	Hôpital psychiatrique 	Clinique Regina Paxis 	52.68073876
-21	50.85336159	4.350553965	Exact	Centre psychiatrique extra-hospitalier 	Club Antonin Artaud 	0.349810487
+21	50.85336159	4.350553965	Exact	Centre psychiatrique extra-hospitalier 	Club Antonin Artaud 	1
 22	50.82534824	4.369349253	Exact	Centre psychiatrique extra-hospitalier 	CMS pour alcooliques 	3.038734734
 23	50.83458469	4.304217387	Exact	Centre psychiatrique extra-hospitalier 	CODE	3.764173161
 24	50.83458469	4.304217387	Exact	Centre psychiatrique extra-hospitalier 	CRIT 	3.764173161
@@ -119,7 +119,7 @@ Home	50.8465573	4.351697	Exact	Home	Home	0.416169298
 117	50.85661792	4.369180639	Exact	Hôpital général 	Saint-Etienne	1.413974917
 118	50.83431844	4.347170495	Exact	Hôpital général (département)	Saint-Pierre - psychiatrie 	1.805303416
 119	50.88894336	4.349197425	Exact	Institut médico-pédagogique	Juliette Herman 	4.300532748
-120	50.84977539	4.350589955	Exact	Organisme de tutelle 	ORS	0.09734336
+120	50.84977539	4.350589955	Exact	Organisme de tutelle 	ORS	1.09734336
 121	50.88852503	4.329216097	Exact	Hôpital général (département)	Brugmann - dermatologie 	4.533823657
 122	48.8372294	2.365102903	Exact	Hôpital général 	Pitié-Salpêtrière	265.3043565
 123	50.85558589	4.353570876	Exact	Maison d'accueil	Porte Rouge 	0.602258344

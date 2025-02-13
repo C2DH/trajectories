@@ -62,7 +62,7 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
     locations.add(d.targetId)
   })
   const locationArray = Array.from(locations)
-  const distancesByPlaceId = locationArray.reduce((acc, loc, i) => {
+  const distancesByPlaceId = locationArray.reduce((acc, loc) => {
     try {
       acc[loc] = parseFloat(placeIndex[loc].distance as string)
     } catch (e) {
@@ -75,15 +75,8 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
     : 0.5
   const radiusScale = d3
     .scalePow()
-    .domain([
-      d3.min(
-        places.map((p: Place) => (p.id === 'Home' ? 0 : (p.distance as number)))
-      ) || 0,
-      d3.max(
-        places.map((p: Place) => (p.id === 'Home' ? 0 : (p.distance as number)))
-      ) || 1,
-    ])
-    .range([0, radius]) // "Home" is small, others grow with distance
+    .domain([0, d3.max(Object.values(distancesByPlaceId)) || 1])
+    .range([40, radius]) // "Home" is small, others grow with distance
     .exponent(exponent) // Adjust curvature
   // Define time scale mapped to angle (0 to 2π)
   const timeScale = d3
@@ -102,11 +95,11 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
     return { x: r * Math.cos(angle), y: r * Math.sin(angle), r, angle }
   }
   // Function to generate Bézier curve path
-  const createBezierPath = (x1: number, y1: number, x2: number, y2: number) => {
-    const controlX = (x1 + x2) / 2 // Control point for smooth curve
-    const controlY = (y1 + y2) / 2 - 50 // Adjust curvature
-    return `M ${x1},${y1} Q ${controlX},${controlY} ${x2},${y2}`
-  }
+  // const createBezierPath = (x1: number, y1: number, x2: number, y2: number) => {
+  //   const controlX = (x1 + x2) / 2 // Control point for smooth curve
+  //   const controlY = (y1 + y2) / 2 - 50 // Adjust curvature
+  //   return `M ${x1},${y1} Q ${controlX},${controlY} ${x2},${y2}`
+  // }
   // Create a continuous path using a smooth curve (Catmull-Rom interpolation)
   const lineGenerator = d3
     .line<{ x: number; y: number }>()

@@ -1,6 +1,7 @@
 import { Fragment } from 'react/jsx-runtime'
 import CircularTimeline from '../CircularTimeline'
 import { Trajectory, Place, Settings } from '../types'
+import LinearTimeline from '../LinearTimeline'
 
 interface TrajectoriesProps {
   data: [Trajectory[], Place[], Settings[]]
@@ -27,7 +28,11 @@ const Trajectories: React.FC<TrajectoriesProps> = ({ data = [[], [], []] }) => {
             <CircularTimeline
               trajectories={grouped[personId]}
               places={places}
-              key={personId}
+              settings={settings.find((s) => s.personId === personId)}
+            />
+            <LinearTimeline
+              trajectories={grouped[personId]}
+              places={places}
               settings={settings.find((s) => s.personId === personId)}
             />
           </Fragment>
