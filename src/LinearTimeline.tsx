@@ -16,12 +16,13 @@ interface LinearTimelineProps {
 const LinearTimeline: React.FC<LinearTimelineProps> = ({
   trajectories = [],
   width = 1000,
-  height = 500,
+  height = 1000,
   xMargin = 20,
   yMargin = 30,
   places = [],
   settings,
 }) => {
+  const svgRef = useRef<SVGSVGElement>(null)
   const axisRef = useRef<SVGGElement>(null)
   const placeIndex: { [key: string]: Place } = places.reduce((acc, place) => {
     acc[place.id] = place
@@ -31,24 +32,17 @@ const LinearTimeline: React.FC<LinearTimelineProps> = ({
   console.debug('[LinearTimeline] trajectories:', settings)
   // console.debug('[CircularTimeline] placeIndex:', placeIndex)
   // Parse dates and sort chronologically
-  const parsedData = trajectories
-    .map((d) => ({
-      ...d,
-      targetId: d.targetId.trim(),
-      sourceId: d.sourceId.trim(),
-      date: d3.timeParse('%d/%m/%Y')(d.movingDate),
-      dateLabel: DateTime.fromFormat(d.movingDate, 'dd/MM/yyyy').toLocaleString(
-        {
-          year: 'numeric',
-          month: d.dataAccuracy === 'month' ? 'long' : 'short',
-          day: d.dataAccuracy === 'day' ? 'numeric' : undefined,
-        }
-      ),
-    }))
-    .sort((a, b) =>
-      a.date && b.date ? a.date.getTime() - b.date.getTime() : 0
-    )
-
+  const parsedData = trajectories.map((d) => ({
+    ...d,
+    targetId: d.targetId.trim(),
+    sourceId: d.sourceId.trim(),
+    date: d3.timeParse('%d/%m/%Y')(d.movingDate),
+    dateLabel: DateTime.fromFormat(d.movingDate, 'dd/MM/yyyy').toLocaleString({
+      year: 'numeric',
+      month: d.dataAccuracy === 'month' ? 'long' : 'short',
+      day: d.dataAccuracy === 'day' ? 'numeric' : undefined,
+    }),
+  }))
   // color by place type
   const colorScale = d3
     .scaleOrdinal()
@@ -92,6 +86,30 @@ const LinearTimeline: React.FC<LinearTimelineProps> = ({
     .domain([0, d3.max(Object.values(distancesByPlaceId)) || 1])
     .range([0, height - yMargin * 2]) // "Home" is small, others grow with distance
     .exponent(exponent) // Adjust curvature
+
+  const downloadAsSVG = () => {
+    if (!svgRef.current) return
+
+    // Get the SVG content as a string
+    const serializer = new XMLSerializer()
+    const svgString = serializer.serializeToString(svgRef.current)
+
+    // Create a Blob and object URL
+    const blob = new Blob([svgString], { type: 'image/svg+xml' })
+    const url = URL.createObjectURL(blob)
+
+    // Create a download link
+    const a = document.createElement('a')
+    a.href = url
+    a.download = 'download.svg'
+    document.body.appendChild(a)
+    a.click()
+    document.body.removeChild(a)
+
+    // Clean up
+    URL.revokeObjectURL(url)
+  }
+
   useEffect(() => {
     if (axisRef.current) {
       const axis = d3.axisTop(timeScale).tickFormat((d) =>
@@ -104,77 +122,92 @@ const LinearTimeline: React.FC<LinearTimelineProps> = ({
     }
   }, [timeScale])
   return (
-    <svg width={width} height={height}>
-      <g
-        ref={axisRef}
-        width={width - xMargin * 2}
-        transform={`translate(${xMargin},20)`}
-      ></g>
+    <>
+      <svg width={width} height={height} ref={svgRef}>
+        <g
+          ref={axisRef}
+          width={width - xMargin * 2}
+          transform={`translate(${xMargin},20)`}
+        ></g>
 
-      {locationArray
-        .sort((a, b) => distancesByPlaceId[a] - distancesByPlaceId[b])
-        .map((loc, i) => {
-          const y = spaceScale(distancesByPlaceId[loc])
-          const color = colorScale(placeIndex[loc].type) as string
-          return (
-            <g
-              key={i}
-              className={`place-${placeIndex[loc].id}`}
-              transform={`translate(${xMargin}, ${yMargin})`}
-            >
-              <line
-                x1={0}
-                y1={y}
-                x2={width - xMargin * 2}
-                y2={y}
-                stroke={color}
-              />
-              {/* <text x={10} y={y - 5} textAnchor='start'>
+        {locationArray
+          .sort((a, b) => distancesByPlaceId[a] - distancesByPlaceId[b])
+          .map((loc, i) => {
+            const y = spaceScale(distancesByPlaceId[loc])
+            const color = colorScale(placeIndex[loc].type) as string
+            return (
+              <g
+                key={i}
+                className={`place-${placeIndex[loc].id}`}
+                transform={`translate(${xMargin}, ${yMargin})`}
+              >
+                <line
+                  x1={0}
+                  y1={y}
+                  x2={width - xMargin * 2}
+                  y2={y}
+                  stroke={color}
+                />
+                {/* <text x={10} y={y - 5} textAnchor='start'>
                   {placeIndex[loc].name}
                 </text> */}
+              </g>
+            )
+          })}
+        {parsedData.map((d, index) => {
+          const color = colorScale(d.targetId) as string
+          const y = spaceScale(distancesByPlaceId[d.targetId])
+          const ySource = spaceScale(distancesByPlaceId[d.sourceId])
+          const colorSource = colorScale(d.sourceId) as string
+          const x = timeScale(d.date!)
+          const curvePath =
+            index < parsedData.length - 1
+              ? createBezierPath(
+                  x,
+                  y,
+                  timeScale(parsedData[index + 1].date!),
+                  spaceScale(distancesByPlaceId[parsedData[index + 1].targetId])
+                )
+              : ''
+
+          return (
+            <g key={index} transform={`translate(${xMargin}, ${yMargin})`}>
+              <path d={curvePath} fill='none' stroke={color} strokeWidth={2} />
+              <line
+                x1={x}
+                y1={0}
+                x2={x}
+                y2={height - yMargin * 2}
+                stroke={'#00000020'}
+              ></line>
+              {index === 0 || index === parsedData.length - 1 ? (
+                <>
+                  <text
+                    x={index === 0 ? x - 10 : x + 5}
+                    y={ySource - 5}
+                    className='font-weight-bold'
+                    textAnchor={index === 0 ? 'end' : 'start'}
+                    fill='#000'
+                  >
+                    {index + 1}
+                  </text>
+                  <circle r={8} cx={x} cy={ySource} fill={colorSource} />
+                </>
+              ) : null}
+              <circle r={3} cx={x} cy={y} fill={color} />
             </g>
           )
         })}
-      {parsedData.map((d, index) => {
-        const color = colorScale(d.targetId) as string
-        const y = spaceScale(distancesByPlaceId[d.targetId])
-        const x = timeScale(d.date!)
-        const curvePath =
-          index < parsedData.length - 1
-            ? createBezierPath(
-                x,
-                y,
-                timeScale(parsedData[index + 1].date!),
-                spaceScale(distancesByPlaceId[parsedData[index + 1].targetId])
-              )
-            : ''
-
-        return (
-          <g key={index} transform={`translate(${xMargin}, ${yMargin})`}>
-            <path d={curvePath} fill='none' stroke={color} strokeWidth={2} />
-            <line
-              x1={x}
-              y1={0}
-              x2={x}
-              y2={height - yMargin * 2}
-              stroke={'#00000020'}
-            ></line>
-            {index === 0 || index === parsedData.length - 1 ? (
-              <text
-                x={index === 0 ? x - 10 : x + 5}
-                y={y - 5}
-                className='font-weight-bold'
-                textAnchor={index === 0 ? 'end' : 'start'}
-                fill='#000'
-              >
-                {index + 1}
-              </text>
-            ) : null}
-            <circle r={index === 0 ? 8 : 3} cx={x} cy={y} fill={color} />
-          </g>
-        )
-      })}
-    </svg>
+      </svg>
+      <div>
+        <button
+          className='btn btn-sm btn-outline-primary'
+          onClick={downloadAsSVG}
+        >
+          download SVG
+        </button>
+      </div>
+    </>
   )
 }
 
