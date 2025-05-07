@@ -643,8 +643,8 @@ trajNumber	personId	sourceId	targetId	movingDate	endDate	dataAccuracy	trajectory
 640	15a	Home 	26	25/04/1930	day	stay	
 641	15a	26	98	19/05/1930	day	stay	
 642	15a	98	Home	01/09/1930	day		
-643	15a	Home 	35	27/09/1932	week	stay		
-643d	15b	Home 	35	27/09/1932	week	stay		
+643	15a	Home 	35	27/09/1932	week	stay	
+643d	15b	Home 	35	27/09/1932	week	stay	
 644	15b	35	104	19/12/1932	day	stay	
 645	15b	104	Home	01/11/1934	month		
 646	15b	Home 	151	02/11/1934	month	mandatory visits	He goes there (151) several times between November 1934 and June 1936, but I don’t know how many time
