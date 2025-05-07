@@ -69,3 +69,45 @@ body {
   text-transform: uppercase;
   font-variation-settings: smcp 1;
 }
+
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+    background: white;
+  }
+
+  /* Hide unnecessary UI */
+  header,
+  nav,
+  footer,
+  aside,
+  button,
+  .non-printable {
+    display: none !important;
+  }
+  .container {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Target the container of your SVG */
+  .svg-container {
+    width: 210mm;
+    height: 297mm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    page-break-after: always;
+  }
+
+  /* Optional: Force single-page layout */
+  html,
+  body {
+    width: 210mm;
+    height: 297mm;
+  }
+}
