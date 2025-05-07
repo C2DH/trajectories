@@ -112,9 +112,33 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
     getCoordinates(d.targetId, d.date!),
   ])
   const topOffset = locationArray.length * 40
+
+  const downloadAsSVG = () => {
+    if (!svgRef.current) return
+
+    // Get the SVG content as a string
+    const serializer = new XMLSerializer()
+    const svgString = serializer.serializeToString(svgRef.current)
+
+    // Create a Blob and object URL
+    const blob = new Blob([svgString], { type: 'image/svg+xml' })
+    const url = URL.createObjectURL(blob)
+
+    // Create a download link
+    const a = document.createElement('a')
+    a.href = url
+    a.download = 'download.svg'
+    document.body.appendChild(a)
+    a.click()
+    document.body.removeChild(a)
+
+    // Clean up
+    URL.revokeObjectURL(url)
+  }
+  const svgRef = React.useRef<SVGSVGElement>(null)
   return (
     <div className='CircularTimeline'>
-      <svg width={width} height={height + topOffset}>
+      <svg width={width} height={height + topOffset} ref={svgRef}>
         {/* draw vertical lines per each location, where x is the location radius */}
 
         <g transform={`translate(${centerX},${centerY + topOffset})`}>
@@ -307,6 +331,12 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
             })}
         </g>
       </svg>
+      <button
+        className='btn btn-sm btn-outline-primary'
+        onClick={downloadAsSVG}
+      >
+        download SVG
+      </button>
     </div>
   )
 }
