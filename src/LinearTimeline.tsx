@@ -134,6 +134,11 @@ const LinearTimeline: React.FC<LinearTimelineProps> = ({
           .sort((a, b) => distancesByPlaceId[a] - distancesByPlaceId[b])
           .map((loc, i) => {
             const y = spaceScale(distancesByPlaceId[loc])
+            const location = placeIndex[loc]
+            if (!location) {
+              console.error('Location not found in Places:', loc)
+              return null
+            }
             const color = colorScale(placeIndex[loc].type) as string
             return (
               <g
