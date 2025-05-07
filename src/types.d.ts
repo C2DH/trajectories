@@ -1,6 +1,6 @@
 export interface Trajectory {
   trajNumber: number
-  personId: number
+  personId: string
   sourceId: string
   targetId: string
   movingDate: string
