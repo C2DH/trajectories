@@ -156,7 +156,7 @@ trajNumber	personId	sourceId	targetId	movingDate	endDate	dataAccuracy	trajectory
 155	5a	Home 	22	15/06/1965	day	consultation	He goes there (21 & 22) several times between June 1965 and May 1966, but I don’t know how many times.
 156	5a	22	Home	15/06/1965	day		
 157	5a	Home	21	19/08/1965	day	daytime care 	
-158	5a	21	Home	19/08/1965	day	
+158	5a	21	Home	19/08/1965	day	 	
 158b	5b	21	Home	19/08/1965	day		
 159	5b	Home	57	07/05/1966	day	stay 	
 160	5b	57	Home	29/05/1966	day		
