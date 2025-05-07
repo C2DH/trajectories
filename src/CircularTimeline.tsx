@@ -302,9 +302,8 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
               const x = (radius + 50) * Math.cos(angle)
               const y = (radius + 50) * Math.sin(angle)
               return (
-                <>
+                <g key={`year-${i}`}>
                   <line
-                    key={`line-${i}`}
                     x1={0}
                     y1={0}
                     x2={x}
@@ -326,7 +325,7 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
                   >
                     {year.getFullYear()}
                   </text>
-                </>
+                </g>
               )
             })}
         </g>
