@@ -32,9 +32,13 @@ function RoutesWrapper({
           <h2>Person Ids</h2>
           <ul className='list-unstyled'>
             {Object.keys(grouped).map((personId) => (
-              <li key={personId}>
-                <Link to={`/trajectory/${personId}`}>
-                  Person {personId} (n. {grouped[personId].length})
+              <li key={personId} className='border-top mt-2 pt-2'>
+                <Link to={`/trajectory/linear/${personId}`}>
+                  Linear {personId} (n. {grouped[personId].length})
+                </Link>
+                <br />
+                <Link to={`/trajectory/circular/${personId}`}>
+                  Circular {personId} (n. {grouped[personId].length})
                 </Link>
               </li>
             ))}
@@ -44,9 +48,21 @@ function RoutesWrapper({
           <Routes>
             <Route index element={<Home />} />
             <Route
-              path='trajectory/:personId'
+              path='trajectory/linear/:personId'
               element={
-                <PersonTrajectory data={[trajectories, places, settings]} />
+                <PersonTrajectory
+                  type='linear'
+                  data={[trajectories, places, settings]}
+                />
+              }
+            />
+            <Route
+              path='trajectory/circular/:personId'
+              element={
+                <PersonTrajectory
+                  type='circular'
+                  data={[trajectories, places, settings]}
+                />
               }
             />
           </Routes>

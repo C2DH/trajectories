@@ -1,13 +1,16 @@
 import { Trajectory, Place, Settings } from '../types'
 import LinearTimeline from '../LinearTimeline'
 import { useParams } from 'react-router'
+import CircularTimeline from '../CircularTimeline'
 
 interface TrajectoriesProps {
   data: [Trajectory[], Place[], Settings[]]
+  type: 'linear' | 'circular'
 }
 
 const PersonTrajectory: React.FC<TrajectoriesProps> = ({
   data = [[], [], []],
+  type = 'linear',
 }) => {
   const [trajectories, places, settings] = data
   const { personId } = useParams<{ personId: string }>()
@@ -27,11 +30,20 @@ const PersonTrajectory: React.FC<TrajectoriesProps> = ({
 
     return (
       <>
-        <LinearTimeline
-          trajectories={personTrajectories}
-          places={places}
-          settings={settings.find((s) => s.personId === personId)}
-        />
+        {type === 'linear' && (
+          <LinearTimeline
+            trajectories={personTrajectories}
+            places={places}
+            settings={settings.find((s) => s.personId === personId)}
+          />
+        )}
+        {type === 'circular' && (
+          <CircularTimeline
+            trajectories={personTrajectories}
+            places={places}
+            settings={settings.find((s) => s.personId === personId)}
+          />
+        )}
       </>
     )
   }
