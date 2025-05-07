@@ -1358,7 +1358,7 @@ trajNumber	personId	sourceId	targetId	movingDate	endDate	dataAccuracy	trajectory
 1356	17a	57	Home	27/01/1984	day		
 1357	17a	Home 	57	31/01/1986	day	stay	
 1358	17a	57	Home	13/02/1986	day		
-1359	17a	Home 	35	26/06/1986	day	stay
+1359	17a	Home 	35	26/06/1986	day	stay	
 1359b	17b	Home 	35	26/06/1986	day	stay	
 1360	17b	35	104	01/08/1986	year	stay	
 1361	17b	104	Home	24/03/1987	day		
