@@ -1,7 +1,7 @@
 import { Trajectory, Place, Settings } from '../types'
-import LinearTimeline from '../LinearTimeline'
+import LinearTimeline from '../components/LinearTimeline'
 import { useParams } from 'react-router'
-import CircularTimeline from '../CircularTimeline'
+import CircularTimeline from '../components/CircularTimeline'
 
 interface TrajectoriesProps {
   data: [Trajectory[], Place[], Settings[]]

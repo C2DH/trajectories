@@ -1,7 +1,7 @@
 import { Fragment } from 'react/jsx-runtime'
-import CircularTimeline from '../CircularTimeline'
+import CircularTimeline from './CircularTimeline'
 import { Trajectory, Place, Settings } from '../types'
-import LinearTimeline from '../LinearTimeline'
+import LinearTimeline from './LinearTimeline'
 
 interface TrajectoriesProps {
   data: [Trajectory[], Place[], Settings[]]

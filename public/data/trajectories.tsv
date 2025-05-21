@@ -1,5 +1,6 @@
 trajNumber	personId	sourceId	targetId	movingDate	endDate	dataAccuracy	trajectoryType
 1	1	1	Home	12/10/1959	day	consultation	
+1b	1	Home	12	12/10/1959	day	consultation
 2	1	12	Home	12/10/1959	day		
 3	1	Home 	71	01/07/1960	month	stay	
 4	1	71	Home 	01/09/1960	month		

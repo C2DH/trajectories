@@ -18,6 +18,14 @@ export interface Place {
   distance: number | string
 }
 
+export interface OffsettedPosition {
+  item: Place
+  x: number
+  y: number
+  yOriginal: number
+  xOriginal: number
+}
+
 export interface Settings {
   personId: string
   exponent: string
