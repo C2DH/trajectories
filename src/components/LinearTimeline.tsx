@@ -163,134 +163,161 @@ const LinearTimeline: React.FC<LinearTimelineProps> = ({
   const smoothPath = lineGenerator(pathPoints) || ''
 
   return (
-    <div className='LinearTimeline position-relative'>
-      <div
-        className='position-absolute'
-        style={{ top: yMargin, width: labelsWidth }}
-      >
-        <LinearTimelinePlaces
-          places={locationArray.map((loc) => placeIndex[loc])}
-          yScaleFn={spaceScale}
-          minLabelHeight={30}
-        />
-      </div>
+    <>
+      <div className='text-center'>Date</div>
 
-      <svg
-        width={svgWidth}
-        height={height}
-        ref={svgRef}
-        style={{ marginLeft: labelsWidth }}
-      >
-        <g
-          ref={axisRef}
-          width={svgWidth - xMargin * 2}
-          transform={`translate(${xMargin},20)`}
-        ></g>
-        <g
-          ref={yAxisRef}
-          height={height - yMargin * 2}
-          transform={`translate(${svgWidth},${yMargin})`}
-        ></g>
-        <path
-          d={smoothPath}
-          fill='none'
-          stroke='#0B032D18'
-          strokeWidth={10}
-          transform={`translate(${xMargin}, ${yMargin})`}
-        />
-        {locationArray
-          .sort((a, b) => distancesByPlaceId[a] - distancesByPlaceId[b])
-          .map((loc, i) => {
-            const y = spaceScale(distancesByPlaceId[loc])
-            const location = placeIndex[loc]
-            if (!location) {
-              console.error('Location not found in Places:', loc)
-              return null
-            }
-            const color = getColorByPlace(location)
-            // const color = colorScale(placeIndex[loc].type) as string;
-            return (
-              <g
-                key={i}
-                className={`place-${placeIndex[loc].id}`}
-                transform={`translate(${xMargin}, ${yMargin})`}
-              >
-                <line
-                  x1={0}
-                  y1={y}
-                  x2={svgWidth - xMargin * 2}
-                  y2={y}
-                  stroke={color}
-                />
-                {/* <text x={10} y={y - 5} textAnchor='start'>
+      <div className='LinearTimeline position-relative'>
+        <div
+          className='position-absolute'
+          style={{
+            right: 50,
+            top: '50%',
+            transform: 'translateY(-50%) rotate(90deg)',
+            transformOrigin: 'right center',
+            whiteSpace: 'nowrap',
+          }}
+        >
+          Distance (km)
+        </div>
+        <div
+          className='position-absolute'
+          style={{ top: yMargin, width: labelsWidth }}
+        >
+          <LinearTimelinePlaces
+            places={locationArray.map((loc) => placeIndex[loc])}
+            yScaleFn={spaceScale}
+            minLabelHeight={30}
+          />
+        </div>
+
+        <svg
+          width={svgWidth}
+          height={height}
+          ref={svgRef}
+          style={{ marginLeft: labelsWidth }}
+        >
+          <g
+            ref={axisRef}
+            width={svgWidth - xMargin * 2}
+            transform={`translate(${xMargin},20)`}
+          ></g>
+          <g
+            ref={yAxisRef}
+            height={height - yMargin * 2}
+            transform={`translate(${svgWidth},${yMargin})`}
+          ></g>
+          <path
+            d={smoothPath}
+            fill='none'
+            stroke='#0B032D18'
+            strokeWidth={10}
+            transform={`translate(${xMargin}, ${yMargin})`}
+          />
+          {locationArray
+            .sort((a, b) => distancesByPlaceId[a] - distancesByPlaceId[b])
+            .map((loc, i) => {
+              const y = spaceScale(distancesByPlaceId[loc])
+              const location = placeIndex[loc]
+              if (!location) {
+                console.error('Location not found in Places:', loc)
+                return null
+              }
+              const color = getColorByPlace(location)
+              // const color = colorScale(placeIndex[loc].type) as string;
+              return (
+                <g
+                  key={i}
+                  className={`place-${placeIndex[loc].id}`}
+                  transform={`translate(${xMargin}, ${yMargin})`}
+                >
+                  <line
+                    x1={0}
+                    y1={y}
+                    x2={svgWidth - xMargin * 2}
+                    y2={y}
+                    stroke={color}
+                  />
+                  {/* <text x={10} y={y - 5} textAnchor='start'>
                   {placeIndex[loc].name}
                 </text> */}
-              </g>
-            )
-          })}
-        {parsedData.map((d, index) => {
-          // const color = colorScale(d.targetId) as string;
-          const xSource = timeScale(d.date!)
-          const xTarget =
-            index < parsedData.length - 1
-              ? timeScale(parsedData[index + 1].date!)
-              : xSource
-          const ySource = spaceScale(distancesByPlaceId[d.sourceId])
-          const yTarget = spaceScale(distancesByPlaceId[d.targetId])
-          const colorSource = getColorByPlace(placeIndex[d.sourceId])
-          const colorTarget = getColorByPlace(placeIndex[d.targetId])
+                </g>
+              )
+            })}
+          {parsedData.map((d, index) => {
+            // const color = colorScale(d.targetId) as string;
+            const xSource = timeScale(d.date!)
+            const xTarget =
+              index < parsedData.length - 1
+                ? timeScale(parsedData[index + 1].date!)
+                : xSource
+            const ySource = spaceScale(distancesByPlaceId[d.sourceId])
+            const yTarget = spaceScale(distancesByPlaceId[d.targetId])
+            const colorSource = getColorByPlace(placeIndex[d.sourceId])
+            const colorTarget = getColorByPlace(placeIndex[d.targetId])
 
-          return (
-            <g key={index} transform={`translate(${xMargin}, ${yMargin})`}>
-              {index === 0 || index === parsedData.length - 1 ? (
-                <>
+            return (
+              <g key={index} transform={`translate(${xMargin}, ${yMargin})`}>
+                {index === 0 || index === parsedData.length - 1 ? (
+                  <>
+                    <text
+                      x={index === 0 ? xSource - 10 : xSource + 5}
+                      y={ySource - 10}
+                      className='font-weight-bold'
+                      textAnchor={index === 0 ? 'end' : 'middle'}
+                      fill='#000'
+                    >
+                      {index + 1}
+                    </text>
+                    <circle
+                      r={8}
+                      cx={xSource}
+                      cy={ySource}
+                      fill={colorSource}
+                    />
+                  </>
+                ) : (
                   <text
                     x={index === 0 ? xSource - 10 : xSource + 5}
-                    y={ySource - 10}
-                    className='font-weight-bold'
-                    textAnchor={index === 0 ? 'end' : 'middle'}
+                    y={ySource - 5}
+                    textAnchor={'middle'}
                     fill='#000'
+                    fontSize={10}
+                    className='non-printable'
                   >
                     {index + 1}
                   </text>
-                  <circle r={8} cx={xSource} cy={ySource} fill={colorSource} />
-                </>
-              ) : (
-                <text
-                  x={index === 0 ? xSource - 10 : xSource + 5}
-                  y={ySource - 5}
-                  textAnchor={'middle'}
-                  fill='#000'
-                  fontSize={10}
-                >
-                  {index + 1}
-                </text>
-              )}
-              {index < parsedData.length - 1 && (
-                <>
-                  <line
-                    x1={xSource}
-                    y1={ySource}
-                    x2={xTarget}
-                    y2={yTarget}
-                    stroke={colorTarget}
-                    strokeWidth={2}
-                    style={{ opacity: 0.8 }}
-                  />
-                  <circle r={3} cx={xTarget} cy={yTarget} fill={colorTarget} />
-                </>
-              )}
-            </g>
-          )
-        })}
-      </svg>
-      <div>
-        <button
-          className='btn btn-sm btn-outline-primary'
-          onClick={downloadAsSVG}
-        >
-          download SVG
-        </button>
+                )}
+                {index < parsedData.length - 1 && (
+                  <>
+                    <line
+                      x1={xSource}
+                      y1={ySource}
+                      x2={xTarget}
+                      y2={yTarget}
+                      stroke={colorTarget}
+                      strokeWidth={2}
+                      style={{ opacity: 0.8 }}
+                    />
+                    <circle
+                      r={3}
+                      cx={xTarget}
+                      cy={yTarget}
+                      fill={colorTarget}
+                    />
+                  </>
+                )}
+              </g>
+            )
+          })}
+        </svg>
+        <div>
+          <button
+            className='btn btn-sm btn-outline-primary'
+            onClick={downloadAsSVG}
+          >
+            download SVG
+          </button>
+        </div>
       </div>
       <pre className='non-printable'>
         {JSON.stringify(
@@ -301,7 +328,7 @@ const LinearTimeline: React.FC<LinearTimelineProps> = ({
           2
         )}
       </pre>
-    </div>
+    </>
   )
 }
 

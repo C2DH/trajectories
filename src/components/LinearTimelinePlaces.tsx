@@ -78,7 +78,7 @@ const LinearTimelinePlaces = ({
                 </>
               )}
             </div>
-            <div
+            {/* <div
               style={{
                 position: 'absolute',
                 right: `-${Math.sqrt(20 ** 2 + (d.yOriginal - d.y) ** 2)}px`, // hypotenuse
@@ -92,7 +92,28 @@ const LinearTimelinePlaces = ({
                 transformOrigin: 'left center',
                 pointerEvents: 'none',
               }}
-            />
+            /> */}
+            {/* Connector line as SVG */}
+            <svg
+              style={{
+                position: 'absolute',
+                right: -40,
+                top: -minLabelHeight / 2 - 2,
+                height: minLabelHeight,
+                width: 40, // Enough width for the line
+                pointerEvents: 'none',
+                overflow: 'visible',
+              }}
+            >
+              <line
+                x1='0'
+                y1={minLabelHeight / 2}
+                x2='20'
+                y2={d.yOriginal - d.y + minLabelHeight / 2}
+                stroke={color}
+                strokeWidth='1'
+              />
+            </svg>
           </li>
         )
       })}
