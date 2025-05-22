@@ -5,14 +5,14 @@ import './style.css'
 import { Link, Route, Routes } from 'react-router'
 import Home from './pages/Home'
 import PersonTrajectory from './pages/PersonTrajectories'
-import { Place, Settings, Trajectory } from './types'
+import { Legend, Place, Settings, Trajectory } from './types'
 
 function RoutesWrapper({
-  data = [[], [], []],
+  data = [[], [], [], []],
 }: {
-  data: [Trajectory[], Place[], Settings[]]
+  data: [Trajectory[], Place[], Settings[], Legend[]]
 }) {
-  const [trajectories, places, settings] = data
+  const [trajectories, places, settings, legends] = data
   let grouped = {} as Record<string, Trajectory[]>
   if (Array.isArray(trajectories)) {
     // group by personId
@@ -26,7 +26,7 @@ function RoutesWrapper({
   }
   // gives me all personIds
   return (
-    <div className='container'>
+    <div className='container-fluid'>
       <div className='row'>
         <aside className='col-2'>
           <h2>Person Ids</h2>
@@ -52,7 +52,7 @@ function RoutesWrapper({
               element={
                 <PersonTrajectory
                   type='linear'
-                  data={[trajectories, places, settings]}
+                  data={[trajectories, places, settings, legends]}
                 />
               }
             />
@@ -61,7 +61,7 @@ function RoutesWrapper({
               element={
                 <PersonTrajectory
                   type='circular'
-                  data={[trajectories, places, settings]}
+                  data={[trajectories, places, settings, legends]}
                 />
               }
             />
@@ -74,8 +74,8 @@ function RoutesWrapper({
 
 function App() {
   return (
-    <CsvLoader url='/data/trajectories.tsv,/data/places.csv,/data/settings.csv'>
-      <RoutesWrapper data={[[], [], []]} />
+    <CsvLoader url='/data/trajectories.tsv,/data/places.csv,/data/settings.csv,/data/legends.tsv'>
+      <RoutesWrapper data={[[], [], [], []]} />
     </CsvLoader>
   )
 }

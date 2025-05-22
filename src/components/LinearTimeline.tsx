@@ -164,21 +164,7 @@ const LinearTimeline: React.FC<LinearTimelineProps> = ({
 
   return (
     <>
-      <div className='text-center'>Date</div>
-
       <div className='LinearTimeline position-relative'>
-        <div
-          className='position-absolute'
-          style={{
-            right: 50,
-            top: '50%',
-            transform: 'translateY(-50%) rotate(90deg)',
-            transformOrigin: 'right center',
-            whiteSpace: 'nowrap',
-          }}
-        >
-          Distance (km)
-        </div>
         <div
           className='position-absolute'
           style={{ top: yMargin, width: labelsWidth }}

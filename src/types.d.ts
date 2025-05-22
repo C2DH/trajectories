@@ -8,6 +8,14 @@ export interface Trajectory {
   trajectoryType?: string
 }
 
+export interface Legend {
+  personId: string
+  name: string
+  yearSpan: string
+  title: string
+  description: string
+}
+
 export interface Place {
   id: string
   name: string

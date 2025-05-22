@@ -1,18 +1,20 @@
-import { Trajectory, Place, Settings } from '../types'
+import { Trajectory, Place, Settings, Legend } from '../types'
 import LinearTimeline from '../components/LinearTimeline'
 import { useParams } from 'react-router'
 import CircularTimeline from '../components/CircularTimeline'
+import HeaderTimeline from '../components/HeaderTimeline'
+import { DotArrowDown, DotArrowRight } from 'iconoir-react'
 
 interface TrajectoriesProps {
-  data: [Trajectory[], Place[], Settings[]]
+  data: [Trajectory[], Place[], Settings[], Legend[]]
   type: 'linear' | 'circular'
 }
 
 const PersonTrajectory: React.FC<TrajectoriesProps> = ({
-  data = [[], [], []],
+  data = [[], [], [], []],
   type = 'linear',
 }) => {
-  const [trajectories, places, settings] = data
+  const [trajectories, places, settings, legends] = data
   const { personId } = useParams<{ personId: string }>()
 
   if (Array.isArray(trajectories)) {
@@ -30,6 +32,18 @@ const PersonTrajectory: React.FC<TrajectoriesProps> = ({
 
     return (
       <>
+        <HeaderTimeline legend={legends.find((l) => l.personId === personId)}>
+          {type === 'linear' && (
+            <div className='row mt-3'>
+              <div className='col-6'>
+                <DotArrowRight /> <em>Date</em>
+              </div>
+              <div className='col-6'>
+                <DotArrowDown /> <em>Distance (Km) </em>
+              </div>
+            </div>
+          )}
+        </HeaderTimeline>
         {type === 'linear' && (
           <LinearTimeline
             trajectories={personTrajectories}

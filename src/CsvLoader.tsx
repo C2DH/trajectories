@@ -26,9 +26,12 @@ const CsvLoader: React.FC<{ url: string; children: React.ReactNode }> = ({
         const allData: any[] = []
         csvTexts.forEach((csvText) => {
           Papa.parse<any>(csvText, {
-            header: true, // Assuming the first row contains column names
+            header: true,
             skipEmptyLines: true,
-
+            transformHeader: (header) => header.trim(),
+            transform: (value) => {
+              return value.trim()
+            },
             complete: (result) => {
               allData.push(result.data)
             },

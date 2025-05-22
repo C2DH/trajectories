@@ -1,0 +1,26 @@
+import type { Legend } from '../types'
+
+const HeaderTimeline: React.FC<{
+  legend?: Legend
+  children?: React.ReactNode
+}> = ({ legend, children }) => {
+  if (!legend) {
+    return 'no legend'
+  }
+  return (
+    <div className='HeaderTimeline row my-5'>
+      <div className='col-6'>
+        <h2>
+          {legend.name}
+          <br />
+          <span className=' text-muted'>{legend.yearSpan}</span>
+        </h2>
+        <h3>{legend.title}</h3>
+      </div>
+      <div className='col-6'> {legend.description}</div>
+      <div className='col-6 offset-6'>{children}</div>
+    </div>
+  )
+}
+
+export default HeaderTimeline
