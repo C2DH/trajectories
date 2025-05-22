@@ -3,7 +3,7 @@ import * as d3 from 'd3'
 import { DateTime } from 'luxon'
 import { useEffect, useRef } from 'react'
 import LinearTimelinePlaces from './LinearTimelinePlaces'
-import { ColorByPlaceType, getColorByPlace } from '../constants'
+import { getColorByPlace } from '../constants'
 
 const lineGenerator = d3
   .line<{ x: number; y: number }>()
@@ -97,11 +97,11 @@ const LinearTimeline: React.FC<LinearTimelineProps> = ({
   const exponent: number = settings?.exponent
     ? parseFloat(settings.exponent as string)
     : 0.5
-  const createBezierPath = (x1: number, y1: number, x2: number, y2: number) => {
-    const controlX = (x1 + x2) / 2 // Control point for smooth curve
-    const controlY = (y1 + y2) / 2 - 50 // Adjust curvature
-    return `M ${x1},${y1} Q ${controlX},${controlY} ${x2},${y2}`
-  }
+  // const createBezierPath = (x1: number, y1: number, x2: number, y2: number) => {
+  //   const controlX = (x1 + x2) / 2 // Control point for smooth curve
+  //   const controlY = (y1 + y2) / 2 - 50 // Adjust curvature
+  //   return `M ${x1},${y1} Q ${controlX},${controlY} ${x2},${y2}`
+  // }
   // Define time scale mapped to angle (0 to 2π)
   const timeScale = d3
     .scaleTime()
