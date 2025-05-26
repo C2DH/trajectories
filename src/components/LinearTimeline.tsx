@@ -319,8 +319,7 @@ const LinearTimeline: React.FC<LinearTimelineProps> = ({
                               300, // numPoints
                               Math.hypot(xTarget - xSource, yTarget - ySource) /
                                 50, // waveCyclesAlongPath: proportional to distance
-                              0.02, // amplitudeGrowthRate (amplitude grows with distance)
-                              0 // beamWidthRadians (not used in standard version)
+                              0.02 // amplitudeGrowthRate (amplitude grows with distance)
                             )
                           )}
                           fill='none'
@@ -344,17 +343,17 @@ const LinearTimeline: React.FC<LinearTimelineProps> = ({
                           2, // startRadiusOffset
                           300, // numPoints
 
-                          Math.hypot(xTarget - xSource, yTarget - ySource) / 20,
+                          Math.hypot(xTarget - xSource, yTarget - ySource) /
+                            100,
                           // waveCyclesAlongPath: proportional to distance
-                          0.025, // amplitudeGrowthRate (amplitude grows with distance)
-                          0 // beamWidthRadians (not used in standard version)
+                          0.03 // amplitudeGrowthRate (amplitude grows with distance)
                         )
                       )}
                       fill='none'
                       stroke={colorTarget}
-                      strokeWidth={8}
-                      opacity={0.2}
+                      strokeWidth={2}
                       strokeLinejoin='round'
+                      strokeLinecap='round'
                     />
                   </>
                 )}

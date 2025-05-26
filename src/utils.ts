@@ -32,8 +32,7 @@ export function generateDirectedWaveToTargetPath(
   startRadiusOffset: number,
   numPoints: number,
   waveCyclesAlongPath: number,
-  amplitudeGrowthRate: number,
-  beamWidthRadians: number
+  amplitudeGrowthRate: number
 ): Point[] {
   if (numPoints < 2) {
     throw new Error('`numPoints` must be at least 2.')
@@ -141,8 +140,6 @@ export function generateDirectedWaveBeamPath(
         )}). Wave cannot start beyond its destination.`
     )
   }
-
-  const halfBeamWidth = beamWidthRadians / 2
 
   for (let i = 0; i < numPoints; i++) {
     const t = i / (numPoints - 1)
