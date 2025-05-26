@@ -2,8 +2,9 @@ import type { Legend } from '../types'
 
 const HeaderTimeline: React.FC<{
   legend?: Legend
+  showDescription?: boolean
   children?: React.ReactNode
-}> = ({ legend, children }) => {
+}> = ({ legend, children, showDescription }) => {
   if (!legend) {
     return 'no legend'
   }
@@ -17,7 +18,7 @@ const HeaderTimeline: React.FC<{
         </h2>
         <h3>{legend.title}</h3>
       </div>
-      <div className='col-6'> {legend.description}</div>
+      {!!showDescription && <div className='col-6'>{legend.description}</div>}
       <div className='col-6 offset-6'>{children}</div>
     </div>
   )
