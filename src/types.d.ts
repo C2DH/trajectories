@@ -4,7 +4,9 @@ export interface Trajectory {
   sourceId: string
   targetId: string
   movingDate: string
+  endDate: string
   dataAccuracy: string
+
   trajectoryType?: string
 }
 

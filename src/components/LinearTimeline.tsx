@@ -4,6 +4,7 @@ import { DateTime } from 'luxon'
 import { useEffect, useRef } from 'react'
 import LinearTimelinePlaces from './LinearTimelinePlaces'
 import { getColorByPlace } from '../constants'
+import { generateDirectedWaveToTargetPath, pointsToSvgPath } from '../utils'
 
 const lineGenerator = d3
   .line<{ x: number; y: number }>()
@@ -182,6 +183,46 @@ const LinearTimeline: React.FC<LinearTimelineProps> = ({
           ref={svgRef}
           style={{ marginLeft: labelsWidth }}
         >
+          <defs>
+            <filter id='wavyLine' x='0%' y='0%' width='100%' height='100%'>
+              <feTurbulence
+                type='turbulence'
+                baseFrequency='0.05'
+                seed='1'
+                result='ziggyEffect'
+              />
+              <feDisplacementMap
+                in='SourceGraphic'
+                in2='ziggyEffect'
+                scale='10'
+                xChannelSelector='R'
+                yChannelSelector='G'
+              />
+              <feGaussianBlur
+                in='SourceGraphic'
+                in2='ziggyEffect'
+                stdDeviation='3'
+              />
+            </filter>
+            <filter
+              id='blurLowConfidence'
+              x='-50%'
+              y='-50%'
+              width='200%'
+              height='200%'
+            >
+              <feGaussianBlur in='SourceGraphic' stdDeviation='3' />
+            </filter>
+            <filter
+              id='blurVeryLowConfidence'
+              x='-50%'
+              y='-50%'
+              width='200%'
+              height='200%'
+            >
+              <feGaussianBlur in='SourceGraphic' stdDeviation='5' />
+            </filter>
+          </defs>
           <g
             ref={axisRef}
             width={svgWidth - xMargin * 2}
@@ -243,11 +284,85 @@ const LinearTimeline: React.FC<LinearTimelineProps> = ({
 
             return (
               <g key={index} transform={`translate(${xMargin}, ${yMargin})`}>
+                {index < parsedData.length && (
+                  <>
+                    <circle
+                      r={3}
+                      cx={xTarget}
+                      cy={yTarget}
+                      fill={colorTarget}
+                    />
+                    {d.endDate === 'day' && (
+                      <>
+                        <line
+                          x1={xSource}
+                          y1={ySource}
+                          x2={xTarget}
+                          y2={yTarget}
+                          stroke={colorTarget}
+                          strokeWidth={2}
+                          style={{ opacity: 1 }}
+                        />
+                      </>
+                    )}
+                    {(d.endDate === 'week' || d.endDate === 'month') && (
+                      <>
+                        <path
+                          d={pointsToSvgPath(
+                            generateDirectedWaveToTargetPath(
+                              xSource,
+                              ySource,
+                              xTarget,
+                              yTarget,
+
+                              2, // startRadiusOffset
+                              300, // numPoints
+                              Math.hypot(xTarget - xSource, yTarget - ySource) /
+                                50, // waveCyclesAlongPath: proportional to distance
+                              0.02, // amplitudeGrowthRate (amplitude grows with distance)
+                              0 // beamWidthRadians (not used in standard version)
+                            )
+                          )}
+                          fill='none'
+                          stroke={colorTarget}
+                          strokeWidth={3}
+                        />
+                      </>
+                    )}
+                  </>
+                )}
+                {d.endDate === 'year' && (
+                  <>
+                    <path
+                      d={pointsToSvgPath(
+                        generateDirectedWaveToTargetPath(
+                          xSource,
+                          ySource,
+                          xTarget,
+                          yTarget,
+
+                          2, // startRadiusOffset
+                          300, // numPoints
+
+                          Math.hypot(xTarget - xSource, yTarget - ySource) / 20,
+                          // waveCyclesAlongPath: proportional to distance
+                          0.025, // amplitudeGrowthRate (amplitude grows with distance)
+                          0 // beamWidthRadians (not used in standard version)
+                        )
+                      )}
+                      fill='none'
+                      stroke={colorTarget}
+                      strokeWidth={8}
+                      opacity={0.2}
+                      strokeLinejoin='round'
+                    />
+                  </>
+                )}
                 {index === 0 || index === parsedData.length - 1 ? (
                   <>
                     <text
-                      x={index === 0 ? xSource - 10 : xSource + 5}
-                      y={ySource - 10}
+                      x={index === 0 ? xSource - 10 : xTarget + 5}
+                      y={index === 0 ? ySource - 10 : yTarget - 10}
                       className='font-weight-bold'
                       textAnchor={index === 0 ? 'end' : 'middle'}
                       fill='#000'
@@ -256,9 +371,9 @@ const LinearTimeline: React.FC<LinearTimelineProps> = ({
                     </text>
                     <circle
                       r={8}
-                      cx={xSource}
-                      cy={ySource}
-                      fill={colorSource}
+                      cx={index === 0 ? xSource : xTarget}
+                      cy={index === 0 ? ySource : yTarget}
+                      fill={index === 0 ? colorSource : colorTarget}
                     />
                   </>
                 ) : (
@@ -273,25 +388,48 @@ const LinearTimeline: React.FC<LinearTimelineProps> = ({
                     {index + 1}
                   </text>
                 )}
-                {index < parsedData.length - 1 && (
+                {index == 0 && (
+                  <circle
+                    r={4}
+                    cx={xSource}
+                    cy={ySource}
+                    fill={'transparent'}
+                    strokeWidth={2}
+                    stroke={colorTarget}
+                  />
+                )}
+
+                {/* {d.endDate === 'month' && (
                   <>
-                    <line
-                      x1={xSource}
-                      y1={ySource}
-                      x2={xTarget}
-                      y2={yTarget}
-                      stroke={colorTarget}
-                      strokeWidth={2}
-                      style={{ opacity: 0.8 }}
-                    />
+                    
+
                     <circle
-                      r={3}
+                      r={5}
                       cx={xTarget}
                       cy={yTarget}
                       fill={colorTarget}
+                      opacity={0.5}
+                    />
+                    <circle
+                      r={10}
+                      cx={xTarget}
+                      cy={yTarget}
+                      opacity={0.5}
+                      fill={colorTarget}
+                      filter='url(#blurLowConfidence)'
                     />
                   </>
                 )}
+                {d.endDate === 'year' && (
+                  <circle
+                    r={20}
+                    cx={xTarget}
+                    cy={yTarget}
+                    opacity={0.5}
+                    fill={colorTarget}
+                    filter='url(#blurVeryLowConfidence)'
+                  />
+                )} */}
               </g>
             )
           })}

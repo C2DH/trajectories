@@ -65,7 +65,8 @@ const LinearTimelinePlaces = ({
               style={{
                 textOverflow: 'ellipsis',
                 overflow: 'hidden',
-
+                position: 'absolute',
+                bottom: 25,
                 whiteSpace: 'nowrap',
                 width: 'calc(100% - 20px)',
               }}
