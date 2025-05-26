@@ -32,7 +32,10 @@ const PersonTrajectory: React.FC<TrajectoriesProps> = ({
 
     return (
       <>
-        <HeaderTimeline legend={legends.find((l) => l.personId === personId)}>
+        <HeaderTimeline
+          legend={legends.find((l) => l.personId === personId)}
+          showDescription={type === 'circular'}
+        >
           {type === 'linear' && (
             <div className='row mt-3'>
               <div className='col-6'>
