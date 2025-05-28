@@ -54,10 +54,16 @@ const PersonTrajectory: React.FC<TrajectoriesProps> = ({
           {type === 'circular' && (
             <div className='row mt-3'>
               <div className='col-6'>
-                <OnePointCircle /> <em>Date</em>
+                <OnePointCircle />{' '}
+                <em>
+                  Angle : <b>date</b> (sens horaire)
+                </em>
               </div>
               <div className='col-6'>
-                <Radius /> <em>Distance (Km) </em>
+                <Radius />{' '}
+                <em>
+                  Rayon ∝ √(<b>distance</b>)
+                </em>
               </div>
             </div>
           )}

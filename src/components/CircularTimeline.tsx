@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import * as d3 from 'd3'
 import { Place, Settings, Trajectory } from '../types'
 import { DateTime } from 'luxon'
@@ -66,7 +66,7 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
   }, {} as { [key: string]: number })
   const exponent: number = settings?.exponent
     ? parseFloat(settings?.exponent)
-    : 0.5
+    : 0.25
   const radiusScale = d3
     .scalePow()
     .domain([0, d3.max(Object.values(distancesByPlaceId)) || 1])
@@ -130,12 +130,32 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
     URL.revokeObjectURL(url)
   }
   const svgRef = React.useRef<SVGSVGElement>(null)
+  const rAxisRef = React.useRef<SVGGElement>(null)
+
+  useEffect(() => {
+    if (rAxisRef.current) {
+      const yAxis = d3.axisLeft(radiusScale).ticks(5)
+      d3.select(rAxisRef.current).call(yAxis)
+    }
+  }, trajectories)
+
   return (
-    <div className='CircularTimeline'>
-      <svg width={width} height={height + topOffset} ref={svgRef}>
+    <div className='CircularTimeline position-relative'>
+      <svg
+        width={width}
+        height={height + topOffset}
+        ref={svgRef}
+        style={{ top: -50 }}
+        className='position-absolute'
+      >
         {/* draw vertical lines per each location, where x is the location radius */}
 
         <g transform={`translate(${centerX},${centerY + topOffset})`}>
+          <g
+            ref={rAxisRef}
+            height={radius}
+            transform={`translate(${radius + 100},0)`}
+          ></g>
           {/* Draw circle */}
           {locationArray
             .sort((a, b) => distancesByPlaceId[a] - distancesByPlaceId[b])
