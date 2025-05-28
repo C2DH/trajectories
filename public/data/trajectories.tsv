@@ -499,8 +499,8 @@ trajNumber	personId	sourceId	targetId	movingDate	endDate	dataAccuracy	trajectory
 496	9	24	Home	01/09/1973	day		
 497	9	Home 	7	01/01/1975	year	stay	
 498	9	7	Home	01/01/1975	year		
-499	9	Home 	16b	16/11/1977	day	daytime care	
-500	9	16b	Home	16/11/1977	dy		
+499	9	Home 	16	16/11/1977	day	daytime care	
+500	9	16	Home	16/11/1977	dy		
 501	9	Home	96	04/09/1978	day	stay	
 502	9	96	Home	05/12/1978	day		
 503	9	Home 	96	01/01/1979	year	stay	
