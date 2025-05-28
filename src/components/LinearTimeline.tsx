@@ -300,14 +300,14 @@ const LinearTimeline: React.FC<LinearTimelineProps> = ({
                           x2={xTarget}
                           y2={yTarget}
                           stroke={colorTarget}
-                          strokeWidth={2}
+                          strokeWidth={3}
                           style={{ opacity: 1 }}
                         />
                       </>
                     )}
                     {(d.endDate === 'week' || d.endDate === 'month') && (
                       <>
-                        <path
+                        {/* <path
                           d={pointsToSvgPath(
                             generateDirectedWaveToTargetPath(
                               xSource,
@@ -325,6 +325,15 @@ const LinearTimeline: React.FC<LinearTimelineProps> = ({
                           fill='none'
                           stroke={colorTarget}
                           strokeWidth={3}
+                        /> */}
+                        <line
+                          x1={xSource}
+                          y1={ySource}
+                          x2={xTarget}
+                          y2={yTarget}
+                          stroke={colorTarget}
+                          strokeWidth={2}
+                          style={{ opacity: 1 }}
                         />
                       </>
                     )}
@@ -332,7 +341,7 @@ const LinearTimeline: React.FC<LinearTimelineProps> = ({
                 )}
                 {d.endDate === 'year' && (
                   <>
-                    <path
+                    {/* <path
                       d={pointsToSvgPath(
                         generateDirectedWaveToTargetPath(
                           xSource,
@@ -354,6 +363,15 @@ const LinearTimeline: React.FC<LinearTimelineProps> = ({
                       strokeWidth={2}
                       strokeLinejoin='round'
                       strokeLinecap='round'
+                    /> */}
+                    <line
+                      x1={xSource}
+                      y1={ySource}
+                      x2={xTarget}
+                      y2={yTarget}
+                      stroke={colorTarget}
+                      strokeWidth={1}
+                      style={{ opacity: 1 }}
                     />
                   </>
                 )}

@@ -3,7 +3,12 @@ import LinearTimeline from '../components/LinearTimeline'
 import { useParams } from 'react-router'
 import CircularTimeline from '../components/CircularTimeline'
 import HeaderTimeline from '../components/HeaderTimeline'
-import { DotArrowDown, DotArrowRight } from 'iconoir-react'
+import {
+  DotArrowDown,
+  DotArrowRight,
+  OnePointCircle,
+  Radius,
+} from 'iconoir-react'
 
 interface TrajectoriesProps {
   data: [Trajectory[], Place[], Settings[], Legend[]]
@@ -43,6 +48,16 @@ const PersonTrajectory: React.FC<TrajectoriesProps> = ({
               </div>
               <div className='col-6'>
                 <DotArrowDown /> <em>Distance (Km) </em>
+              </div>
+            </div>
+          )}
+          {type === 'circular' && (
+            <div className='row mt-3'>
+              <div className='col-6'>
+                <OnePointCircle /> <em>Date</em>
+              </div>
+              <div className='col-6'>
+                <Radius /> <em>Distance (Km) </em>
               </div>
             </div>
           )}

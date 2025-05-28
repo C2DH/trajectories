@@ -65,7 +65,7 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
     return acc
   }, {} as { [key: string]: number })
   const exponent: number = settings?.exponent
-    ? parseFloat(settings.exponent)
+    ? parseFloat(settings?.exponent)
     : 0.5
   const radiusScale = d3
     .scalePow()

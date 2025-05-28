@@ -9,7 +9,7 @@ const HeaderTimeline: React.FC<{
     return 'no legend'
   }
   return (
-    <div className='HeaderTimeline row my-5'>
+    <div className='HeaderTimeline row mb-3'>
       <div className='col-6'>
         <h2>
           {legend.name}
