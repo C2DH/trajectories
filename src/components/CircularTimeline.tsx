@@ -70,7 +70,7 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
   const radiusScale = d3
     .scalePow()
     .domain([0, d3.max(Object.values(distancesByPlaceId)) || 1])
-    .range([40, radius]) // "Home" is small, others grow with distance
+    .range([20, radius]) // "Home" is small, others grow with distance
     .exponent(exponent) // Adjust curvature
   // Define time scale mapped to angle (0 to 2π)
   const timeScale = d3

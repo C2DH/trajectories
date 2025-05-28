@@ -4,7 +4,6 @@ import { DateTime } from 'luxon'
 import { useEffect, useRef } from 'react'
 import LinearTimelinePlaces from './LinearTimelinePlaces'
 import { getColorByPlace } from '../constants'
-import { generateDirectedWaveToTargetPath, pointsToSvgPath } from '../utils'
 
 const lineGenerator = d3
   .line<{ x: number; y: number }>()

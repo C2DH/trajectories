@@ -93,7 +93,10 @@ body {
     margin: 0;
     padding: 0;
   }
-
+  .print-as-full-width {
+    width: 100%;
+    display: block;
+  }
   /* Target the container of your SVG */
   .svg-container {
     width: 210mm;

@@ -44,7 +44,7 @@ function RoutesWrapper({
             ))}
           </ul>
         </aside>
-        <main className='col-10'>
+        <main className='col-10 print-as-full-width'>
           <Routes>
             <Route index element={<Home />} />
             <Route
