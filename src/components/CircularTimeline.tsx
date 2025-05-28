@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import * as d3 from 'd3'
 import { Place, Settings, Trajectory } from '../types'
 import { DateTime } from 'luxon'
-import { ColorByPlaceType } from '../constants'
+import { getColorByPlace } from '../constants'
 interface CircularTimelineProps {
   trajectories: Trajectory[]
   width?: number
@@ -105,8 +105,8 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
     getCoordinates(d.sourceId, d.date!),
     getCoordinates(d.targetId, d.date!),
   ])
-  const topOffset = locationArray.length * 40
-
+  const needSplit = locationArray.length > 11
+  let topOffset = locationArray.length * (needSplit ? 20 : 40)
   const downloadAsSVG = () => {
     if (!svgRef.current) return
 
@@ -161,10 +161,11 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
             .sort((a, b) => distancesByPlaceId[a] - distancesByPlaceId[b])
             .map((loc, i) => {
               const r = radiusScale(distancesByPlaceId[loc])
-              const y = -radius - (i + 1) * 40
-              const x = -r
+              const isOdd = !!(i % 2)
+              const y = -radius - (i + 1) * (needSplit ? 20 : 40)
+              const x = isOdd && needSplit ? r : -r
               // const color = colorScale(placeIndex[loc].type) as string;
-              const color = ColorByPlaceType[placeIndex[loc].type]
+              const color = getColorByPlace(placeIndex[loc])
               return (
                 <g key={i}>
                   <circle
@@ -178,15 +179,30 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
                   <line x1={x} y1={y} x2={x} y2={0} stroke={color} />
                   <circle cx={x} cy={y} r={3} fill={color} />
                   <text
-                    x={x + 10}
-                    y={y}
+                    textAnchor={
+                      loc === 'Home'
+                        ? 'middle'
+                        : isOdd && needSplit
+                        ? 'end'
+                        : 'start'
+                    }
+                    x={
+                      loc === 'Home' ? x : isOdd && needSplit ? x - 10 : x + 10
+                    }
+                    y={loc === 'Home' ? y - 10 : y}
                     fill='black'
                     className='font-weight-bold small'
                   >
                     {placeIndex[loc].name}
                   </text>
                   {loc !== 'Home' && (
-                    <text x={x + 10} y={y + 15} fill='grey' className=' small'>
+                    <text
+                      x={isOdd && needSplit ? x - 10 : x + 10}
+                      y={y + 15}
+                      fill='grey'
+                      className=' small'
+                      textAnchor={isOdd && needSplit ? 'end' : 'start'}
+                    >
                       {placeIndex[loc].type}
                     </text>
                   )}
@@ -207,7 +223,7 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
                   y1={sourceCoords.y}
                   x2={targetCoords.x}
                   y2={targetCoords.y}
-                  stroke={ColorByPlaceType[placeIndex[d.targetId].type]}
+                  stroke={getColorByPlace(placeIndex[d.targetId])}
                   strokeWidth={2}
                 />
               </g>
@@ -247,7 +263,7 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
                   key={`arc-${i}`}
                   d={arcGenerator({} as any) || ''}
                   fill='none'
-                  stroke={ColorByPlaceType[placeIndex[d.targetId].type]}
+                  stroke={getColorByPlace(placeIndex[d.targetId])}
                   strokeWidth={2}
                 />
               </>
@@ -271,7 +287,7 @@ const CircularTimeline: React.FC<CircularTimelineProps> = ({
                   cx={x}
                   cy={y}
                   r={i === 0 ? 5 : 3}
-                  fill={ColorByPlaceType[placeIndex[d.targetId].type]}
+                  fill={getColorByPlace(placeIndex[d.targetId])}
                 />
                 {i === 0 || i === parsedData.length - 1 ? (
                   <text
