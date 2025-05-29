@@ -1055,235 +1055,235 @@ trajNumber	personId	sourceId	targetId	movingDate	endDate	dataAccuracy	trajectory
 1050	16b	Home	120	26/03/1979	day	mandatory visits	
 1051	16b	120	Home	26/03/1979	day		
 1052	16b	Home 	35	27/03/1979	day	stay	
-1053	16b	35	104	05/04/1979	day	stay	
-1054	16b	104	Home	03/07/1980	day		
-1055	16b	Home	120	08/07/1980	day	mandatory visits	
-1056	16b	120	Home	08/07/1980	day		
-1057	16b	Home	120	25/07/1980	day	mandatory visits	
-1058	16b	120	Home	25/07/1980	day		
-1059	16b	Home	120	01/09/1980	day	mandatory visits	
-1060	16b	120	Home	01/09/1980	day		
-1061	16b	Home	120	08/09/1980	day	mandatory visits	
-1062	16b	120	Home	08/09/1980	day		
-1063	16b	Home	120	18/09/1980	day	mandatory visits	
-1064	16b	120	Home	18/09/1980	day		
-1065	16b	Home	120	12/11/1980	day	mandatory visits	
-1066	16b	120	Home	12/11/1980	day		
-1067	16b	Home	120	20/11/1980	day	mandatory visits	
-1068	16b	120	Home	20/11/1980	day		
-1069	16b	Home	120	08/01/1981	day	mandatory visits	
-1070	16b	120	Home	08/01/1981	day		
-1071	16b	Home	120	05/02/1981	day	mandatory visits	
-1072	16b	120	Home	05/02/1981	day		
-1073	16b	Home	120	05/03/1981	day	mandatory visits	
-1074	16b	120	Home	05/03/1981	day		
-1075	16b	Home	120	07/05/1981	day	mandatory visits	
-1076	16b	120	Home	07/05/1981	day		
-1077	16b	Home	120	29/06/1981	day	mandatory visits	
-1078	16b	120	Home	29/06/1981	day		
-1079	16b	Home 	35	11/08/1981	day	stay	
-1080	16b	35	Home	29/10/1981	day		
-1081	16b	Home 	21	01/11/1981	month	daytime care	He goes there (21) several times between November 1981 and December 1981, but I don’t know how many time
-1082	16b	21	Home	01/11/1981	year		
-1083	16b	Home	120	05/11/1981	day	mandatory visits	
-1084	16b	120	Home	05/11/1981	day		
-1085	16b	Home	120	12/11/1981	day	mandatory visits	
-1086	16b	120	Home	12/11/1981	day		
-1087	16b	Home	120	02/12/1981	day	mandatory visits	
-1088	16b	120	Home	02/12/1981	day		
-1089	16b	Home	120	04/12/1981	day	mandatory visits	
-1090	16b	120	Home	04/12/1981	day		
-1091	16b	Home 	35	11/12/1981	day	stay	
-1092	16b	35	104	14/01/1982	day	stay	
-1093	16b	104	Home	06/10/1982	day		
-1094	16b	Home	120	07/10/1982	day	mandatory visits	
-1095	16b	120	Home	07/10/1982	day		
-1096	16b	Home	120	11/10/1982	day	mandatory visits	
-1097	16b	120	Home	11/10/1982	day		
-1098	16b	Home	120	25/11/1982	day	mandatory visits	
-1099	16b	120	Home	25/11/1982	day		
-1100	16b	Home 	35	21/12/1982	day	stay	
-1101	16b	35	Home	24/03/1983	day		
-1102	16b	Home	120	14/04/1983	day	mandatory visits	
-1103	16b	120	Home	14/04/1983	day		
-1104	16b	Home	121	10/05/1983	day	mandatory visits	
-1105	16b	120	Home	10/05/1983	day		
-1106	16b	Home	35	14/06/1983	day	stay	
-1107	16b	35	Home	22/09/1983	day		
-1108	16b	Home	120	07/11/1983	day	mandatory visits	
-1109	16b	120	Home	07/11/1983	day		
-1110	16b	Home	120	28/11/1983	day	mandatory visits	
-1111	16b	120	Home	28/11/1983	day		
-1112	16b	Home	120	01/01/1984	month	mandatory visits	
-1113	16b	120	Home	31/01/1984	month		
-1114	16b	Home	120	08/03/1984	day	mandatory visits	
-1115	16b	120	Home	08/03/1984	day		
-1116	16b	Home	120	10/05/1984	day	mandatory visits	
-1117	16b	120	Home	10/05/1984	day		
-1118	16b	Home	120	28/06/1984	day	mandatory visits	
-1119	16b	120	Home	28/06/1984	day		
-1120	16b	Home	120	16/08/1984	day	mandatory visits	
-1121	16b	120	Home	16/08/1984	day		
-1122	16b	Home	120	20/09/1984	day	mandatory visits	
-1123	16b	120	Home	20/09/1984	day		
-1124	16b	Home	120	25/10/1984	day	mandatory visits	
-1125	16b	120	Home	25/10/1984	day		
-1126	16b	Home	120	29/11/1984	day	mandatory visits	
-1127	16b	120	Home	29/11/1984	day		
-1128	16b	Home	120	14/01/1985	day	mandatory visits	
-1129	16b	120	Home	14/01/1985	day		
-1130	16b	Home	120	07/03/1985	day	mandatory visits	
-1131	16b	120	Home	07/03/1985	day		
-1132	16b	Home	120	25/04/1985	day	mandatory visits	
-1133	16b	120	Home	25/04/1985	day		
-1134	16b	Home	120	06/06/1985	day	mandatory visits	
-1135	16b	120	Home	06/06/1985	day		
-1136	16b	Home	120	11/07/1985	day	mandatory visits	
-1137	16b	120	Home	11/07/1985	day		
-1138	16b	Home	120	05/09/1985	day	mandatory visits	
-1139	16b	120	Home	05/09/1985	day		
-1140	16b	Home	120	21/11/1985	day	mandatory visits	
-1141	16b	120	Home	21/11/1985	day		
-1142	16b	Home 	63	01/01/1986	year	daytime activity 	He goes there (63) several times in 1986, but I don’t know how many time
-1143	16b	63	Home 	01/01/1986	year		
-1144	16b	Home	120	02/01/1986	day	mandatory visits	
-1145	16b	120	Home	02/01/1986	day		
-1146	16b	Home 	35	30/01/1986	day	stay	
-1147	16b	35	Home	01/02/1986	month		
-1148	16b	Home	120	13/02/1986	day	mandatory visits	
-1149	16b	120	Home	13/02/1986	day		
-1150	16b	Home	120	20/03/1986	day	mandatory visits	
-1151	16b	120	Home	20/03/1986	day		
-1152	16b	Home	120	30/04/1986	day	mandatory visits	
-1153	16b	120	Home	30/04/1986	day		
-1154	16b	Home	120	05/06/1986	day	mandatory visits	
-1155	16b	120	Home	05/06/1986	day		
-1156	16b	Home	120	28/08/1986	day	mandatory visits	
-1157	16b	120	Home	28/08/1986	day		
-1158	16b	Home	120	09/10/1986	day	mandatory visits	
-1159	16b	120	Home	09/10/1986	day		
-1160	16b	Home	120	20/11/1986	day	mandatory visits	
-1161	16b	120	Home	20/11/1986	day		
-1162	16b	Home	120	14/01/1987	day	mandatory visits	
-1163	16b	120	Home	14/01/1987	day		
-1164	16b	Home	120	16/01/1987	day	mandatory visits	
-1165	16b	120	Home	16/01/1987	day		
-1166	16b	Home	120	12/03/1987	day	mandatory visits	
-1167	16b	120	Home	12/03/1987	day		
-1168	16b	Home	120	15/03/1987	day	mandatory visits	
-1169	16b	120	Home	15/03/1987	day		
-1170	16b	Home	120	11/05/1987	day	mandatory visits	
-1171	16b	120	Home	11/05/1987	day		
-1172	16b	Home	120	15/06/1987	day	mandatory visits	
-1173	16b	120	Home	15/06/1987	day		
-1174	16b	Home	120	10/09/1987	day	mandatory visits	
-1175	16b	120	Home	10/09/1987	day		
-1176	16b	Home	120	07/10/1987	day	mandatory visits	
-1177	16b	120	Home	07/10/1987	day		
-1178	16b	Home	120	19/11/1987	day	mandatory visits	
-1179	16b	120	Home	19/11/1987	day		
-1180	16b	Home	120	15/12/1987	day	mandatory visits	
-1181	16b	120	Home	15/12/1987	day		
-1182	16b	Home	120	14/01/1988	day	mandatory visits	
-1183	16b	120	Home	14/01/1988	day		
-1184	16b	Home	120	11/02/1988	day	mandatory visits	
-1185	16b	120	Home	11/02/1988	day		
-1186	16b	Home	120	04/03/1988	day	mandatory visits	
-1187	16b	120	Home	04/03/1988	day		
-1188	16b	Home	120	08/04/1988	day	mandatory visits	
-1189	16b	120	Home	08/04/1988	day		
-1190	16b	Home	120	20/05/1988	day	mandatory visits	
-1191	16b	120	Home	20/05/1988	day		
-1192	16b	Home	120	21/06/1988	day	mandatory visits	
-1193	16b	120	Home	21/06/1988	day		
-1194	16b	Home	120	26/07/1988	day	mandatory visits	
-1195	16b	120	Home	26/07/1988	day		
-1196	16b	Home	120	25/08/1988	day	mandatory visits	
-1197	16b	120	Home	25/08/1988	day		
-1198	16b	Home	120	12/09/1988	day	mandatory visits	
-1199	16b	120	Home	12/09/1988	day		
-1200	16b	Home	120	20/10/1988	day	mandatory visits	
-1201	16b	120	Home	20/10/1988	day		
-1202	16b	Home	120	23/11/1988	day	mandatory visits	
-1203	16b	120	Home	23/11/1988	day		
-1204	16b	Home	120	15/12/1988	day	mandatory visits	
-1205	16b	120	Home	15/12/1988	day		
-1206	16b	Home	120	16/01/1989	day	mandatory visits	
-1207	16b	120	Home	16/01/1989	day		
-1208	16b	Home	120	20/02/1989	day	mandatory visits	
-1209	16b	120	Home	20/02/1989	day		
-1210	16b	Home	120	21/03/1989	day	mandatory visits	
-1211	16b	120	Home	21/03/1989	day		
-1212	16b	Home	120	21/04/1989	day	mandatory visits	
-1213	16b	120	Home	21/04/1989	day		
-1214	16b	Home	120	26/05/1989	day	mandatory visits	
-1215	16b	120	Home	26/05/1989	day		
-1216	16b	Home	120	27/06/1989	day	mandatory visits	
-1217	16b	120	Home	27/06/1989	day		
-1218	16b	Home	120	01/09/1989	day	mandatory visits	
-1219	16b	120	Home	01/09/1989	day		
-1220	16b	Home	120	11/09/1989	day	mandatory visits	
-1221	16b	120	Home	11/09/1989	day		
-1222	16b	Home	120	19/10/1989	day	mandatory visits	
-1223	16b	120	Home	19/10/1989	day		
-1224	16b	Home	120	10/11/1989	day	mandatory visits	
-1225	16b	120	Home	10/11/1989	day		
-1226	16b	Home	120	15/11/1989	day	mandatory visits	
-1227	16b	120	Home	15/11/1989	day		
-1228	16b	Home	120	16/01/1990	day	mandatory visits	
-1229	16b	120	Home	16/01/1990	day		
-1230	16b	Home	120	14/02/1990	day	mandatory visits	
-1231	16b	120	Home	14/02/1990	day		
-1232	16b	Home	120	13/03/1990	day	mandatory visits	
-1233	16b	120	Home	13/03/1990	day		
-1234	16b	Home	120	17/04/1990	day	mandatory visits	
-1235	16b	120	Home	17/04/1990	day		
-1236	16b	Home	43	31/12/1991	day	housing	
-1237	16b	43	120	07/01/1992	day	mandatory visits	
-1238	16b	120	43	07/01/1992	day	housing	
-1239	16b	43	120	22/01/1992	day	mandatory visits	
-1240	16b	120	43	22/01/1992	day	housing	
-1241	16b	43	120	24/03/1992	day	mandatory visits	
-1242	16b	120	43	24/03/1992	day	housing	
-1243	16b	43	120	11/05/1992	day	mandatory visits	
-1244	16b	120	43	11/05/1992	day		
-1245	16b	43	92	01/06/1992	month	stay	
-1246	16b	92	43	01/07/1992	month	housing 	
-1247	16b	43	147	31/07/1992	day	stay	
-1248	16b	147	95	30/11/1993	day	stay	
-1249	16b	95	35	01/03/1993	month	stay	
-1250	16b	35	95	01/04/1993	month	stay	
-1251	16b	95	120	22/09/1993	day	mandatory visits	
-1252	16b	120	95	22/09/1993	day	stay	
-1253	16b	95	120	25/10/1993	day	mandatory visits	
-1254	16b	120	95	25/10/1993	day	stay	
-1255	16b	95	120	13/12/1993	day	mandatory visits	
-1256	16b	120	95	13/12/1993	day	stay	
-1257	16b	95	120	25/01/1994	day	mandatory visits	
-1258	16b	120	95	25/01/1994	day	stay	
-1259	16b	95	120	22/02/1994	day	mandatory visits	
-1260	16b	120	95	22/02/1994	day	stay	
-1261	16b	95	120	29/03/1994	day	mandatory visits	
-1262	16b	120	95	29/03/1994	day	stay	
-1263	16b	95	120	19/04/1994	day	mandatory visits	
-1264	16b	120	95	19/04/1994	day	stay	
-1265	16b	95	120	17/05/1994	day	mandatory visits	
-1266	16b	120	95	17/05/1994	day	stay	
-1267	16b	95	120	13/06/1994	day	mandatory visits	
-1268	16b	120	95	13/06/1994	day	stay	
-1269	16b	95	120	26/07/1994	day	mandatory visits	
-1270	16b	120	95	26/07/1994	day	stay	
-1271	16b	95	120	30/08/1994	day	mandatory visits	
-1272	16b	120	95	30/08/1994	day	stay	
-1273	16b	95	120	11/10/1994	day	mandatory visits	
-1274	16b	120	95	11/10/1994	day	stay	
-1275	16b	95	120	09/11/1994	day	mandatory visits	
-1276	16b	120	95	09/11/1994	day	stay	
-1277	16b	95	120	13/12/1994	day	mandatory visits	
-1278	16b	120	95	13/12/1994	day	stay	
-1279	16b	95	117	01/01/1995	month	stay	
-1280	16b	117	95	01/08/1995	year	stay	
-1281	16b	95	117	01/09/1995	month	stay	
+1053	16c	35	104	05/04/1979	day	stay	
+1054	16c	104	Home	03/07/1980	day		
+1055	16c	Home	120	08/07/1980	day	mandatory visits	
+1056	16c	120	Home	08/07/1980	day		
+1057	16c	Home	120	25/07/1980	day	mandatory visits	
+1058	16c	120	Home	25/07/1980	day		
+1059	16c	Home	120	01/09/1980	day	mandatory visits	
+1060	16c	120	Home	01/09/1980	day		
+1061	16c	Home	120	08/09/1980	day	mandatory visits	
+1062	16c	120	Home	08/09/1980	day		
+1063	16c	Home	120	18/09/1980	day	mandatory visits	
+1064	16c	120	Home	18/09/1980	day		
+1065	16c	Home	120	12/11/1980	day	mandatory visits	
+1066	16c	120	Home	12/11/1980	day		
+1067	16c	Home	120	20/11/1980	day	mandatory visits	
+1068	16c	120	Home	20/11/1980	day		
+1069	16c	Home	120	08/01/1981	day	mandatory visits	
+1070	16c	120	Home	08/01/1981	day		
+1071	16c	Home	120	05/02/1981	day	mandatory visits	
+1072	16c	120	Home	05/02/1981	day		
+1073	16c	Home	120	05/03/1981	day	mandatory visits	
+1074	16c	120	Home	05/03/1981	day		
+1075	16c	Home	120	07/05/1981	day	mandatory visits	
+1076	16c	120	Home	07/05/1981	day		
+1077	16c	Home	120	29/06/1981	day	mandatory visits	
+1078	16c	120	Home	29/06/1981	day		
+1079	16c	Home 	35	11/08/1981	day	stay	
+1080	16c	35	Home	29/10/1981	day		
+1081	16c	Home 	21	01/11/1981	month	daytime care	He goes there (21) several times between November 1981 and December 1981, but I don’t know how many time
+1082	16c	21	Home	01/11/1981	year		
+1083	16c	Home	120	05/11/1981	day	mandatory visits	
+1084	16c	120	Home	05/11/1981	day		
+1085	16c	Home	120	12/11/1981	day	mandatory visits	
+1086	16c	120	Home	12/11/1981	day		
+1087	16c	Home	120	02/12/1981	day	mandatory visits	
+1088	16c	120	Home	02/12/1981	day		
+1089	16c	Home	120	04/12/1981	day	mandatory visits	
+1090	16c	120	Home	04/12/1981	day		
+1091	16c	Home 	35	11/12/1981	day	stay	
+1092	16c	35	104	14/01/1982	day	stay	
+1093	16c	104	Home	06/10/1982	day		
+1094	16c	Home	120	07/10/1982	day	mandatory visits	
+1095	16c	120	Home	07/10/1982	day		
+1096	16c	Home	120	11/10/1982	day	mandatory visits	
+1097	16c	120	Home	11/10/1982	day		
+1098	16c	Home	120	25/11/1982	day	mandatory visits	
+1099	16c	120	Home	25/11/1982	day		
+1100	16c	Home 	35	21/12/1982	day	stay	
+1101	16c	35	Home	24/03/1983	day		
+1102	16c	Home	120	14/04/1983	day	mandatory visits	
+1103	16c	120	Home	14/04/1983	day		
+1104	16c	Home	121	10/05/1983	day	mandatory visits	
+1105	16c	120	Home	10/05/1983	day		
+1106	16c	Home	35	14/06/1983	day	stay	
+1107	16c	35	Home	22/09/1983	day		
+1108	16c	Home	120	07/11/1983	day	mandatory visits	
+1109	16c	120	Home	07/11/1983	day		
+1110	16c	Home	120	28/11/1983	day	mandatory visits	
+1111	16c	120	Home	28/11/1983	day		
+1112	16c	Home	120	01/01/1984	month	mandatory visits	
+1113	16c	120	Home	31/01/1984	month		
+1114	16c	Home	120	08/03/1984	day	mandatory visits	
+1115	16c	120	Home	08/03/1984	day		
+1116	16c	Home	120	10/05/1984	day	mandatory visits	
+1117	16c	120	Home	10/05/1984	day		
+1118	16c	Home	120	28/06/1984	day	mandatory visits	
+1119	16c	120	Home	28/06/1984	day		
+1120	16c	Home	120	16/08/1984	day	mandatory visits	
+1121	16c	120	Home	16/08/1984	day		
+1122	16c	Home	120	20/09/1984	day	mandatory visits	
+1123	16c	120	Home	20/09/1984	day		
+1124	16c	Home	120	25/10/1984	day	mandatory visits	
+1125	16c	120	Home	25/10/1984	day		
+1126	16c	Home	120	29/11/1984	day	mandatory visits	
+1127	16c	120	Home	29/11/1984	day		
+1128	16c	Home	120	14/01/1985	day	mandatory visits	
+1129	16c	120	Home	14/01/1985	day		
+1130	16c	Home	120	07/03/1985	day	mandatory visits	
+1131	16c	120	Home	07/03/1985	day		
+1132	16c	Home	120	25/04/1985	day	mandatory visits	
+1133	16c	120	Home	25/04/1985	day		
+1134	16c	Home	120	06/06/1985	day	mandatory visits	
+1135	16c	120	Home	06/06/1985	day		
+1136	16c	Home	120	11/07/1985	day	mandatory visits	
+1137	16c	120	Home	11/07/1985	day		
+1138	16c	Home	120	05/09/1985	day	mandatory visits	
+1139	16c	120	Home	05/09/1985	day		
+1140	16c	Home	120	21/11/1985	day	mandatory visits	
+1141	16c	120	Home	21/11/1985	day		
+1142	16c	Home 	63	01/01/1986	year	daytime activity 	He goes there (63) several times in 1986, but I don’t know how many time
+1143	16c	63	Home 	01/01/1986	year		
+1144	16c	Home	120	02/01/1986	day	mandatory visits	
+1145	16c	120	Home	02/01/1986	day		
+1146	16c	Home 	35	30/01/1986	day	stay	
+1147	16c	35	Home	01/02/1986	month		
+1148	16c	Home	120	13/02/1986	day	mandatory visits	
+1149	16c	120	Home	13/02/1986	day		
+1150	16c	Home	120	20/03/1986	day	mandatory visits	
+1151	16c	120	Home	20/03/1986	day		
+1152	16c	Home	120	30/04/1986	day	mandatory visits	
+1153	16c	120	Home	30/04/1986	day		
+1154	16c	Home	120	05/06/1986	day	mandatory visits	
+1155	16c	120	Home	05/06/1986	day		
+1156	16c	Home	120	28/08/1986	day	mandatory visits	
+1157	16c	120	Home	28/08/1986	day		
+1158	16c	Home	120	09/10/1986	day	mandatory visits	
+1159	16c	120	Home	09/10/1986	day		
+1160	16c	Home	120	20/11/1986	day	mandatory visits	
+1161	16c	120	Home	20/11/1986	day		
+1162	16c	Home	120	14/01/1987	day	mandatory visits	
+1163	16c	120	Home	14/01/1987	day		
+1164	16c	Home	120	16/01/1987	day	mandatory visits	
+1165	16c	120	Home	16/01/1987	day		
+1166	16c	Home	120	12/03/1987	day	mandatory visits	
+1167	16c	120	Home	12/03/1987	day		
+1168	16c	Home	120	15/03/1987	day	mandatory visits	
+1169	16c	120	Home	15/03/1987	day		
+1170	16c	Home	120	11/05/1987	day	mandatory visits	
+1171	16c	120	Home	11/05/1987	day		
+1172	16c	Home	120	15/06/1987	day	mandatory visits	
+1173	16c	120	Home	15/06/1987	day		
+1174	16c	Home	120	10/09/1987	day	mandatory visits	
+1175	16c	120	Home	10/09/1987	day		
+1176	16c	Home	120	07/10/1987	day	mandatory visits	
+1177	16c	120	Home	07/10/1987	day		
+1178	16c	Home	120	19/11/1987	day	mandatory visits	
+1179	16c	120	Home	19/11/1987	day		
+1180	16c	Home	120	15/12/1987	day	mandatory visits	
+1181	16c	120	Home	15/12/1987	day		
+1182	16c	Home	120	14/01/1988	day	mandatory visits	
+1183	16c	120	Home	14/01/1988	day		
+1184	16c	Home	120	11/02/1988	day	mandatory visits	
+1185	16c	120	Home	11/02/1988	day		
+1186	16c	Home	120	04/03/1988	day	mandatory visits	
+1187	16c	120	Home	04/03/1988	day		
+1188	16c	Home	120	08/04/1988	day	mandatory visits	
+1189	16c	120	Home	08/04/1988	day		
+1190	16c	Home	120	20/05/1988	day	mandatory visits	
+1191	16c	120	Home	20/05/1988	day		
+1192	16c	Home	120	21/06/1988	day	mandatory visits	
+1193	16c	120	Home	21/06/1988	day		
+1194	16c	Home	120	26/07/1988	day	mandatory visits	
+1195	16c	120	Home	26/07/1988	day		
+1196	16c	Home	120	25/08/1988	day	mandatory visits	
+1197	16c	120	Home	25/08/1988	day		
+1198	16c	Home	120	12/09/1988	day	mandatory visits	
+1199	16c	120	Home	12/09/1988	day		
+1200	16c	Home	120	20/10/1988	day	mandatory visits	
+1201	16c	120	Home	20/10/1988	day		
+1202	16c	Home	120	23/11/1988	day	mandatory visits	
+1203	16c	120	Home	23/11/1988	day		
+1204	16c	Home	120	15/12/1988	day	mandatory visits	
+1205	16c	120	Home	15/12/1988	day		
+1206	16c	Home	120	16/01/1989	day	mandatory visits	
+1207	16c	120	Home	16/01/1989	day		
+1208	16c	Home	120	20/02/1989	day	mandatory visits	
+1209	16c	120	Home	20/02/1989	day		
+1210	16c	Home	120	21/03/1989	day	mandatory visits	
+1211	16c	120	Home	21/03/1989	day		
+1212	16c	Home	120	21/04/1989	day	mandatory visits	
+1213	16c	120	Home	21/04/1989	day		
+1214	16c	Home	120	26/05/1989	day	mandatory visits	
+1215	16c	120	Home	26/05/1989	day		
+1216	16c	Home	120	27/06/1989	day	mandatory visits	
+1217	16c	120	Home	27/06/1989	day		
+1218	16c	Home	120	01/09/1989	day	mandatory visits	
+1219	16c	120	Home	01/09/1989	day		
+1220	16c	Home	120	11/09/1989	day	mandatory visits	
+1221	16c	120	Home	11/09/1989	day		
+1222	16c	Home	120	19/10/1989	day	mandatory visits	
+1223	16c	120	Home	19/10/1989	day		
+1224	16c	Home	120	10/11/1989	day	mandatory visits	
+1225	16c	120	Home	10/11/1989	day		
+1226	16c	Home	120	15/11/1989	day	mandatory visits	
+1227	16c	120	Home	15/11/1989	day		
+1228	16c	Home	120	16/01/1990	day	mandatory visits	
+1229	16c	120	Home	16/01/1990	day		
+1230	16c	Home	120	14/02/1990	day	mandatory visits	
+1231	16c	120	Home	14/02/1990	day		
+1232	16c	Home	120	13/03/1990	day	mandatory visits	
+1233	16c	120	Home	13/03/1990	day		
+1234	16c	Home	120	17/04/1990	day	mandatory visits	
+1235	16c	120	Home	17/04/1990	day		
+1236	16c	Home	43	31/12/1991	day	housing	
+1237	16c	43	120	07/01/1992	day	mandatory visits	
+1238	16c	120	43	07/01/1992	day	housing	
+1239	16c	43	120	22/01/1992	day	mandatory visits	
+1240	16c	120	43	22/01/1992	day	housing	
+1241	16c	43	120	24/03/1992	day	mandatory visits	
+1242	16c	120	43	24/03/1992	day	housing	
+1243	16c	43	120	11/05/1992	day	mandatory visits	
+1244	16c	120	43	11/05/1992	day		
+1245	16c	43	92	01/06/1992	month	stay	
+1246	16c	92	43	01/07/1992	month	housing 	
+1247	16c	43	147	31/07/1992	day	stay	
+1248	16c	147	95	30/11/1993	day	stay	
+1249	16c	95	35	01/03/1993	month	stay	
+1250	16c	35	95	01/04/1993	month	stay	
+1251	16c	95	120	22/09/1993	day	mandatory visits	
+1252	16c	120	95	22/09/1993	day	stay	
+1253	16c	95	120	25/10/1993	day	mandatory visits	
+1254	16c	120	95	25/10/1993	day	stay	
+1255	16c	95	120	13/12/1993	day	mandatory visits	
+1256	16c	120	95	13/12/1993	day	stay	
+1257	16c	95	120	25/01/1994	day	mandatory visits	
+1258	16c	120	95	25/01/1994	day	stay	
+1259	16c	95	120	22/02/1994	day	mandatory visits	
+1260	16c	120	95	22/02/1994	day	stay	
+1261	16c	95	120	29/03/1994	day	mandatory visits	
+1262	16c	120	95	29/03/1994	day	stay	
+1263	16c	95	120	19/04/1994	day	mandatory visits	
+1264	16c	120	95	19/04/1994	day	stay	
+1265	16c	95	120	17/05/1994	day	mandatory visits	
+1266	16c	120	95	17/05/1994	day	stay	
+1267	16c	95	120	13/06/1994	day	mandatory visits	
+1268	16c	120	95	13/06/1994	day	stay	
+1269	16c	95	120	26/07/1994	day	mandatory visits	
+1270	16c	120	95	26/07/1994	day	stay	
+1271	16c	95	120	30/08/1994	day	mandatory visits	
+1272	16c	120	95	30/08/1994	day	stay	
+1273	16c	95	120	11/10/1994	day	mandatory visits	
+1274	16c	120	95	11/10/1994	day	stay	
+1275	16c	95	120	09/11/1994	day	mandatory visits	
+1276	16c	120	95	09/11/1994	day	stay	
+1277	16c	95	120	13/12/1994	day	mandatory visits	
+1278	16c	120	95	13/12/1994	day	stay	
+1279	16c	95	117	01/01/1995	month	stay	
+1280	16c	117	95	01/08/1995	year	stay	
+1281	16c	95	117	01/09/1995	month	stay	
 1282	17a	Home 	2	29/02/1944	day	stay	
 1283	17a	2	8	13/11/1944	day	stay	
 1284	17a	8	49	09/07/1946	day	stay	
